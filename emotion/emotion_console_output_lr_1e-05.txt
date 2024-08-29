@@ -1,0 +1,4450 @@
+learning rate  : 1e-05
+epochs : 30
+                                                text  label
+0  “Worry is a down payment on a problem you may ...      2
+1  My roommate: it's okay that we can't spell bec...      0
+2  No but that's so cute. Atsu was probably shy a...      1
+3  Rooneys fucking untouchable isn't he? Been fuc...      0
+4  it's pretty depressing when u hit pan on ur fa...      3
+                                                text
+0  “Worry is a down payment on a problem you may ...
+1  My roommate: it's okay that we can't spell bec...
+2  No but that's so cute. Atsu was probably shy a...
+3  Rooneys fucking untouchable isn't he? Been fuc...
+4  it's pretty depressing when u hit pan on ur fa...
+   label
+0      2
+1      0
+2      1
+3      0
+4      3
+                                                text  label
+0  @user @user Oh, hidden revenge and anger...I r...      0
+1  if not then #teamchristine bc all tana has don...      0
+2  Hey @user #Fields in #skibbereen give your onl...      0
+3  Why have #Emmerdale had to rob #robron of havi...      0
+4  @user I would like to hear a podcast of you go...      0
+                                                text
+0  @user @user Oh, hidden revenge and anger...I r...
+1  if not then #teamchristine bc all tana has don...
+2  Hey @user #Fields in #skibbereen give your onl...
+3  Why have #Emmerdale had to rob #robron of havi...
+4  @user I would like to hear a podcast of you go...
+   label
+0      0
+1      0
+2      0
+3      0
+4      0
+                                                text  label
+0  #Deppression is real. Partners w/ #depressed p...      3
+1  @user Interesting choice of words... Are you c...      0
+2  My visit to hospital for care triggered #traum...      3
+3  @user Welcome to #MPSVT! We are delighted to h...      1
+4                       What makes you feel #joyful?      1
+                                                text
+0  #Deppression is real. Partners w/ #depressed p...
+1  @user Interesting choice of words... Are you c...
+2  My visit to hospital for care triggered #traum...
+3  @user Welcome to #MPSVT! We are delighted to h...
+4                       What makes you feel #joyful?
+                                                text
+0  #Deppression is real. Partners w/ #depressed p...
+1  @user Interesting choice of words... Are you c...
+2  My visit to hospital for care triggered #traum...
+3  @user Welcome to #MPSVT! We are delighted to h...
+4                       What makes you feel #joyful?
+len(train_labels) 3257
+len(test_labels) 1421
+len(val_labels) 374
+
+Unique values count in train_labels:
+label
+0    1400
+3     855
+1     708
+2     294
+Name: count, dtype: int64
+
+Unique values count in val_labels:
+label
+0    160
+1     97
+3     89
+2     28
+Name: count, dtype: int64
+
+Unique values count in test_labels:
+label
+0    558
+3    382
+1    358
+2    123
+Name: count, dtype: int64
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   bert
+===================================================== 
+
+ Epoch 1 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.7280
+
+Evaluating...
+
+Training Loss: 1.1822
+Validation Loss: 0.9460
+Validation Accuracy: 0.6925
+
+ Epoch 2 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8477
+
+Evaluating...
+
+Training Loss: 0.7991
+Validation Loss: 0.6948
+Validation Accuracy: 0.7647
+
+ Epoch 3 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9125
+
+Evaluating...
+
+Training Loss: 0.5350
+Validation Loss: 0.6159
+Validation Accuracy: 0.8021
+
+ Epoch 4 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9282
+
+Evaluating...
+
+Training Loss: 0.3737
+Validation Loss: 0.6419
+Validation Accuracy: 0.7995
+
+ Epoch 5 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9598
+
+Evaluating...
+
+Training Loss: 0.2722
+Validation Loss: 0.6669
+Validation Accuracy: 0.7834
+
+ Epoch 6 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9739
+
+Evaluating...
+
+Training Loss: 0.2017
+Validation Loss: 0.7104
+Validation Accuracy: 0.7888
+
+ Epoch 7 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9825
+
+Evaluating...
+
+Training Loss: 0.1564
+Validation Loss: 0.8083
+Validation Accuracy: 0.7701
+
+ Epoch 8 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9871
+
+Evaluating...
+
+Training Loss: 0.1112
+Validation Loss: 0.9073
+Validation Accuracy: 0.7647
+
+ Epoch 9 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9911
+
+Evaluating...
+
+Training Loss: 0.0825
+Validation Loss: 0.9629
+Validation Accuracy: 0.7968
+
+ Epoch 10 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9926
+
+Evaluating...
+
+Training Loss: 0.0651
+Validation Loss: 1.0765
+Validation Accuracy: 0.7888
+
+ Epoch 11 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9942
+
+Evaluating...
+
+Training Loss: 0.0650
+Validation Loss: 1.0807
+Validation Accuracy: 0.7888
+
+ Epoch 12 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9957
+
+Evaluating...
+
+Training Loss: 0.0471
+Validation Loss: 1.1091
+Validation Accuracy: 0.7861
+
+ Epoch 13 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9963
+
+Evaluating...
+
+Training Loss: 0.0298
+Validation Loss: 1.1816
+Validation Accuracy: 0.7754
+
+ Epoch 14 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9960
+
+Evaluating...
+
+Training Loss: 0.0227
+Validation Loss: 1.2495
+Validation Accuracy: 0.7888
+
+ Epoch 15 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9963
+
+Evaluating...
+
+Training Loss: 0.0251
+Validation Loss: 1.3229
+Validation Accuracy: 0.7754
+
+ Epoch 16 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9982
+
+Evaluating...
+
+Training Loss: 0.0265
+Validation Loss: 1.3507
+Validation Accuracy: 0.7834
+
+ Epoch 17 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9972
+
+Evaluating...
+
+Training Loss: 0.0146
+Validation Loss: 1.3423
+Validation Accuracy: 0.7834
+
+ Epoch 18 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9982
+
+Evaluating...
+
+Training Loss: 0.0108
+Validation Loss: 1.4322
+Validation Accuracy: 0.7834
+
+ Epoch 19 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0108
+Validation Loss: 1.4242
+Validation Accuracy: 0.7701
+
+ Epoch 20 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0108
+Validation Loss: 1.3778
+Validation Accuracy: 0.7941
+
+ Epoch 21 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0093
+Validation Loss: 1.3707
+Validation Accuracy: 0.7888
+
+ Epoch 22 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0065
+Validation Loss: 1.4418
+Validation Accuracy: 0.7888
+
+ Epoch 23 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0035
+Validation Loss: 1.5029
+Validation Accuracy: 0.7834
+
+ Epoch 24 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0055
+Validation Loss: 1.6269
+Validation Accuracy: 0.7620
+
+ Epoch 25 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0049
+Validation Loss: 1.5481
+Validation Accuracy: 0.7888
+
+ Epoch 26 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0048
+Validation Loss: 1.5823
+Validation Accuracy: 0.7888
+
+ Epoch 27 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0055
+Validation Loss: 1.5634
+Validation Accuracy: 0.7781
+
+ Epoch 28 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0028
+Validation Loss: 1.5631
+Validation Accuracy: 0.7861
+
+ Epoch 29 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0034
+Validation Loss: 1.6031
+Validation Accuracy: 0.7968
+
+ Epoch 30 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0023
+Validation Loss: 1.5970
+Validation Accuracy: 0.7888
+
+
+         == flag 1.601 bert result On test data ==
+# called_model : bert
+# Test Accuracy: 0.8093%
+Precision: 0.8093
+Recall: 0.8093
+F1 Score: 0.8049
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.86      0.86       558
+           1       0.82      0.83      0.82       358
+           2       0.75      0.43      0.55       123
+           3       0.74      0.84      0.79       382
+
+    accuracy                           0.81      1421
+   macro avg       0.79      0.74      0.76      1421
+weighted avg       0.81      0.81      0.80      1421
+
+Confusion Matrix:
+[[478  23   7  50]
+ [ 16 298   6  38]
+ [ 24  24  53  22]
+ [ 36  20   5 321]]
+
+flag 1.11  model:  finished  with:   bert
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   roberta
+===================================================== 
+
+ Epoch 1 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.7636
+
+Evaluating...
+
+Training Loss: 1.1263
+Validation Loss: 0.8140
+Validation Accuracy: 0.7380
+
+ Epoch 2 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8520
+
+Evaluating...
+
+Training Loss: 0.7016
+Validation Loss: 0.6617
+Validation Accuracy: 0.7807
+
+ Epoch 3 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8806
+
+Evaluating...
+
+Training Loss: 0.5463
+Validation Loss: 0.6611
+Validation Accuracy: 0.7727
+
+ Epoch 4 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9146
+
+Evaluating...
+
+Training Loss: 0.4286
+Validation Loss: 0.6950
+Validation Accuracy: 0.7647
+
+ Epoch 5 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9444
+
+Evaluating...
+
+Training Loss: 0.3546
+Validation Loss: 0.6763
+Validation Accuracy: 0.7674
+
+ Epoch 6 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9546
+
+Evaluating...
+
+Training Loss: 0.2813
+Validation Loss: 0.7243
+Validation Accuracy: 0.7754
+
+ Epoch 7 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9659
+
+Evaluating...
+
+Training Loss: 0.2333
+Validation Loss: 0.7351
+Validation Accuracy: 0.7807
+
+ Epoch 8 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9764
+
+Evaluating...
+
+Training Loss: 0.1992
+Validation Loss: 0.8269
+Validation Accuracy: 0.7834
+
+ Epoch 9 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9828
+
+Evaluating...
+
+Training Loss: 0.1443
+Validation Loss: 0.9132
+Validation Accuracy: 0.7754
+
+ Epoch 10 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9899
+
+Evaluating...
+
+Training Loss: 0.1420
+Validation Loss: 0.8961
+Validation Accuracy: 0.7941
+
+ Epoch 11 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9926
+
+Evaluating...
+
+Training Loss: 0.0974
+Validation Loss: 1.0846
+Validation Accuracy: 0.7727
+
+ Epoch 12 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9905
+
+Evaluating...
+
+Training Loss: 0.0791
+Validation Loss: 1.1682
+Validation Accuracy: 0.7727
+
+ Epoch 13 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9942
+
+Evaluating...
+
+Training Loss: 0.0985
+Validation Loss: 1.2219
+Validation Accuracy: 0.7807
+
+ Epoch 14 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9948
+
+Evaluating...
+
+Training Loss: 0.0603
+Validation Loss: 1.2482
+Validation Accuracy: 0.7941
+
+ Epoch 15 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9942
+
+Evaluating...
+
+Training Loss: 0.0588
+Validation Loss: 1.4221
+Validation Accuracy: 0.7567
+
+ Epoch 16 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9963
+
+Evaluating...
+
+Training Loss: 0.0455
+Validation Loss: 1.4352
+Validation Accuracy: 0.7781
+
+ Epoch 17 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9960
+
+Evaluating...
+
+Training Loss: 0.0536
+Validation Loss: 1.3920
+Validation Accuracy: 0.7807
+
+ Epoch 18 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9963
+
+Evaluating...
+
+Training Loss: 0.0461
+Validation Loss: 1.4636
+Validation Accuracy: 0.7460
+
+ Epoch 19 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9969
+
+Evaluating...
+
+Training Loss: 0.0389
+Validation Loss: 1.7634
+Validation Accuracy: 0.7433
+
+ Epoch 20 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9985
+
+Evaluating...
+
+Training Loss: 0.0363
+Validation Loss: 1.6001
+Validation Accuracy: 0.7781
+
+ Epoch 21 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9985
+
+Evaluating...
+
+Training Loss: 0.0261
+Validation Loss: 1.7115
+Validation Accuracy: 0.7727
+
+ Epoch 22 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0277
+Validation Loss: 1.6326
+Validation Accuracy: 0.7727
+
+ Epoch 23 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9988
+
+Evaluating...
+
+Training Loss: 0.0187
+Validation Loss: 1.8271
+Validation Accuracy: 0.7674
+
+ Epoch 24 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0281
+Validation Loss: 1.8518
+Validation Accuracy: 0.7567
+
+ Epoch 25 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0170
+Validation Loss: 1.8299
+Validation Accuracy: 0.7567
+
+ Epoch 26 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0283
+Validation Loss: 1.9547
+Validation Accuracy: 0.7513
+
+ Epoch 27 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0220
+Validation Loss: 1.6540
+Validation Accuracy: 0.8048
+
+ Epoch 28 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0242
+Validation Loss: 1.6766
+Validation Accuracy: 0.7807
+
+ Epoch 29 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0215
+Validation Loss: 1.9087
+Validation Accuracy: 0.7781
+
+ Epoch 30 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0212
+Validation Loss: 1.9373
+Validation Accuracy: 0.7754
+
+
+         == flag 1.601 roberta result On test data ==
+# called_model : roberta
+# Test Accuracy: 0.8163%
+Precision: 0.8170
+Recall: 0.8163
+F1 Score: 0.8153
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.91      0.87       558
+           1       0.86      0.78      0.82       358
+           2       0.63      0.65      0.64       123
+           3       0.81      0.77      0.79       382
+
+    accuracy                           0.82      1421
+   macro avg       0.78      0.78      0.78      1421
+weighted avg       0.82      0.82      0.82      1421
+
+Confusion Matrix:
+[[508  17   6  27]
+ [ 22 279  27  30]
+ [ 27   5  80  11]
+ [ 52  24  13 293]]
+
+flag 1.11  model:  finished  with:   roberta
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   distilbert
+===================================================== 
+
+ Epoch 1 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.7317
+
+Evaluating...
+
+Training Loss: 1.1572
+Validation Loss: 0.8504
+Validation Accuracy: 0.7219
+
+ Epoch 2 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8339
+
+Evaluating...
+
+Training Loss: 0.7010
+Validation Loss: 0.6773
+Validation Accuracy: 0.7620
+
+ Epoch 3 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8919
+
+Evaluating...
+
+Training Loss: 0.5136
+Validation Loss: 0.6441
+Validation Accuracy: 0.7674
+
+ Epoch 4 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9156
+
+Evaluating...
+
+Training Loss: 0.3948
+Validation Loss: 0.6504
+Validation Accuracy: 0.7807
+
+ Epoch 5 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9496
+
+Evaluating...
+
+Training Loss: 0.3084
+Validation Loss: 0.6495
+Validation Accuracy: 0.7888
+
+ Epoch 6 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9656
+
+Evaluating...
+
+Training Loss: 0.2404
+Validation Loss: 0.6984
+Validation Accuracy: 0.7594
+
+ Epoch 7 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9764
+
+Evaluating...
+
+Training Loss: 0.1830
+Validation Loss: 0.7249
+Validation Accuracy: 0.7861
+
+ Epoch 8 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9837
+
+Evaluating...
+
+Training Loss: 0.1343
+Validation Loss: 0.7841
+Validation Accuracy: 0.7674
+
+ Epoch 9 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9874
+
+Evaluating...
+
+Training Loss: 0.1049
+Validation Loss: 0.7780
+Validation Accuracy: 0.7834
+
+ Epoch 10 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9902
+
+Evaluating...
+
+Training Loss: 0.0740
+Validation Loss: 0.9101
+Validation Accuracy: 0.7701
+
+ Epoch 11 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9920
+
+Evaluating...
+
+Training Loss: 0.0657
+Validation Loss: 1.0228
+Validation Accuracy: 0.7594
+
+ Epoch 12 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9932
+
+Evaluating...
+
+Training Loss: 0.0453
+Validation Loss: 1.0892
+Validation Accuracy: 0.7567
+
+ Epoch 13 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9969
+
+Evaluating...
+
+Training Loss: 0.0331
+Validation Loss: 1.0856
+Validation Accuracy: 0.7807
+
+ Epoch 14 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9985
+
+Evaluating...
+
+Training Loss: 0.0269
+Validation Loss: 1.0962
+Validation Accuracy: 0.7834
+
+ Epoch 15 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9982
+
+Evaluating...
+
+Training Loss: 0.0245
+Validation Loss: 1.2104
+Validation Accuracy: 0.7834
+
+ Epoch 16 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9982
+
+Evaluating...
+
+Training Loss: 0.0175
+Validation Loss: 1.1996
+Validation Accuracy: 0.7807
+
+ Epoch 17 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9985
+
+Evaluating...
+
+Training Loss: 0.0126
+Validation Loss: 1.2473
+Validation Accuracy: 0.7888
+
+ Epoch 18 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0098
+Validation Loss: 1.2361
+Validation Accuracy: 0.7888
+
+ Epoch 19 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0089
+Validation Loss: 1.2537
+Validation Accuracy: 0.7861
+
+ Epoch 20 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0066
+Validation Loss: 1.3287
+Validation Accuracy: 0.7754
+
+ Epoch 21 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0034
+Validation Loss: 1.3058
+Validation Accuracy: 0.7834
+
+ Epoch 22 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0033
+Validation Loss: 1.3884
+Validation Accuracy: 0.7781
+
+ Epoch 23 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0061
+Validation Loss: 1.4620
+Validation Accuracy: 0.7781
+
+ Epoch 24 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0053
+Validation Loss: 1.4131
+Validation Accuracy: 0.7807
+
+ Epoch 25 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0025
+Validation Loss: 1.5488
+Validation Accuracy: 0.7594
+
+ Epoch 26 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0080
+Validation Loss: 1.4577
+Validation Accuracy: 0.7834
+
+ Epoch 27 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0006
+Validation Loss: 1.5488
+Validation Accuracy: 0.7754
+
+ Epoch 28 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0017
+Validation Loss: 1.5411
+Validation Accuracy: 0.7754
+
+ Epoch 29 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0022
+Validation Loss: 1.5615
+Validation Accuracy: 0.7807
+
+ Epoch 30 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0040
+Validation Loss: 1.6558
+Validation Accuracy: 0.7594
+
+
+         == flag 1.601 distilbert result On test data ==
+# called_model : distilbert
+# Test Accuracy: 0.7987%
+Precision: 0.7956
+Recall: 0.7987
+F1 Score: 0.7955
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.87      0.85       558
+           1       0.84      0.80      0.82       358
+           2       0.63      0.46      0.54       123
+           3       0.76      0.81      0.78       382
+
+    accuracy                           0.80      1421
+   macro avg       0.76      0.73      0.75      1421
+weighted avg       0.80      0.80      0.80      1421
+
+Confusion Matrix:
+[[483  17  11  47]
+ [ 27 285  13  33]
+ [ 28  19  57  19]
+ [ 43  20   9 310]]
+
+flag 1.11  model:  finished  with:   distilbert
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   electra
+===================================================== 
+
+ Epoch 1 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.5864
+
+Evaluating...
+
+Training Loss: 1.2433
+Validation Loss: 1.0422
+Validation Accuracy: 0.5882
+
+ Epoch 2 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8078
+
+Evaluating...
+
+Training Loss: 0.9208
+Validation Loss: 0.7318
+Validation Accuracy: 0.7406
+
+ Epoch 3 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8732
+
+Evaluating...
+
+Training Loss: 0.6370
+Validation Loss: 0.5568
+Validation Accuracy: 0.8262
+
+ Epoch 4 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9002
+
+Evaluating...
+
+Training Loss: 0.4822
+Validation Loss: 0.5711
+Validation Accuracy: 0.8102
+
+ Epoch 5 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9297
+
+Evaluating...
+
+Training Loss: 0.3874
+Validation Loss: 0.5426
+Validation Accuracy: 0.8209
+
+ Epoch 6 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9435
+
+Evaluating...
+
+Training Loss: 0.3181
+Validation Loss: 0.5865
+Validation Accuracy: 0.8182
+
+ Epoch 7 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9613
+
+Evaluating...
+
+Training Loss: 0.2609
+Validation Loss: 0.6029
+Validation Accuracy: 0.8048
+
+ Epoch 8 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9665
+
+Evaluating...
+
+Training Loss: 0.2239
+Validation Loss: 0.6280
+Validation Accuracy: 0.8102
+
+ Epoch 9 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9754
+
+Evaluating...
+
+Training Loss: 0.1704
+Validation Loss: 0.6549
+Validation Accuracy: 0.8021
+
+ Epoch 10 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9834
+
+Evaluating...
+
+Training Loss: 0.1353
+Validation Loss: 0.7199
+Validation Accuracy: 0.8209
+
+ Epoch 11 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9856
+
+Evaluating...
+
+Training Loss: 0.1206
+Validation Loss: 0.8430
+Validation Accuracy: 0.8075
+
+ Epoch 12 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9877
+
+Evaluating...
+
+Training Loss: 0.1003
+Validation Loss: 0.7777
+Validation Accuracy: 0.8235
+
+ Epoch 13 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9911
+
+Evaluating...
+
+Training Loss: 0.0823
+Validation Loss: 0.9049
+Validation Accuracy: 0.8021
+
+ Epoch 14 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9905
+
+Evaluating...
+
+Training Loss: 0.0829
+Validation Loss: 0.9851
+Validation Accuracy: 0.7888
+
+ Epoch 15 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9945
+
+Evaluating...
+
+Training Loss: 0.0696
+Validation Loss: 0.9056
+Validation Accuracy: 0.8155
+
+ Epoch 16 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9951
+
+Evaluating...
+
+Training Loss: 0.0530
+Validation Loss: 1.0653
+Validation Accuracy: 0.7861
+
+ Epoch 17 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9948
+
+Evaluating...
+
+Training Loss: 0.0432
+Validation Loss: 1.0127
+Validation Accuracy: 0.8048
+
+ Epoch 18 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9948
+
+Evaluating...
+
+Training Loss: 0.0473
+Validation Loss: 1.1388
+Validation Accuracy: 0.7781
+
+ Epoch 19 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9963
+
+Evaluating...
+
+Training Loss: 0.0492
+Validation Loss: 1.0016
+Validation Accuracy: 0.8182
+
+ Epoch 20 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9966
+
+Evaluating...
+
+Training Loss: 0.0317
+Validation Loss: 1.0642
+Validation Accuracy: 0.8102
+
+ Epoch 21 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9972
+
+Evaluating...
+
+Training Loss: 0.0342
+Validation Loss: 1.0687
+Validation Accuracy: 0.8102
+
+ Epoch 22 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9969
+
+Evaluating...
+
+Training Loss: 0.0267
+Validation Loss: 1.2357
+Validation Accuracy: 0.7968
+
+ Epoch 23 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9982
+
+Evaluating...
+
+Training Loss: 0.0249
+Validation Loss: 1.1122
+Validation Accuracy: 0.8182
+
+ Epoch 24 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9975
+
+Evaluating...
+
+Training Loss: 0.0217
+Validation Loss: 1.1543
+Validation Accuracy: 0.8128
+
+ Epoch 25 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0170
+Validation Loss: 1.1471
+Validation Accuracy: 0.8155
+
+ Epoch 26 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9985
+
+Evaluating...
+
+Training Loss: 0.0153
+Validation Loss: 1.3808
+Validation Accuracy: 0.7914
+
+ Epoch 27 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0185
+Validation Loss: 1.3146
+Validation Accuracy: 0.8102
+
+ Epoch 28 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0149
+Validation Loss: 1.3261
+Validation Accuracy: 0.8102
+
+ Epoch 29 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0050
+Validation Loss: 1.4040
+Validation Accuracy: 0.8048
+
+ Epoch 30 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0051
+Validation Loss: 1.4008
+Validation Accuracy: 0.7995
+
+
+         == flag 1.601 electra result On test data ==
+# called_model : electra
+# Test Accuracy: 0.8121%
+Precision: 0.8148
+Recall: 0.8121
+F1 Score: 0.8131
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.84      0.86       558
+           1       0.83      0.83      0.83       358
+           2       0.60      0.63      0.62       123
+           3       0.78      0.82      0.80       382
+
+    accuracy                           0.81      1421
+   macro avg       0.77      0.78      0.77      1421
+weighted avg       0.81      0.81      0.81      1421
+
+Confusion Matrix:
+[[467  20  22  49]
+ [ 20 296  16  26]
+ [ 16  15  78  14]
+ [ 29  26  14 313]]
+
+flag 1.11  model:  finished  with:   electra
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   gpt2
+===================================================== 
+
+ Epoch 1 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.4320
+
+Evaluating...
+
+Training Loss: 1.3767
+Validation Loss: 1.1947
+Validation Accuracy: 0.4278
+
+ Epoch 2 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.6368
+
+Evaluating...
+
+Training Loss: 1.1314
+Validation Loss: 0.9317
+Validation Accuracy: 0.6096
+
+ Epoch 3 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.7934
+
+Evaluating...
+
+Training Loss: 0.8226
+Validation Loss: 0.6873
+Validation Accuracy: 0.7513
+
+ Epoch 4 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8247
+
+Evaluating...
+
+Training Loss: 0.6248
+Validation Loss: 0.6404
+Validation Accuracy: 0.7567
+
+ Epoch 5 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8621
+
+Evaluating...
+
+Training Loss: 0.5541
+Validation Loss: 0.6323
+Validation Accuracy: 0.7674
+
+ Epoch 6 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8738
+
+Evaluating...
+
+Training Loss: 0.4877
+Validation Loss: 0.6531
+Validation Accuracy: 0.7727
+
+ Epoch 7 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8984
+
+Evaluating...
+
+Training Loss: 0.4340
+Validation Loss: 0.6357
+Validation Accuracy: 0.7754
+
+ Epoch 8 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9193
+
+Evaluating...
+
+Training Loss: 0.3801
+Validation Loss: 0.6613
+Validation Accuracy: 0.7674
+
+ Epoch 9 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9358
+
+Evaluating...
+
+Training Loss: 0.3343
+Validation Loss: 0.6517
+Validation Accuracy: 0.7781
+
+ Epoch 10 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9466
+
+Evaluating...
+
+Training Loss: 0.2835
+Validation Loss: 0.7345
+Validation Accuracy: 0.7674
+
+ Epoch 11 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9576
+
+Evaluating...
+
+Training Loss: 0.2495
+Validation Loss: 0.7206
+Validation Accuracy: 0.7807
+
+ Epoch 12 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9678
+
+Evaluating...
+
+Training Loss: 0.2143
+Validation Loss: 0.7369
+Validation Accuracy: 0.7888
+
+ Epoch 13 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9754
+
+Evaluating...
+
+Training Loss: 0.1887
+Validation Loss: 0.7995
+Validation Accuracy: 0.7701
+
+ Epoch 14 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9767
+
+Evaluating...
+
+Training Loss: 0.1557
+Validation Loss: 0.8209
+Validation Accuracy: 0.7701
+
+ Epoch 15 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9868
+
+Evaluating...
+
+Training Loss: 0.1344
+Validation Loss: 0.8528
+Validation Accuracy: 0.7754
+
+ Epoch 16 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9883
+
+Evaluating...
+
+Training Loss: 0.1376
+Validation Loss: 0.9162
+Validation Accuracy: 0.7754
+
+ Epoch 17 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9889
+
+Evaluating...
+
+Training Loss: 0.1001
+Validation Loss: 0.9504
+Validation Accuracy: 0.7807
+
+ Epoch 18 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9917
+
+Evaluating...
+
+Training Loss: 0.0848
+Validation Loss: 0.9386
+Validation Accuracy: 0.8075
+
+ Epoch 19 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9942
+
+Evaluating...
+
+Training Loss: 0.0646
+Validation Loss: 1.1129
+Validation Accuracy: 0.7807
+
+ Epoch 20 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9954
+
+Evaluating...
+
+Training Loss: 0.0622
+Validation Loss: 1.0767
+Validation Accuracy: 0.7941
+
+ Epoch 21 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9960
+
+Evaluating...
+
+Training Loss: 0.0727
+Validation Loss: 1.0765
+Validation Accuracy: 0.8075
+
+ Epoch 22 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9969
+
+Evaluating...
+
+Training Loss: 0.0537
+Validation Loss: 1.1404
+Validation Accuracy: 0.8048
+
+ Epoch 23 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9960
+
+Evaluating...
+
+Training Loss: 0.0515
+Validation Loss: 1.2015
+Validation Accuracy: 0.8021
+
+ Epoch 24 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9975
+
+Evaluating...
+
+Training Loss: 0.0489
+Validation Loss: 1.3381
+Validation Accuracy: 0.7834
+
+ Epoch 25 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9982
+
+Evaluating...
+
+Training Loss: 0.0396
+Validation Loss: 1.2766
+Validation Accuracy: 0.8128
+
+ Epoch 26 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9985
+
+Evaluating...
+
+Training Loss: 0.0370
+Validation Loss: 1.2832
+Validation Accuracy: 0.8075
+
+ Epoch 27 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0438
+Validation Loss: 1.3621
+Validation Accuracy: 0.7968
+
+ Epoch 28 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9985
+
+Evaluating...
+
+Training Loss: 0.0295
+Validation Loss: 1.3665
+Validation Accuracy: 0.7941
+
+ Epoch 29 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0322
+Validation Loss: 1.4707
+Validation Accuracy: 0.7861
+
+ Epoch 30 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0270
+Validation Loss: 1.3321
+Validation Accuracy: 0.8048
+
+
+         == flag 1.601 gpt2 result On test data ==
+# called_model : gpt2
+# Test Accuracy: 0.8015%
+Precision: 0.8016
+Recall: 0.8015
+F1 Score: 0.7991
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.80      0.88      0.84       558
+           1       0.81      0.79      0.80       358
+           2       0.81      0.58      0.67       123
+           3       0.79      0.76      0.77       382
+
+    accuracy                           0.80      1421
+   macro avg       0.80      0.75      0.77      1421
+weighted avg       0.80      0.80      0.80      1421
+
+Confusion Matrix:
+[[493  27   8  30]
+ [ 35 284   5  34]
+ [ 27  11  71  14]
+ [ 60  27   4 291]]
+
+flag 1.11  model:  finished  with:   gpt2
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   longformer
+===================================================== 
+
+ Epoch 1 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.7430
+
+Evaluating...
+
+Training Loss: 1.0998
+Validation Loss: 0.7616
+Validation Accuracy: 0.7273
+
+ Epoch 2 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8428
+
+Evaluating...
+
+Training Loss: 0.6853
+Validation Loss: 0.6820
+Validation Accuracy: 0.7781
+
+ Epoch 3 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8778
+
+Evaluating...
+
+Training Loss: 0.5465
+Validation Loss: 0.6254
+Validation Accuracy: 0.7701
+
+ Epoch 4 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9137
+
+Evaluating...
+
+Training Loss: 0.4225
+Validation Loss: 0.6330
+Validation Accuracy: 0.7674
+
+ Epoch 5 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9358
+
+Evaluating...
+
+Training Loss: 0.3462
+Validation Loss: 0.6484
+Validation Accuracy: 0.7861
+
+ Epoch 6 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9576
+
+Evaluating...
+
+Training Loss: 0.2679
+Validation Loss: 0.7082
+Validation Accuracy: 0.7781
+
+ Epoch 7 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9690
+
+Evaluating...
+
+Training Loss: 0.2233
+Validation Loss: 0.9023
+Validation Accuracy: 0.7567
+
+ Epoch 8 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9804
+
+Evaluating...
+
+Training Loss: 0.1881
+Validation Loss: 0.8321
+Validation Accuracy: 0.7914
+
+ Epoch 9 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9819
+
+Evaluating...
+
+Training Loss: 0.1453
+Validation Loss: 0.8966
+Validation Accuracy: 0.7914
+
+ Epoch 10 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9871
+
+Evaluating...
+
+Training Loss: 0.1191
+Validation Loss: 0.9240
+Validation Accuracy: 0.7861
+
+ Epoch 11 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9886
+
+Evaluating...
+
+Training Loss: 0.0972
+Validation Loss: 1.2500
+Validation Accuracy: 0.7513
+
+ Epoch 12 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9923
+
+Evaluating...
+
+Training Loss: 0.0802
+Validation Loss: 1.2063
+Validation Accuracy: 0.7861
+
+ Epoch 13 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9920
+
+Evaluating...
+
+Training Loss: 0.0756
+Validation Loss: 1.3634
+Validation Accuracy: 0.7674
+
+ Epoch 14 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9932
+
+Evaluating...
+
+Training Loss: 0.0656
+Validation Loss: 1.3602
+Validation Accuracy: 0.7781
+
+ Epoch 15 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9951
+
+Evaluating...
+
+Training Loss: 0.0507
+Validation Loss: 1.3498
+Validation Accuracy: 0.7861
+
+ Epoch 16 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9966
+
+Evaluating...
+
+Training Loss: 0.0673
+Validation Loss: 1.4286
+Validation Accuracy: 0.7647
+
+ Epoch 17 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9975
+
+Evaluating...
+
+Training Loss: 0.0579
+Validation Loss: 1.5148
+Validation Accuracy: 0.7701
+
+ Epoch 18 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9957
+
+Evaluating...
+
+Training Loss: 0.0382
+Validation Loss: 1.6145
+Validation Accuracy: 0.7540
+
+ Epoch 19 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9985
+
+Evaluating...
+
+Training Loss: 0.0393
+Validation Loss: 1.3695
+Validation Accuracy: 0.7968
+
+ Epoch 20 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9982
+
+Evaluating...
+
+Training Loss: 0.0284
+Validation Loss: 1.6002
+Validation Accuracy: 0.7701
+
+ Epoch 21 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0384
+Validation Loss: 1.7127
+Validation Accuracy: 0.7647
+
+ Epoch 22 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0256
+Validation Loss: 1.6134
+Validation Accuracy: 0.7727
+
+ Epoch 23 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0223
+Validation Loss: 1.5991
+Validation Accuracy: 0.7781
+
+ Epoch 24 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9988
+
+Evaluating...
+
+Training Loss: 0.0160
+Validation Loss: 1.6692
+Validation Accuracy: 0.7807
+
+ Epoch 25 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0258
+Validation Loss: 1.7044
+Validation Accuracy: 0.7914
+
+ Epoch 26 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9982
+
+Evaluating...
+
+Training Loss: 0.0359
+Validation Loss: 1.6185
+Validation Accuracy: 0.7941
+
+ Epoch 27 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0254
+Validation Loss: 1.7828
+Validation Accuracy: 0.7727
+
+ Epoch 28 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0192
+Validation Loss: 1.7725
+Validation Accuracy: 0.7594
+
+ Epoch 29 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0221
+Validation Loss: 1.8004
+Validation Accuracy: 0.7834
+
+ Epoch 30 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0163
+Validation Loss: 1.8784
+Validation Accuracy: 0.7781
+
+
+         == flag 1.601 longformer result On test data ==
+# called_model : longformer
+# Test Accuracy: 0.8107%
+Precision: 0.8116
+Recall: 0.8107
+F1 Score: 0.8077
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.81      0.90      0.85       558
+           1       0.80      0.86      0.83       358
+           2       0.71      0.61      0.66       123
+           3       0.85      0.70      0.77       382
+
+    accuracy                           0.81      1421
+   macro avg       0.79      0.77      0.78      1421
+weighted avg       0.81      0.81      0.81      1421
+
+Confusion Matrix:
+[[501  26   8  23]
+ [ 24 308  10  16]
+ [ 26  15  75   7]
+ [ 65  36  13 268]]
+
+flag 1.11  model:  finished  with:   longformer
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   luke
+===================================================== 
+
+ Epoch 1 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.7663
+
+Evaluating...
+
+Training Loss: 1.0669
+Validation Loss: 0.7610
+Validation Accuracy: 0.7380
+
+ Epoch 2 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8554
+
+Evaluating...
+
+Training Loss: 0.6286
+Validation Loss: 0.7136
+Validation Accuracy: 0.7567
+
+ Epoch 3 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9005
+
+Evaluating...
+
+Training Loss: 0.4817
+Validation Loss: 0.6562
+Validation Accuracy: 0.7807
+
+ Epoch 4 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9251
+
+Evaluating...
+
+Training Loss: 0.3691
+Validation Loss: 0.7060
+Validation Accuracy: 0.7701
+
+ Epoch 5 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9374
+
+Evaluating...
+
+Training Loss: 0.3028
+Validation Loss: 0.7099
+Validation Accuracy: 0.8075
+
+ Epoch 6 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9675
+
+Evaluating...
+
+Training Loss: 0.2352
+Validation Loss: 0.7861
+Validation Accuracy: 0.7834
+
+ Epoch 7 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9754
+
+Evaluating...
+
+Training Loss: 0.1904
+Validation Loss: 0.8416
+Validation Accuracy: 0.7781
+
+ Epoch 8 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9819
+
+Evaluating...
+
+Training Loss: 0.1570
+Validation Loss: 0.8869
+Validation Accuracy: 0.7674
+
+ Epoch 9 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9853
+
+Evaluating...
+
+Training Loss: 0.1219
+Validation Loss: 0.8228
+Validation Accuracy: 0.7727
+
+ Epoch 10 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9911
+
+Evaluating...
+
+Training Loss: 0.0964
+Validation Loss: 0.9925
+Validation Accuracy: 0.7941
+
+ Epoch 11 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9926
+
+Evaluating...
+
+Training Loss: 0.0755
+Validation Loss: 1.1924
+Validation Accuracy: 0.7701
+
+ Epoch 12 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9942
+
+Evaluating...
+
+Training Loss: 0.0668
+Validation Loss: 1.2645
+Validation Accuracy: 0.7834
+
+ Epoch 13 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9942
+
+Evaluating...
+
+Training Loss: 0.0637
+Validation Loss: 1.2859
+Validation Accuracy: 0.7674
+
+ Epoch 14 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9951
+
+Evaluating...
+
+Training Loss: 0.0474
+Validation Loss: 1.2430
+Validation Accuracy: 0.7888
+
+ Epoch 15 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9972
+
+Evaluating...
+
+Training Loss: 0.0482
+Validation Loss: 1.3761
+Validation Accuracy: 0.7754
+
+ Epoch 16 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9969
+
+Evaluating...
+
+Training Loss: 0.0392
+Validation Loss: 1.3848
+Validation Accuracy: 0.7968
+
+ Epoch 17 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9975
+
+Evaluating...
+
+Training Loss: 0.0464
+Validation Loss: 1.5863
+Validation Accuracy: 0.7540
+
+ Epoch 18 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9979
+
+Evaluating...
+
+Training Loss: 0.0314
+Validation Loss: 1.6459
+Validation Accuracy: 0.7647
+
+ Epoch 19 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9982
+
+Evaluating...
+
+Training Loss: 0.0312
+Validation Loss: 1.6637
+Validation Accuracy: 0.7781
+
+ Epoch 20 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9982
+
+Evaluating...
+
+Training Loss: 0.0141
+Validation Loss: 1.7602
+Validation Accuracy: 0.7701
+
+ Epoch 21 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0362
+Validation Loss: 1.6985
+Validation Accuracy: 0.7781
+
+ Epoch 22 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9988
+
+Evaluating...
+
+Training Loss: 0.0346
+Validation Loss: 1.8352
+Validation Accuracy: 0.7674
+
+ Epoch 23 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9985
+
+Evaluating...
+
+Training Loss: 0.0331
+Validation Loss: 1.7036
+Validation Accuracy: 0.7914
+
+ Epoch 24 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0195
+Validation Loss: 1.7162
+Validation Accuracy: 0.7781
+
+ Epoch 25 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9982
+
+Evaluating...
+
+Training Loss: 0.0301
+Validation Loss: 1.8001
+Validation Accuracy: 0.7647
+
+ Epoch 26 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0058
+Validation Loss: 1.7841
+Validation Accuracy: 0.7754
+
+ Epoch 27 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 1.0000
+
+Evaluating...
+
+Training Loss: 0.0192
+Validation Loss: 1.9160
+Validation Accuracy: 0.7781
+
+ Epoch 28 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0106
+Validation Loss: 1.8078
+Validation Accuracy: 0.7754
+
+ Epoch 29 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0103
+Validation Loss: 1.9293
+Validation Accuracy: 0.7807
+
+ Epoch 30 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0198
+Validation Loss: 1.8121
+Validation Accuracy: 0.7861
+
+
+         == flag 1.601 luke result On test data ==
+# called_model : luke
+# Test Accuracy: 0.8121%
+Precision: 0.8131
+Recall: 0.8121
+F1 Score: 0.8120
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.88      0.86       558
+           1       0.84      0.79      0.82       358
+           2       0.64      0.68      0.66       123
+           3       0.81      0.77      0.79       382
+
+    accuracy                           0.81      1421
+   macro avg       0.78      0.78      0.78      1421
+weighted avg       0.81      0.81      0.81      1421
+
+Confusion Matrix:
+[[491  19  16  32]
+ [ 23 284  23  28]
+ [ 18  12  84   9]
+ [ 55  23   9 295]]
+
+flag 1.11  model:  finished  with:   luke
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   t5
+===================================================== 
+
+ Epoch 1 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.4298
+
+Evaluating...
+
+Training Loss: 1.3395
+Validation Loss: 1.2903
+Validation Accuracy: 0.4278
+
+ Epoch 2 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.4298
+
+Evaluating...
+
+Training Loss: 1.2814
+Validation Loss: 1.2520
+Validation Accuracy: 0.4278
+
+ Epoch 3 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.4298
+
+Evaluating...
+
+Training Loss: 1.2537
+Validation Loss: 1.2278
+Validation Accuracy: 0.4278
+
+ Epoch 4 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.4298
+
+Evaluating...
+
+Training Loss: 1.2255
+Validation Loss: 1.1701
+Validation Accuracy: 0.4278
+
+ Epoch 5 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.6009
+
+Evaluating...
+
+Training Loss: 1.1342
+Validation Loss: 1.0154
+Validation Accuracy: 0.5909
+
+ Epoch 6 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.7513
+
+Evaluating...
+
+Training Loss: 0.9646
+Validation Loss: 0.8457
+Validation Accuracy: 0.7112
+
+ Epoch 7 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.7719
+
+Evaluating...
+
+Training Loss: 0.8117
+Validation Loss: 0.7532
+Validation Accuracy: 0.7299
+
+ Epoch 8 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.7891
+
+Evaluating...
+
+Training Loss: 0.7178
+Validation Loss: 0.7095
+Validation Accuracy: 0.7513
+
+ Epoch 9 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8158
+
+Evaluating...
+
+Training Loss: 0.6479
+Validation Loss: 0.6998
+Validation Accuracy: 0.7406
+
+ Epoch 10 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8403
+
+Evaluating...
+
+Training Loss: 0.6008
+Validation Loss: 0.6848
+Validation Accuracy: 0.7540
+
+ Epoch 11 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8542
+
+Evaluating...
+
+Training Loss: 0.5544
+Validation Loss: 0.6972
+Validation Accuracy: 0.7594
+
+ Epoch 12 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8741
+
+Evaluating...
+
+Training Loss: 0.5140
+Validation Loss: 0.7072
+Validation Accuracy: 0.7754
+
+ Epoch 13 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8839
+
+Evaluating...
+
+Training Loss: 0.4859
+Validation Loss: 0.6919
+Validation Accuracy: 0.7701
+
+ Epoch 14 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8996
+
+Evaluating...
+
+Training Loss: 0.4605
+Validation Loss: 0.7096
+Validation Accuracy: 0.7834
+
+ Epoch 15 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9042
+
+Evaluating...
+
+Training Loss: 0.4306
+Validation Loss: 0.7059
+Validation Accuracy: 0.7754
+
+ Epoch 16 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9146
+
+Evaluating...
+
+Training Loss: 0.4184
+Validation Loss: 0.7137
+Validation Accuracy: 0.7807
+
+ Epoch 17 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9199
+
+Evaluating...
+
+Training Loss: 0.3791
+Validation Loss: 0.7308
+Validation Accuracy: 0.7674
+
+ Epoch 18 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9282
+
+Evaluating...
+
+Training Loss: 0.3679
+Validation Loss: 0.7421
+Validation Accuracy: 0.7701
+
+ Epoch 19 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9343
+
+Evaluating...
+
+Training Loss: 0.3427
+Validation Loss: 0.7722
+Validation Accuracy: 0.7674
+
+ Epoch 20 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9368
+
+Evaluating...
+
+Training Loss: 0.3280
+Validation Loss: 0.7638
+Validation Accuracy: 0.7754
+
+ Epoch 21 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9420
+
+Evaluating...
+
+Training Loss: 0.3124
+Validation Loss: 0.7847
+Validation Accuracy: 0.7647
+
+ Epoch 22 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9463
+
+Evaluating...
+
+Training Loss: 0.3022
+Validation Loss: 0.7776
+Validation Accuracy: 0.7674
+
+ Epoch 23 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9487
+
+Evaluating...
+
+Training Loss: 0.2798
+Validation Loss: 0.7864
+Validation Accuracy: 0.7647
+
+ Epoch 24 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9543
+
+Evaluating...
+
+Training Loss: 0.2595
+Validation Loss: 0.8362
+Validation Accuracy: 0.7674
+
+ Epoch 25 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9576
+
+Evaluating...
+
+Training Loss: 0.2539
+Validation Loss: 0.8384
+Validation Accuracy: 0.7674
+
+ Epoch 26 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9610
+
+Evaluating...
+
+Training Loss: 0.2491
+Validation Loss: 0.8314
+Validation Accuracy: 0.7727
+
+ Epoch 27 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9619
+
+Evaluating...
+
+Training Loss: 0.2457
+Validation Loss: 0.8486
+Validation Accuracy: 0.7781
+
+ Epoch 28 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9635
+
+Evaluating...
+
+Training Loss: 0.2328
+Validation Loss: 0.8565
+Validation Accuracy: 0.7701
+
+ Epoch 29 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9659
+
+Evaluating...
+
+Training Loss: 0.2055
+Validation Loss: 0.8784
+Validation Accuracy: 0.7674
+
+ Epoch 30 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9681
+
+Evaluating...
+
+Training Loss: 0.1983
+Validation Loss: 0.8723
+Validation Accuracy: 0.7781
+
+
+         == flag 1.601 t5 result On test data ==
+# called_model : t5
+# Test Accuracy: 0.7882%
+Precision: 0.7935
+Recall: 0.7882
+F1 Score: 0.7765
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.84      0.87      0.86       558
+           1       0.73      0.85      0.79       358
+           2       0.85      0.27      0.41       123
+           3       0.76      0.77      0.77       382
+
+    accuracy                           0.79      1421
+   macro avg       0.80      0.69      0.70      1421
+weighted avg       0.79      0.79      0.78      1421
+
+Confusion Matrix:
+[[488  21   4  45]
+ [ 24 306   1  27]
+ [ 18  53  33  19]
+ [ 48  40   1 293]]
+
+flag 1.11  model:  finished  with:   t5
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   xlnet
+===================================================== 
+
+ Epoch 1 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.7185
+
+Evaluating...
+
+Training Loss: 1.1736
+Validation Loss: 0.8816
+Validation Accuracy: 0.6551
+
+ Epoch 2 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8004
+
+Evaluating...
+
+Training Loss: 0.7685
+Validation Loss: 0.7740
+Validation Accuracy: 0.7059
+
+ Epoch 3 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8634
+
+Evaluating...
+
+Training Loss: 0.6050
+Validation Loss: 0.6855
+Validation Accuracy: 0.7513
+
+ Epoch 4 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.8928
+
+Evaluating...
+
+Training Loss: 0.4904
+Validation Loss: 0.6864
+Validation Accuracy: 0.7647
+
+ Epoch 5 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9423
+
+Evaluating...
+
+Training Loss: 0.3895
+Validation Loss: 0.6414
+Validation Accuracy: 0.7834
+
+ Epoch 6 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9662
+
+Evaluating...
+
+Training Loss: 0.2979
+Validation Loss: 0.7241
+Validation Accuracy: 0.7620
+
+ Epoch 7 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9705
+
+Evaluating...
+
+Training Loss: 0.2285
+Validation Loss: 0.8562
+Validation Accuracy: 0.7406
+
+ Epoch 8 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9856
+
+Evaluating...
+
+Training Loss: 0.1789
+Validation Loss: 0.8358
+Validation Accuracy: 0.7701
+
+ Epoch 9 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9840
+
+Evaluating...
+
+Training Loss: 0.1430
+Validation Loss: 1.0689
+Validation Accuracy: 0.7647
+
+ Epoch 10 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9923
+
+Evaluating...
+
+Training Loss: 0.1254
+Validation Loss: 0.9272
+Validation Accuracy: 0.7594
+
+ Epoch 11 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9926
+
+Evaluating...
+
+Training Loss: 0.1072
+Validation Loss: 1.0882
+Validation Accuracy: 0.7540
+
+ Epoch 12 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9963
+
+Evaluating...
+
+Training Loss: 0.0924
+Validation Loss: 1.1418
+Validation Accuracy: 0.7674
+
+ Epoch 13 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9972
+
+Evaluating...
+
+Training Loss: 0.0730
+Validation Loss: 1.3086
+Validation Accuracy: 0.7594
+
+ Epoch 14 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9966
+
+Evaluating...
+
+Training Loss: 0.0599
+Validation Loss: 1.4898
+Validation Accuracy: 0.7460
+
+ Epoch 15 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9975
+
+Evaluating...
+
+Training Loss: 0.0530
+Validation Loss: 1.5608
+Validation Accuracy: 0.7433
+
+ Epoch 16 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9972
+
+Evaluating...
+
+Training Loss: 0.0375
+Validation Loss: 1.6917
+Validation Accuracy: 0.7487
+
+ Epoch 17 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0459
+Validation Loss: 1.5935
+Validation Accuracy: 0.7513
+
+ Epoch 18 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9979
+
+Evaluating...
+
+Training Loss: 0.0445
+Validation Loss: 1.7452
+Validation Accuracy: 0.7460
+
+ Epoch 19 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9988
+
+Evaluating...
+
+Training Loss: 0.0437
+Validation Loss: 1.8168
+Validation Accuracy: 0.7406
+
+ Epoch 20 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0230
+Validation Loss: 1.9275
+Validation Accuracy: 0.7567
+
+ Epoch 21 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0246
+Validation Loss: 1.6869
+Validation Accuracy: 0.7861
+
+ Epoch 22 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0203
+Validation Loss: 1.9679
+Validation Accuracy: 0.7513
+
+ Epoch 23 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0295
+Validation Loss: 1.8746
+Validation Accuracy: 0.7594
+
+ Epoch 24 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0254
+Validation Loss: 1.8370
+Validation Accuracy: 0.7620
+
+ Epoch 25 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0218
+Validation Loss: 2.0969
+Validation Accuracy: 0.7647
+
+ Epoch 26 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9991
+
+Evaluating...
+
+Training Loss: 0.0252
+Validation Loss: 2.0252
+Validation Accuracy: 0.7781
+
+ Epoch 27 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0153
+Validation Loss: 2.0485
+Validation Accuracy: 0.7620
+
+ Epoch 28 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9994
+
+Evaluating...
+
+Training Loss: 0.0239
+Validation Loss: 2.0140
+Validation Accuracy: 0.7834
+
+ Epoch 29 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0178
+Validation Loss: 1.8922
+Validation Accuracy: 0.7888
+
+ Epoch 30 / 30
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+  Batch    50  of    102.
+  Batch   100  of    102.
+Training Accuracy: 0.9997
+
+Evaluating...
+
+Training Loss: 0.0118
+Validation Loss: 2.1202
+Validation Accuracy: 0.7594
+
+
+         == flag 1.601 xlnet result On test data ==
+# called_model : xlnet
+# Test Accuracy: 0.7931%
+Precision: 0.7937
+Recall: 0.7931
+F1 Score: 0.7921
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.82      0.84       558
+           1       0.79      0.84      0.81       358
+           2       0.69      0.55      0.61       123
+           3       0.74      0.79      0.76       382
+
+    accuracy                           0.79      1421
+   macro avg       0.77      0.75      0.76      1421
+weighted avg       0.79      0.79      0.79      1421
+
+Confusion Matrix:
+[[456  32  15  55]
+ [ 18 301   7  32]
+ [ 13  21  68  21]
+ [ 44  27   9 302]]
+
+flag 1.11  model:  finished  with:   xlnet
+
+Execution Finished

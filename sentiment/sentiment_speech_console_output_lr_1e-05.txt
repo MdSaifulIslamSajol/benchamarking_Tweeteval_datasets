@@ -1,0 +1,7037 @@
+learning rate  : 1e-05
+epochs : 20
+                                                text  label
+0  "QT @user In the original draft of the 7th boo...      2
+1  "Ben Smith / Smith (concussion) remains out of...      1
+2  Sorry bout the stream last night I crashed out...      1
+3  Chase Headley's RBI double in the 8th inning o...      1
+4  @user Alciato: Bee will invest 150 million in ...      2
+                                                text
+0  "QT @user In the original draft of the 7th boo...
+1  "Ben Smith / Smith (concussion) remains out of...
+2  Sorry bout the stream last night I crashed out...
+3  Chase Headley's RBI double in the 8th inning o...
+4  @user Alciato: Bee will invest 150 million in ...
+   label
+0      2
+1      1
+2      1
+3      1
+4      2
+                                                text  label
+0  Dark Souls 3 April Launch Date Confirmed With ...      1
+1  "National hot dog day, national tequila day, t...      2
+2  When girls become bandwagon fans of the Packer...      0
+3  @user I may or may not have searched it up on ...      1
+4  Here's your starting TUESDAY MORNING Line up a...      1
+                                                text
+0  Dark Souls 3 April Launch Date Confirmed With ...
+1  "National hot dog day, national tequila day, t...
+2  When girls become bandwagon fans of the Packer...
+3  @user I may or may not have searched it up on ...
+4  Here's your starting TUESDAY MORNING Line up a...
+   label
+0      1
+1      2
+2      0
+3      1
+4      1
+                                                text  label
+0  @user @user what do these '1/2 naked pics' hav...      1
+1  OH: “I had a blue penis while I was this” [pla...      1
+2  @user @user That's coming, but I think the vic...      1
+3  I think I may be finally in with the in crowd ...      2
+4  @user Wow,first Hugo Chavez and now Fidel Cast...      0
+                                                text
+0  @user @user what do these '1/2 naked pics' hav...
+1  OH: “I had a blue penis while I was this” [pla...
+2  @user @user That's coming, but I think the vic...
+3  I think I may be finally in with the in crowd ...
+4  @user Wow,first Hugo Chavez and now Fidel Cast...
+                                                text
+0  @user @user what do these '1/2 naked pics' hav...
+1  OH: “I had a blue penis while I was this” [pla...
+2  @user @user That's coming, but I think the vic...
+3  I think I may be finally in with the in crowd ...
+4  @user Wow,first Hugo Chavez and now Fidel Cast...
+len(train_labels) 45615
+len(test_labels) 12284
+len(val_labels) 2000
+
+Unique values count in train_labels:
+label
+1    20673
+2    17849
+0     7093
+Name: count, dtype: int64
+
+Unique values count in val_labels:
+label
+1    869
+2    819
+0    312
+Name: count, dtype: int64
+
+Unique values count in test_labels:
+label
+1    5937
+0    3972
+2    2375
+Name: count, dtype: int64
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   bert
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.711
+Validation Loss: 0.615
+Validation Accuracy: 0.7250
+
+ Epoch 2 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.539
+Validation Loss: 0.600
+Validation Accuracy: 0.7465
+
+ Epoch 3 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.432
+Validation Loss: 0.629
+Validation Accuracy: 0.7435
+
+ Epoch 4 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.326
+Validation Loss: 0.750
+Validation Accuracy: 0.7305
+
+ Epoch 5 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.233
+Validation Loss: 0.864
+Validation Accuracy: 0.7460
+
+ Epoch 6 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.172
+Validation Loss: 0.989
+Validation Accuracy: 0.7325
+
+ Epoch 7 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.135
+Validation Loss: 1.129
+Validation Accuracy: 0.7400
+
+ Epoch 8 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.111
+Validation Loss: 1.271
+Validation Accuracy: 0.7185
+
+ Epoch 9 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.103
+Validation Loss: 1.332
+Validation Accuracy: 0.7260
+
+ Epoch 10 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.086
+Validation Loss: 1.446
+Validation Accuracy: 0.7270
+
+ Epoch 11 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.082
+Validation Loss: 1.407
+Validation Accuracy: 0.7305
+
+ Epoch 12 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.068
+Validation Loss: 1.685
+Validation Accuracy: 0.7245
+
+ Epoch 13 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.064
+Validation Loss: 1.668
+Validation Accuracy: 0.7275
+
+ Epoch 14 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.057
+Validation Loss: 1.797
+Validation Accuracy: 0.7250
+
+ Epoch 15 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.053
+Validation Loss: 1.803
+Validation Accuracy: 0.7370
+
+ Epoch 16 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.049
+Validation Loss: 1.789
+Validation Accuracy: 0.7270
+
+ Epoch 17 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.044
+Validation Loss: 1.893
+Validation Accuracy: 0.7255
+
+ Epoch 18 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.041
+Validation Loss: 1.931
+Validation Accuracy: 0.7365
+
+ Epoch 19 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.040
+Validation Loss: 2.019
+Validation Accuracy: 0.7320
+
+ Epoch 20 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.038
+Validation Loss: 2.023
+Validation Accuracy: 0.7335
+
+
+         == flag 1.601 bert result On test data ==
+# called_model : bert
+# Test Accuracy: 0.6990%
+Precision: 0.7024
+Recall: 0.6990
+F1 Score: 0.6992
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.72      0.72      0.72      3972
+           1       0.72      0.67      0.69      5937
+           2       0.63      0.74      0.68      2375
+
+    accuracy                           0.70     12284
+   macro avg       0.69      0.71      0.70     12284
+weighted avg       0.70      0.70      0.70     12284
+
+Confusion Matrix:
+[[2846  975  151]
+ [1060 3974  903]
+ [  47  562 1766]]
+
+flag 1.11  model:  finished  with:   bert
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   roberta
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.684
+Validation Loss: 0.605
+Validation Accuracy: 0.7255
+
+ Epoch 2 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.551
+Validation Loss: 0.595
+Validation Accuracy: 0.7465
+
+ Epoch 3 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.473
+Validation Loss: 0.618
+Validation Accuracy: 0.7390
+
+ Epoch 4 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.402
+Validation Loss: 0.725
+Validation Accuracy: 0.7295
+
+ Epoch 5 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.331
+Validation Loss: 0.673
+Validation Accuracy: 0.7390
+
+ Epoch 6 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.273
+Validation Loss: 0.824
+Validation Accuracy: 0.7230
+
+ Epoch 7 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.222
+Validation Loss: 0.877
+Validation Accuracy: 0.7335
+
+ Epoch 8 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.186
+Validation Loss: 1.032
+Validation Accuracy: 0.7230
+
+ Epoch 9 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.156
+Validation Loss: 1.149
+Validation Accuracy: 0.7190
+
+ Epoch 10 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.136
+Validation Loss: 1.216
+Validation Accuracy: 0.7190
+
+ Epoch 11 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.124
+Validation Loss: 1.251
+Validation Accuracy: 0.7275
+
+ Epoch 12 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.115
+Validation Loss: 1.371
+Validation Accuracy: 0.7230
+
+ Epoch 13 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.106
+Validation Loss: 1.530
+Validation Accuracy: 0.7150
+
+ Epoch 14 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.103
+Validation Loss: 1.537
+Validation Accuracy: 0.7130
+
+ Epoch 15 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.093
+Validation Loss: 1.692
+Validation Accuracy: 0.7175
+
+ Epoch 16 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.089
+Validation Loss: 1.708
+Validation Accuracy: 0.7270
+
+ Epoch 17 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.082
+Validation Loss: 1.749
+Validation Accuracy: 0.7165
+
+ Epoch 18 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.079
+Validation Loss: 1.778
+Validation Accuracy: 0.7130
+
+ Epoch 19 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.072
+Validation Loss: 1.893
+Validation Accuracy: 0.7215
+
+ Epoch 20 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.069
+Validation Loss: 1.962
+Validation Accuracy: 0.7155
+
+
+         == flag 1.601 roberta result On test data ==
+# called_model : roberta
+# Test Accuracy: 0.7123%
+Precision: 0.7176
+Recall: 0.7123
+F1 Score: 0.7127
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.74      0.72      0.73      3972
+           1       0.74      0.68      0.71      5937
+           2       0.63      0.78      0.70      2375
+
+    accuracy                           0.71     12284
+   macro avg       0.70      0.73      0.71     12284
+weighted avg       0.72      0.71      0.71     12284
+
+Confusion Matrix:
+[[2859  951  162]
+ [ 959 4036  942]
+ [  36  484 1855]]
+
+flag 1.11  model:  finished  with:   roberta
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   distilbert
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.709
+Validation Loss: 0.648
+Validation Accuracy: 0.7105
+
+ Epoch 2 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.572
+Validation Loss: 0.629
+Validation Accuracy: 0.7295
+
+ Epoch 3 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.487
+Validation Loss: 0.638
+Validation Accuracy: 0.7355
+
+ Epoch 4 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.400
+Validation Loss: 0.726
+Validation Accuracy: 0.7310
+
+ Epoch 5 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.319
+Validation Loss: 0.775
+Validation Accuracy: 0.7245
+
+ Epoch 6 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.246
+Validation Loss: 0.878
+Validation Accuracy: 0.7240
+
+ Epoch 7 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.189
+Validation Loss: 1.035
+Validation Accuracy: 0.7235
+
+ Epoch 8 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.150
+Validation Loss: 1.125
+Validation Accuracy: 0.7155
+
+ Epoch 9 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.124
+Validation Loss: 1.238
+Validation Accuracy: 0.7165
+
+ Epoch 10 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.105
+Validation Loss: 1.413
+Validation Accuracy: 0.7255
+
+ Epoch 11 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.091
+Validation Loss: 1.504
+Validation Accuracy: 0.7210
+
+ Epoch 12 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.082
+Validation Loss: 1.486
+Validation Accuracy: 0.7195
+
+ Epoch 13 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.075
+Validation Loss: 1.736
+Validation Accuracy: 0.7140
+
+ Epoch 14 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.066
+Validation Loss: 1.778
+Validation Accuracy: 0.7175
+
+ Epoch 15 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.058
+Validation Loss: 1.860
+Validation Accuracy: 0.7165
+
+ Epoch 16 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.055
+Validation Loss: 1.937
+Validation Accuracy: 0.7205
+
+ Epoch 17 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.052
+Validation Loss: 2.002
+Validation Accuracy: 0.7190
+
+ Epoch 18 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.044
+Validation Loss: 2.093
+Validation Accuracy: 0.7170
+
+ Epoch 19 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.045
+Validation Loss: 2.054
+Validation Accuracy: 0.7130
+
+ Epoch 20 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.043
+Validation Loss: 2.198
+Validation Accuracy: 0.7175
+
+
+         == flag 1.601 distilbert result On test data ==
+# called_model : distilbert
+# Test Accuracy: 0.6917%
+Precision: 0.6927
+Recall: 0.6917
+F1 Score: 0.6918
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.70      0.70      3972
+           1       0.70      0.67      0.69      5937
+           2       0.65      0.71      0.68      2375
+
+    accuracy                           0.69     12284
+   macro avg       0.69      0.70      0.69     12284
+weighted avg       0.69      0.69      0.69     12284
+
+Confusion Matrix:
+[[2796 1065  111]
+ [1132 4007  798]
+ [  65  616 1694]]
+
+flag 1.11  model:  finished  with:   distilbert
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   electra
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.682
+Validation Loss: 0.603
+Validation Accuracy: 0.7460
+
+ Epoch 2 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.539
+Validation Loss: 0.614
+Validation Accuracy: 0.7280
+
+ Epoch 3 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.458
+Validation Loss: 0.645
+Validation Accuracy: 0.7395
+
+ Epoch 4 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.377
+Validation Loss: 0.715
+Validation Accuracy: 0.7410
+
+ Epoch 5 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.304
+Validation Loss: 0.769
+Validation Accuracy: 0.7355
+
+ Epoch 6 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.242
+Validation Loss: 0.866
+Validation Accuracy: 0.7260
+
+ Epoch 7 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.191
+Validation Loss: 0.972
+Validation Accuracy: 0.7215
+
+ Epoch 8 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.159
+Validation Loss: 1.074
+Validation Accuracy: 0.7330
+
+ Epoch 9 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.136
+Validation Loss: 1.210
+Validation Accuracy: 0.7205
+
+ Epoch 10 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.120
+Validation Loss: 1.249
+Validation Accuracy: 0.7295
+
+ Epoch 11 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.103
+Validation Loss: 1.369
+Validation Accuracy: 0.7295
+
+ Epoch 12 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.093
+Validation Loss: 1.414
+Validation Accuracy: 0.7250
+
+ Epoch 13 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.090
+Validation Loss: 1.426
+Validation Accuracy: 0.7235
+
+ Epoch 14 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.079
+Validation Loss: 1.603
+Validation Accuracy: 0.7275
+
+ Epoch 15 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.072
+Validation Loss: 1.866
+Validation Accuracy: 0.7125
+
+ Epoch 16 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.069
+Validation Loss: 1.772
+Validation Accuracy: 0.7240
+
+ Epoch 17 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.062
+Validation Loss: 1.821
+Validation Accuracy: 0.7235
+
+ Epoch 18 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.055
+Validation Loss: 1.929
+Validation Accuracy: 0.7300
+
+ Epoch 19 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.053
+Validation Loss: 1.884
+Validation Accuracy: 0.7200
+
+ Epoch 20 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.054
+Validation Loss: 1.979
+Validation Accuracy: 0.7290
+
+
+         == flag 1.601 electra result On test data ==
+# called_model : electra
+# Test Accuracy: 0.7174%
+Precision: 0.7245
+Recall: 0.7174
+F1 Score: 0.7163
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.79      0.62      0.70      3972
+           1       0.69      0.78      0.73      5937
+           2       0.69      0.73      0.71      2375
+
+    accuracy                           0.72     12284
+   macro avg       0.73      0.71      0.71     12284
+weighted avg       0.72      0.72      0.72     12284
+
+Confusion Matrix:
+[[2463 1424   85]
+ [ 621 4623  693]
+ [  23  625 1727]]
+
+flag 1.11  model:  finished  with:   electra
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   gpt2
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.756
+Validation Loss: 0.661
+Validation Accuracy: 0.6950
+
+ Epoch 2 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.616
+Validation Loss: 0.622
+Validation Accuracy: 0.7300
+
+ Epoch 3 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.567
+Validation Loss: 0.621
+Validation Accuracy: 0.7305
+
+ Epoch 4 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.525
+Validation Loss: 0.637
+Validation Accuracy: 0.7320
+
+ Epoch 5 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.487
+Validation Loss: 0.654
+Validation Accuracy: 0.7365
+
+ Epoch 6 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.442
+Validation Loss: 0.689
+Validation Accuracy: 0.7275
+
+ Epoch 7 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.403
+Validation Loss: 0.701
+Validation Accuracy: 0.7195
+
+ Epoch 8 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.364
+Validation Loss: 0.751
+Validation Accuracy: 0.7360
+
+ Epoch 9 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.323
+Validation Loss: 0.873
+Validation Accuracy: 0.7230
+
+ Epoch 10 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.290
+Validation Loss: 0.853
+Validation Accuracy: 0.7245
+
+ Epoch 11 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.257
+Validation Loss: 0.924
+Validation Accuracy: 0.7175
+
+ Epoch 12 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.225
+Validation Loss: 1.054
+Validation Accuracy: 0.7150
+
+ Epoch 13 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.198
+Validation Loss: 1.141
+Validation Accuracy: 0.7210
+
+ Epoch 14 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.176
+Validation Loss: 1.138
+Validation Accuracy: 0.7175
+
+ Epoch 15 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.153
+Validation Loss: 1.302
+Validation Accuracy: 0.7170
+
+ Epoch 16 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.136
+Validation Loss: 1.365
+Validation Accuracy: 0.7040
+
+ Epoch 17 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.119
+Validation Loss: 1.495
+Validation Accuracy: 0.7205
+
+ Epoch 18 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.107
+Validation Loss: 1.554
+Validation Accuracy: 0.7120
+
+ Epoch 19 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.102
+Validation Loss: 1.711
+Validation Accuracy: 0.7115
+
+ Epoch 20 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.092
+Validation Loss: 1.816
+Validation Accuracy: 0.7150
+
+
+         == flag 1.601 gpt2 result On test data ==
+# called_model : gpt2
+# Test Accuracy: 0.7065%
+Precision: 0.7099
+Recall: 0.7065
+F1 Score: 0.7069
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.73      0.70      0.72      3972
+           1       0.73      0.69      0.71      5937
+           2       0.64      0.75      0.69      2375
+
+    accuracy                           0.71     12284
+   macro avg       0.70      0.72      0.70     12284
+weighted avg       0.71      0.71      0.71     12284
+
+Confusion Matrix:
+[[2790 1018  164]
+ [ 977 4096  864]
+ [  52  530 1793]]
+
+flag 1.11  model:  finished  with:   gpt2
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   longformer
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.679
+Validation Loss: 0.600
+Validation Accuracy: 0.7325
+
+ Epoch 2 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.551
+Validation Loss: 0.591
+Validation Accuracy: 0.7435
+
+ Epoch 3 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.481
+Validation Loss: 0.633
+Validation Accuracy: 0.7445
+
+ Epoch 4 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.412
+Validation Loss: 0.691
+Validation Accuracy: 0.7305
+
+ Epoch 5 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.341
+Validation Loss: 0.784
+Validation Accuracy: 0.7215
+
+ Epoch 6 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.276
+Validation Loss: 0.795
+Validation Accuracy: 0.7295
+
+ Epoch 7 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.229
+Validation Loss: 0.853
+Validation Accuracy: 0.7455
+
+ Epoch 8 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.188
+Validation Loss: 1.016
+Validation Accuracy: 0.7250
+
+ Epoch 9 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.161
+Validation Loss: 1.130
+Validation Accuracy: 0.7295
+
+ Epoch 10 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.137
+Validation Loss: 1.260
+Validation Accuracy: 0.7280
+
+ Epoch 11 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.125
+Validation Loss: 1.303
+Validation Accuracy: 0.7350
+
+ Epoch 12 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.111
+Validation Loss: 1.363
+Validation Accuracy: 0.7280
+
+ Epoch 13 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.108
+Validation Loss: 1.435
+Validation Accuracy: 0.7155
+
+ Epoch 14 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.099
+Validation Loss: 1.577
+Validation Accuracy: 0.7235
+
+ Epoch 15 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.092
+Validation Loss: 1.593
+Validation Accuracy: 0.7130
+
+ Epoch 16 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.088
+Validation Loss: 1.682
+Validation Accuracy: 0.7260
+
+ Epoch 17 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.085
+Validation Loss: 1.674
+Validation Accuracy: 0.7260
+
+ Epoch 18 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.081
+Validation Loss: 1.787
+Validation Accuracy: 0.7270
+
+ Epoch 19 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.074
+Validation Loss: 1.851
+Validation Accuracy: 0.7220
+
+ Epoch 20 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.068
+Validation Loss: 2.023
+Validation Accuracy: 0.7240
+
+
+         == flag 1.601 longformer result On test data ==
+# called_model : longformer
+# Test Accuracy: 0.7227%
+Precision: 0.7241
+Recall: 0.7227
+F1 Score: 0.7222
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.79      0.74      3972
+           1       0.74      0.69      0.71      5937
+           2       0.72      0.70      0.71      2375
+
+    accuracy                           0.72     12284
+   macro avg       0.72      0.73      0.72     12284
+weighted avg       0.72      0.72      0.72     12284
+
+Confusion Matrix:
+[[3126  785   61]
+ [1259 4085  593]
+ [  66  642 1667]]
+
+flag 1.11  model:  finished  with:   longformer
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   luke
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.671
+Validation Loss: 0.614
+Validation Accuracy: 0.7315
+
+ Epoch 2 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.546
+Validation Loss: 0.614
+Validation Accuracy: 0.7355
+
+ Epoch 3 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.469
+Validation Loss: 0.609
+Validation Accuracy: 0.7515
+
+ Epoch 4 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.395
+Validation Loss: 0.646
+Validation Accuracy: 0.7470
+
+ Epoch 5 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.325
+Validation Loss: 0.733
+Validation Accuracy: 0.7365
+
+ Epoch 6 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.265
+Validation Loss: 0.865
+Validation Accuracy: 0.7395
+
+ Epoch 7 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.211
+Validation Loss: 0.957
+Validation Accuracy: 0.7325
+
+ Epoch 8 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.173
+Validation Loss: 1.037
+Validation Accuracy: 0.7365
+
+ Epoch 9 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.149
+Validation Loss: 1.120
+Validation Accuracy: 0.7130
+
+ Epoch 10 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.129
+Validation Loss: 1.174
+Validation Accuracy: 0.7250
+
+ Epoch 11 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.115
+Validation Loss: 1.325
+Validation Accuracy: 0.7230
+
+ Epoch 12 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.102
+Validation Loss: 1.544
+Validation Accuracy: 0.7260
+
+ Epoch 13 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.098
+Validation Loss: 1.494
+Validation Accuracy: 0.7235
+
+ Epoch 14 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.089
+Validation Loss: 1.625
+Validation Accuracy: 0.7195
+
+ Epoch 15 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.088
+Validation Loss: 1.890
+Validation Accuracy: 0.7245
+
+ Epoch 16 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.082
+Validation Loss: 1.862
+Validation Accuracy: 0.7225
+
+ Epoch 17 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.077
+Validation Loss: 1.914
+Validation Accuracy: 0.7230
+
+ Epoch 18 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.075
+Validation Loss: 1.882
+Validation Accuracy: 0.7215
+
+ Epoch 19 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.072
+Validation Loss: 1.841
+Validation Accuracy: 0.7225
+
+ Epoch 20 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.066
+Validation Loss: 2.006
+Validation Accuracy: 0.7240
+
+
+         == flag 1.601 luke result On test data ==
+# called_model : luke
+# Test Accuracy: 0.7078%
+Precision: 0.7118
+Recall: 0.7078
+F1 Score: 0.7075
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.71      0.76      0.73      3972
+           1       0.74      0.66      0.70      5937
+           2       0.64      0.75      0.69      2375
+
+    accuracy                           0.71     12284
+   macro avg       0.70      0.72      0.71     12284
+weighted avg       0.71      0.71      0.71     12284
+
+Confusion Matrix:
+[[3011  829  132]
+ [1180 3893  864]
+ [  52  532 1791]]
+
+flag 1.11  model:  finished  with:   luke
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   t5
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.948
+Validation Loss: 0.690
+Validation Accuracy: 0.6905
+
+ Epoch 2 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.671
+Validation Loss: 0.642
+Validation Accuracy: 0.7165
+
+ Epoch 3 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.621
+Validation Loss: 0.630
+Validation Accuracy: 0.7290
+
+ Epoch 4 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.595
+Validation Loss: 0.628
+Validation Accuracy: 0.7280
+
+ Epoch 5 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.573
+Validation Loss: 0.614
+Validation Accuracy: 0.7395
+
+ Epoch 6 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.553
+Validation Loss: 0.626
+Validation Accuracy: 0.7410
+
+ Epoch 7 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.535
+Validation Loss: 0.629
+Validation Accuracy: 0.7425
+
+ Epoch 8 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.516
+Validation Loss: 0.638
+Validation Accuracy: 0.7370
+
+ Epoch 9 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.500
+Validation Loss: 0.648
+Validation Accuracy: 0.7400
+
+ Epoch 10 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.481
+Validation Loss: 0.659
+Validation Accuracy: 0.7375
+
+ Epoch 11 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.467
+Validation Loss: 0.655
+Validation Accuracy: 0.7415
+
+ Epoch 12 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.450
+Validation Loss: 0.675
+Validation Accuracy: 0.7355
+
+ Epoch 13 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.432
+Validation Loss: 0.701
+Validation Accuracy: 0.7350
+
+ Epoch 14 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.415
+Validation Loss: 0.718
+Validation Accuracy: 0.7335
+
+ Epoch 15 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.402
+Validation Loss: 0.734
+Validation Accuracy: 0.7360
+
+ Epoch 16 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.388
+Validation Loss: 0.740
+Validation Accuracy: 0.7215
+
+ Epoch 17 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.372
+Validation Loss: 0.757
+Validation Accuracy: 0.7320
+
+ Epoch 18 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.355
+Validation Loss: 0.779
+Validation Accuracy: 0.7280
+
+ Epoch 19 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.340
+Validation Loss: 0.799
+Validation Accuracy: 0.7370
+
+ Epoch 20 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.328
+Validation Loss: 0.807
+Validation Accuracy: 0.7325
+
+
+         == flag 1.601 t5 result On test data ==
+# called_model : t5
+# Test Accuracy: 0.7077%
+Precision: 0.7118
+Recall: 0.7077
+F1 Score: 0.7071
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.70      0.77      0.73      3972
+           1       0.74      0.65      0.70      5937
+           2       0.65      0.74      0.69      2375
+
+    accuracy                           0.71     12284
+   macro avg       0.70      0.72      0.71     12284
+weighted avg       0.71      0.71      0.71     12284
+
+Confusion Matrix:
+[[3067  772  133]
+ [1261 3868  808]
+ [  64  552 1759]]
+
+flag 1.11  model:  finished  with:   t5
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   xlnet
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.690
+Validation Loss: 0.636
+Validation Accuracy: 0.7270
+
+ Epoch 2 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.569
+Validation Loss: 0.613
+Validation Accuracy: 0.7250
+
+ Epoch 3 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.484
+Validation Loss: 0.663
+Validation Accuracy: 0.7380
+
+ Epoch 4 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.403
+Validation Loss: 0.702
+Validation Accuracy: 0.7385
+
+ Epoch 5 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.326
+Validation Loss: 0.783
+Validation Accuracy: 0.7205
+
+ Epoch 6 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.256
+Validation Loss: 0.916
+Validation Accuracy: 0.7320
+
+ Epoch 7 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.210
+Validation Loss: 0.966
+Validation Accuracy: 0.7285
+
+ Epoch 8 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.166
+Validation Loss: 1.267
+Validation Accuracy: 0.7200
+
+ Epoch 9 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.141
+Validation Loss: 1.261
+Validation Accuracy: 0.7215
+
+ Epoch 10 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.121
+Validation Loss: 1.410
+Validation Accuracy: 0.7285
+
+ Epoch 11 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.107
+Validation Loss: 1.712
+Validation Accuracy: 0.7265
+
+ Epoch 12 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.102
+Validation Loss: 1.478
+Validation Accuracy: 0.7195
+
+ Epoch 13 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.087
+Validation Loss: 1.791
+Validation Accuracy: 0.7260
+
+ Epoch 14 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.083
+Validation Loss: 1.816
+Validation Accuracy: 0.7250
+
+ Epoch 15 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.078
+Validation Loss: 1.846
+Validation Accuracy: 0.7150
+
+ Epoch 16 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.078
+Validation Loss: 1.680
+Validation Accuracy: 0.7265
+
+ Epoch 17 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.068
+Validation Loss: 2.042
+Validation Accuracy: 0.7270
+
+ Epoch 18 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.064
+Validation Loss: 1.969
+Validation Accuracy: 0.7245
+
+ Epoch 19 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.064
+Validation Loss: 2.105
+Validation Accuracy: 0.7275
+
+ Epoch 20 / 20
+  Batch    50  of  1,426.
+  Batch   100  of  1,426.
+  Batch   150  of  1,426.
+  Batch   200  of  1,426.
+  Batch   250  of  1,426.
+  Batch   300  of  1,426.
+  Batch   350  of  1,426.
+  Batch   400  of  1,426.
+  Batch   450  of  1,426.
+  Batch   500  of  1,426.
+  Batch   550  of  1,426.
+  Batch   600  of  1,426.
+  Batch   650  of  1,426.
+  Batch   700  of  1,426.
+  Batch   750  of  1,426.
+  Batch   800  of  1,426.
+  Batch   850  of  1,426.
+  Batch   900  of  1,426.
+  Batch   950  of  1,426.
+  Batch 1,000  of  1,426.
+  Batch 1,050  of  1,426.
+  Batch 1,100  of  1,426.
+  Batch 1,150  of  1,426.
+  Batch 1,200  of  1,426.
+  Batch 1,250  of  1,426.
+  Batch 1,300  of  1,426.
+  Batch 1,350  of  1,426.
+  Batch 1,400  of  1,426.
+
+Evaluating...
+  Batch    50  of     63.
+
+Training Loss: 0.059
+Validation Loss: 2.384
+Validation Accuracy: 0.7150
+
+
+         == flag 1.601 xlnet result On test data ==
+# called_model : xlnet
+# Test Accuracy: 0.7087%
+Precision: 0.7101
+Recall: 0.7087
+F1 Score: 0.7082
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.69      0.77      0.73      3972
+           1       0.73      0.68      0.70      5937
+           2       0.69      0.67      0.68      2375
+
+    accuracy                           0.71     12284
+   macro avg       0.70      0.71      0.71     12284
+weighted avg       0.71      0.71      0.71     12284
+
+Confusion Matrix:
+[[3076  776  120]
+ [1306 4034  597]
+ [  73  706 1596]]
+
+flag 1.11  model:  finished  with:   xlnet

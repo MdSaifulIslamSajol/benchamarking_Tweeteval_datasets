@@ -1,0 +1,3069 @@
+                                                text  label
+0  “Worry is a down payment on a problem you may ...      2
+1  My roommate: it's okay that we can't spell bec...      0
+2  No but that's so cute. Atsu was probably shy a...      1
+3  Rooneys fucking untouchable isn't he? Been fuc...      0
+4  it's pretty depressing when u hit pan on ur fa...      3
+                                                text
+0  “Worry is a down payment on a problem you may ...
+1  My roommate: it's okay that we can't spell bec...
+2  No but that's so cute. Atsu was probably shy a...
+3  Rooneys fucking untouchable isn't he? Been fuc...
+4  it's pretty depressing when u hit pan on ur fa...
+   label
+0      2
+1      0
+2      1
+3      0
+4      3
+                                                text  label
+0  @user @user Oh, hidden revenge and anger...I r...      0
+1  if not then #teamchristine bc all tana has don...      0
+2  Hey @user #Fields in #skibbereen give your onl...      0
+3  Why have #Emmerdale had to rob #robron of havi...      0
+4  @user I would like to hear a podcast of you go...      0
+                                                text
+0  @user @user Oh, hidden revenge and anger...I r...
+1  if not then #teamchristine bc all tana has don...
+2  Hey @user #Fields in #skibbereen give your onl...
+3  Why have #Emmerdale had to rob #robron of havi...
+4  @user I would like to hear a podcast of you go...
+   label
+0      0
+1      0
+2      0
+3      0
+4      0
+                                                text  label
+0  #Deppression is real. Partners w/ #depressed p...      3
+1  @user Interesting choice of words... Are you c...      0
+2  My visit to hospital for care triggered #traum...      3
+3  @user Welcome to #MPSVT! We are delighted to h...      1
+4                       What makes you feel #joyful?      1
+                                                text
+0  #Deppression is real. Partners w/ #depressed p...
+1  @user Interesting choice of words... Are you c...
+2  My visit to hospital for care triggered #traum...
+3  @user Welcome to #MPSVT! We are delighted to h...
+4                       What makes you feel #joyful?
+                                                text
+0  #Deppression is real. Partners w/ #depressed p...
+1  @user Interesting choice of words... Are you c...
+2  My visit to hospital for care triggered #traum...
+3  @user Welcome to #MPSVT! We are delighted to h...
+4                       What makes you feel #joyful?
+
+
+
+===================================================== 
+flag 1.10  model: bert has started ==>   bert
+===================================================== 
+embeddings.word_embeddings.weight: requires_grad=True
+embeddings.position_embeddings.weight: requires_grad=True
+embeddings.token_type_embeddings.weight: requires_grad=True
+embeddings.LayerNorm.weight: requires_grad=True
+embeddings.LayerNorm.bias: requires_grad=True
+encoder.layer.0.attention.self.query.weight: requires_grad=True
+encoder.layer.0.attention.self.query.bias: requires_grad=True
+encoder.layer.0.attention.self.key.weight: requires_grad=True
+encoder.layer.0.attention.self.key.bias: requires_grad=True
+encoder.layer.0.attention.self.value.weight: requires_grad=True
+encoder.layer.0.attention.self.value.bias: requires_grad=True
+encoder.layer.0.attention.output.dense.weight: requires_grad=True
+encoder.layer.0.attention.output.dense.bias: requires_grad=True
+encoder.layer.0.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.0.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.0.intermediate.dense.weight: requires_grad=True
+encoder.layer.0.intermediate.dense.bias: requires_grad=True
+encoder.layer.0.output.dense.weight: requires_grad=True
+encoder.layer.0.output.dense.bias: requires_grad=True
+encoder.layer.0.output.LayerNorm.weight: requires_grad=True
+encoder.layer.0.output.LayerNorm.bias: requires_grad=True
+encoder.layer.1.attention.self.query.weight: requires_grad=True
+encoder.layer.1.attention.self.query.bias: requires_grad=True
+encoder.layer.1.attention.self.key.weight: requires_grad=True
+encoder.layer.1.attention.self.key.bias: requires_grad=True
+encoder.layer.1.attention.self.value.weight: requires_grad=True
+encoder.layer.1.attention.self.value.bias: requires_grad=True
+encoder.layer.1.attention.output.dense.weight: requires_grad=True
+encoder.layer.1.attention.output.dense.bias: requires_grad=True
+encoder.layer.1.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.1.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.1.intermediate.dense.weight: requires_grad=True
+encoder.layer.1.intermediate.dense.bias: requires_grad=True
+encoder.layer.1.output.dense.weight: requires_grad=True
+encoder.layer.1.output.dense.bias: requires_grad=True
+encoder.layer.1.output.LayerNorm.weight: requires_grad=True
+encoder.layer.1.output.LayerNorm.bias: requires_grad=True
+encoder.layer.2.attention.self.query.weight: requires_grad=True
+encoder.layer.2.attention.self.query.bias: requires_grad=True
+encoder.layer.2.attention.self.key.weight: requires_grad=True
+encoder.layer.2.attention.self.key.bias: requires_grad=True
+encoder.layer.2.attention.self.value.weight: requires_grad=True
+encoder.layer.2.attention.self.value.bias: requires_grad=True
+encoder.layer.2.attention.output.dense.weight: requires_grad=True
+encoder.layer.2.attention.output.dense.bias: requires_grad=True
+encoder.layer.2.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.2.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.2.intermediate.dense.weight: requires_grad=True
+encoder.layer.2.intermediate.dense.bias: requires_grad=True
+encoder.layer.2.output.dense.weight: requires_grad=True
+encoder.layer.2.output.dense.bias: requires_grad=True
+encoder.layer.2.output.LayerNorm.weight: requires_grad=True
+encoder.layer.2.output.LayerNorm.bias: requires_grad=True
+encoder.layer.3.attention.self.query.weight: requires_grad=True
+encoder.layer.3.attention.self.query.bias: requires_grad=True
+encoder.layer.3.attention.self.key.weight: requires_grad=True
+encoder.layer.3.attention.self.key.bias: requires_grad=True
+encoder.layer.3.attention.self.value.weight: requires_grad=True
+encoder.layer.3.attention.self.value.bias: requires_grad=True
+encoder.layer.3.attention.output.dense.weight: requires_grad=True
+encoder.layer.3.attention.output.dense.bias: requires_grad=True
+encoder.layer.3.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.3.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.3.intermediate.dense.weight: requires_grad=True
+encoder.layer.3.intermediate.dense.bias: requires_grad=True
+encoder.layer.3.output.dense.weight: requires_grad=True
+encoder.layer.3.output.dense.bias: requires_grad=True
+encoder.layer.3.output.LayerNorm.weight: requires_grad=True
+encoder.layer.3.output.LayerNorm.bias: requires_grad=True
+encoder.layer.4.attention.self.query.weight: requires_grad=True
+encoder.layer.4.attention.self.query.bias: requires_grad=True
+encoder.layer.4.attention.self.key.weight: requires_grad=True
+encoder.layer.4.attention.self.key.bias: requires_grad=True
+encoder.layer.4.attention.self.value.weight: requires_grad=True
+encoder.layer.4.attention.self.value.bias: requires_grad=True
+encoder.layer.4.attention.output.dense.weight: requires_grad=True
+encoder.layer.4.attention.output.dense.bias: requires_grad=True
+encoder.layer.4.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.4.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.4.intermediate.dense.weight: requires_grad=True
+encoder.layer.4.intermediate.dense.bias: requires_grad=True
+encoder.layer.4.output.dense.weight: requires_grad=True
+encoder.layer.4.output.dense.bias: requires_grad=True
+encoder.layer.4.output.LayerNorm.weight: requires_grad=True
+encoder.layer.4.output.LayerNorm.bias: requires_grad=True
+encoder.layer.5.attention.self.query.weight: requires_grad=True
+encoder.layer.5.attention.self.query.bias: requires_grad=True
+encoder.layer.5.attention.self.key.weight: requires_grad=True
+encoder.layer.5.attention.self.key.bias: requires_grad=True
+encoder.layer.5.attention.self.value.weight: requires_grad=True
+encoder.layer.5.attention.self.value.bias: requires_grad=True
+encoder.layer.5.attention.output.dense.weight: requires_grad=True
+encoder.layer.5.attention.output.dense.bias: requires_grad=True
+encoder.layer.5.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.5.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.5.intermediate.dense.weight: requires_grad=True
+encoder.layer.5.intermediate.dense.bias: requires_grad=True
+encoder.layer.5.output.dense.weight: requires_grad=True
+encoder.layer.5.output.dense.bias: requires_grad=True
+encoder.layer.5.output.LayerNorm.weight: requires_grad=True
+encoder.layer.5.output.LayerNorm.bias: requires_grad=True
+encoder.layer.6.attention.self.query.weight: requires_grad=True
+encoder.layer.6.attention.self.query.bias: requires_grad=True
+encoder.layer.6.attention.self.key.weight: requires_grad=True
+encoder.layer.6.attention.self.key.bias: requires_grad=True
+encoder.layer.6.attention.self.value.weight: requires_grad=True
+encoder.layer.6.attention.self.value.bias: requires_grad=True
+encoder.layer.6.attention.output.dense.weight: requires_grad=True
+encoder.layer.6.attention.output.dense.bias: requires_grad=True
+encoder.layer.6.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.6.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.6.intermediate.dense.weight: requires_grad=True
+encoder.layer.6.intermediate.dense.bias: requires_grad=True
+encoder.layer.6.output.dense.weight: requires_grad=True
+encoder.layer.6.output.dense.bias: requires_grad=True
+encoder.layer.6.output.LayerNorm.weight: requires_grad=True
+encoder.layer.6.output.LayerNorm.bias: requires_grad=True
+encoder.layer.7.attention.self.query.weight: requires_grad=True
+encoder.layer.7.attention.self.query.bias: requires_grad=True
+encoder.layer.7.attention.self.key.weight: requires_grad=True
+encoder.layer.7.attention.self.key.bias: requires_grad=True
+encoder.layer.7.attention.self.value.weight: requires_grad=True
+encoder.layer.7.attention.self.value.bias: requires_grad=True
+encoder.layer.7.attention.output.dense.weight: requires_grad=True
+encoder.layer.7.attention.output.dense.bias: requires_grad=True
+encoder.layer.7.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.7.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.7.intermediate.dense.weight: requires_grad=True
+encoder.layer.7.intermediate.dense.bias: requires_grad=True
+encoder.layer.7.output.dense.weight: requires_grad=True
+encoder.layer.7.output.dense.bias: requires_grad=True
+encoder.layer.7.output.LayerNorm.weight: requires_grad=True
+encoder.layer.7.output.LayerNorm.bias: requires_grad=True
+encoder.layer.8.attention.self.query.weight: requires_grad=True
+encoder.layer.8.attention.self.query.bias: requires_grad=True
+encoder.layer.8.attention.self.key.weight: requires_grad=True
+encoder.layer.8.attention.self.key.bias: requires_grad=True
+encoder.layer.8.attention.self.value.weight: requires_grad=True
+encoder.layer.8.attention.self.value.bias: requires_grad=True
+encoder.layer.8.attention.output.dense.weight: requires_grad=True
+encoder.layer.8.attention.output.dense.bias: requires_grad=True
+encoder.layer.8.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.8.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.8.intermediate.dense.weight: requires_grad=True
+encoder.layer.8.intermediate.dense.bias: requires_grad=True
+encoder.layer.8.output.dense.weight: requires_grad=True
+encoder.layer.8.output.dense.bias: requires_grad=True
+encoder.layer.8.output.LayerNorm.weight: requires_grad=True
+encoder.layer.8.output.LayerNorm.bias: requires_grad=True
+encoder.layer.9.attention.self.query.weight: requires_grad=True
+encoder.layer.9.attention.self.query.bias: requires_grad=True
+encoder.layer.9.attention.self.key.weight: requires_grad=True
+encoder.layer.9.attention.self.key.bias: requires_grad=True
+encoder.layer.9.attention.self.value.weight: requires_grad=True
+encoder.layer.9.attention.self.value.bias: requires_grad=True
+encoder.layer.9.attention.output.dense.weight: requires_grad=True
+encoder.layer.9.attention.output.dense.bias: requires_grad=True
+encoder.layer.9.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.9.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.9.intermediate.dense.weight: requires_grad=True
+encoder.layer.9.intermediate.dense.bias: requires_grad=True
+encoder.layer.9.output.dense.weight: requires_grad=True
+encoder.layer.9.output.dense.bias: requires_grad=True
+encoder.layer.9.output.LayerNorm.weight: requires_grad=True
+encoder.layer.9.output.LayerNorm.bias: requires_grad=True
+encoder.layer.10.attention.self.query.weight: requires_grad=True
+encoder.layer.10.attention.self.query.bias: requires_grad=True
+encoder.layer.10.attention.self.key.weight: requires_grad=True
+encoder.layer.10.attention.self.key.bias: requires_grad=True
+encoder.layer.10.attention.self.value.weight: requires_grad=True
+encoder.layer.10.attention.self.value.bias: requires_grad=True
+encoder.layer.10.attention.output.dense.weight: requires_grad=True
+encoder.layer.10.attention.output.dense.bias: requires_grad=True
+encoder.layer.10.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.10.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.10.intermediate.dense.weight: requires_grad=True
+encoder.layer.10.intermediate.dense.bias: requires_grad=True
+encoder.layer.10.output.dense.weight: requires_grad=True
+encoder.layer.10.output.dense.bias: requires_grad=True
+encoder.layer.10.output.LayerNorm.weight: requires_grad=True
+encoder.layer.10.output.LayerNorm.bias: requires_grad=True
+encoder.layer.11.attention.self.query.weight: requires_grad=True
+encoder.layer.11.attention.self.query.bias: requires_grad=True
+encoder.layer.11.attention.self.key.weight: requires_grad=True
+encoder.layer.11.attention.self.key.bias: requires_grad=True
+encoder.layer.11.attention.self.value.weight: requires_grad=True
+encoder.layer.11.attention.self.value.bias: requires_grad=True
+encoder.layer.11.attention.output.dense.weight: requires_grad=True
+encoder.layer.11.attention.output.dense.bias: requires_grad=True
+encoder.layer.11.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.11.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.11.intermediate.dense.weight: requires_grad=True
+encoder.layer.11.intermediate.dense.bias: requires_grad=True
+encoder.layer.11.output.dense.weight: requires_grad=True
+encoder.layer.11.output.dense.bias: requires_grad=True
+encoder.layer.11.output.LayerNorm.weight: requires_grad=True
+encoder.layer.11.output.LayerNorm.bias: requires_grad=True
+pooler.dense.weight: requires_grad=True
+pooler.dense.bias: requires_grad=True
+
+ Epoch 1 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.368
+Validation Loss: 1.330
+Validation Accuracy: 0.428
+
+ Epoch 2 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.309
+Validation Loss: 1.281
+Validation Accuracy: 0.428
+
+ Epoch 3 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.269
+Validation Loss: 1.244
+Validation Accuracy: 0.428
+
+ Epoch 4 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.233
+Validation Loss: 1.199
+Validation Accuracy: 0.441
+
+ Epoch 5 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.187
+Validation Loss: 1.140
+Validation Accuracy: 0.578
+
+ Epoch 6 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.127
+Validation Loss: 1.071
+Validation Accuracy: 0.663
+
+ Epoch 7 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.057
+Validation Loss: 1.008
+Validation Accuracy: 0.679
+
+ Epoch 8 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.993
+Validation Loss: 0.954
+Validation Accuracy: 0.698
+
+ Epoch 9 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.935
+Validation Loss: 0.909
+Validation Accuracy: 0.722
+
+ Epoch 10 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.887
+Validation Loss: 0.869
+Validation Accuracy: 0.738
+== flag 1.601 bert result On test data ==
+# Test Accuracy: 0.7319%
+Precision: 0.6684
+Recall: 0.7319
+F1 Score: 0.6973
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.79      0.88      0.83       558
+           1       0.68      0.82      0.74       358
+           2       0.00      0.00      0.00       123
+           3       0.70      0.67      0.68       382
+
+    accuracy                           0.73      1421
+   macro avg       0.54      0.59      0.56      1421
+weighted avg       0.67      0.73      0.70      1421
+
+Confusion Matrix:
+[[492  31   0  35]
+ [ 28 293   0  37]
+ [ 27  60   0  36]
+ [ 78  49   0 255]]
+flag 1.11  model: bert has finished  : bert
+
+
+
+===================================================== 
+flag 1.10  model: roberta has started ==>   roberta
+===================================================== 
+embeddings.word_embeddings.weight: requires_grad=True
+embeddings.position_embeddings.weight: requires_grad=True
+embeddings.token_type_embeddings.weight: requires_grad=True
+embeddings.LayerNorm.weight: requires_grad=True
+embeddings.LayerNorm.bias: requires_grad=True
+encoder.layer.0.attention.self.query.weight: requires_grad=True
+encoder.layer.0.attention.self.query.bias: requires_grad=True
+encoder.layer.0.attention.self.key.weight: requires_grad=True
+encoder.layer.0.attention.self.key.bias: requires_grad=True
+encoder.layer.0.attention.self.value.weight: requires_grad=True
+encoder.layer.0.attention.self.value.bias: requires_grad=True
+encoder.layer.0.attention.output.dense.weight: requires_grad=True
+encoder.layer.0.attention.output.dense.bias: requires_grad=True
+encoder.layer.0.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.0.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.0.intermediate.dense.weight: requires_grad=True
+encoder.layer.0.intermediate.dense.bias: requires_grad=True
+encoder.layer.0.output.dense.weight: requires_grad=True
+encoder.layer.0.output.dense.bias: requires_grad=True
+encoder.layer.0.output.LayerNorm.weight: requires_grad=True
+encoder.layer.0.output.LayerNorm.bias: requires_grad=True
+encoder.layer.1.attention.self.query.weight: requires_grad=True
+encoder.layer.1.attention.self.query.bias: requires_grad=True
+encoder.layer.1.attention.self.key.weight: requires_grad=True
+encoder.layer.1.attention.self.key.bias: requires_grad=True
+encoder.layer.1.attention.self.value.weight: requires_grad=True
+encoder.layer.1.attention.self.value.bias: requires_grad=True
+encoder.layer.1.attention.output.dense.weight: requires_grad=True
+encoder.layer.1.attention.output.dense.bias: requires_grad=True
+encoder.layer.1.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.1.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.1.intermediate.dense.weight: requires_grad=True
+encoder.layer.1.intermediate.dense.bias: requires_grad=True
+encoder.layer.1.output.dense.weight: requires_grad=True
+encoder.layer.1.output.dense.bias: requires_grad=True
+encoder.layer.1.output.LayerNorm.weight: requires_grad=True
+encoder.layer.1.output.LayerNorm.bias: requires_grad=True
+encoder.layer.2.attention.self.query.weight: requires_grad=True
+encoder.layer.2.attention.self.query.bias: requires_grad=True
+encoder.layer.2.attention.self.key.weight: requires_grad=True
+encoder.layer.2.attention.self.key.bias: requires_grad=True
+encoder.layer.2.attention.self.value.weight: requires_grad=True
+encoder.layer.2.attention.self.value.bias: requires_grad=True
+encoder.layer.2.attention.output.dense.weight: requires_grad=True
+encoder.layer.2.attention.output.dense.bias: requires_grad=True
+encoder.layer.2.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.2.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.2.intermediate.dense.weight: requires_grad=True
+encoder.layer.2.intermediate.dense.bias: requires_grad=True
+encoder.layer.2.output.dense.weight: requires_grad=True
+encoder.layer.2.output.dense.bias: requires_grad=True
+encoder.layer.2.output.LayerNorm.weight: requires_grad=True
+encoder.layer.2.output.LayerNorm.bias: requires_grad=True
+encoder.layer.3.attention.self.query.weight: requires_grad=True
+encoder.layer.3.attention.self.query.bias: requires_grad=True
+encoder.layer.3.attention.self.key.weight: requires_grad=True
+encoder.layer.3.attention.self.key.bias: requires_grad=True
+encoder.layer.3.attention.self.value.weight: requires_grad=True
+encoder.layer.3.attention.self.value.bias: requires_grad=True
+encoder.layer.3.attention.output.dense.weight: requires_grad=True
+encoder.layer.3.attention.output.dense.bias: requires_grad=True
+encoder.layer.3.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.3.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.3.intermediate.dense.weight: requires_grad=True
+encoder.layer.3.intermediate.dense.bias: requires_grad=True
+encoder.layer.3.output.dense.weight: requires_grad=True
+encoder.layer.3.output.dense.bias: requires_grad=True
+encoder.layer.3.output.LayerNorm.weight: requires_grad=True
+encoder.layer.3.output.LayerNorm.bias: requires_grad=True
+encoder.layer.4.attention.self.query.weight: requires_grad=True
+encoder.layer.4.attention.self.query.bias: requires_grad=True
+encoder.layer.4.attention.self.key.weight: requires_grad=True
+encoder.layer.4.attention.self.key.bias: requires_grad=True
+encoder.layer.4.attention.self.value.weight: requires_grad=True
+encoder.layer.4.attention.self.value.bias: requires_grad=True
+encoder.layer.4.attention.output.dense.weight: requires_grad=True
+encoder.layer.4.attention.output.dense.bias: requires_grad=True
+encoder.layer.4.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.4.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.4.intermediate.dense.weight: requires_grad=True
+encoder.layer.4.intermediate.dense.bias: requires_grad=True
+encoder.layer.4.output.dense.weight: requires_grad=True
+encoder.layer.4.output.dense.bias: requires_grad=True
+encoder.layer.4.output.LayerNorm.weight: requires_grad=True
+encoder.layer.4.output.LayerNorm.bias: requires_grad=True
+encoder.layer.5.attention.self.query.weight: requires_grad=True
+encoder.layer.5.attention.self.query.bias: requires_grad=True
+encoder.layer.5.attention.self.key.weight: requires_grad=True
+encoder.layer.5.attention.self.key.bias: requires_grad=True
+encoder.layer.5.attention.self.value.weight: requires_grad=True
+encoder.layer.5.attention.self.value.bias: requires_grad=True
+encoder.layer.5.attention.output.dense.weight: requires_grad=True
+encoder.layer.5.attention.output.dense.bias: requires_grad=True
+encoder.layer.5.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.5.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.5.intermediate.dense.weight: requires_grad=True
+encoder.layer.5.intermediate.dense.bias: requires_grad=True
+encoder.layer.5.output.dense.weight: requires_grad=True
+encoder.layer.5.output.dense.bias: requires_grad=True
+encoder.layer.5.output.LayerNorm.weight: requires_grad=True
+encoder.layer.5.output.LayerNorm.bias: requires_grad=True
+encoder.layer.6.attention.self.query.weight: requires_grad=True
+encoder.layer.6.attention.self.query.bias: requires_grad=True
+encoder.layer.6.attention.self.key.weight: requires_grad=True
+encoder.layer.6.attention.self.key.bias: requires_grad=True
+encoder.layer.6.attention.self.value.weight: requires_grad=True
+encoder.layer.6.attention.self.value.bias: requires_grad=True
+encoder.layer.6.attention.output.dense.weight: requires_grad=True
+encoder.layer.6.attention.output.dense.bias: requires_grad=True
+encoder.layer.6.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.6.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.6.intermediate.dense.weight: requires_grad=True
+encoder.layer.6.intermediate.dense.bias: requires_grad=True
+encoder.layer.6.output.dense.weight: requires_grad=True
+encoder.layer.6.output.dense.bias: requires_grad=True
+encoder.layer.6.output.LayerNorm.weight: requires_grad=True
+encoder.layer.6.output.LayerNorm.bias: requires_grad=True
+encoder.layer.7.attention.self.query.weight: requires_grad=True
+encoder.layer.7.attention.self.query.bias: requires_grad=True
+encoder.layer.7.attention.self.key.weight: requires_grad=True
+encoder.layer.7.attention.self.key.bias: requires_grad=True
+encoder.layer.7.attention.self.value.weight: requires_grad=True
+encoder.layer.7.attention.self.value.bias: requires_grad=True
+encoder.layer.7.attention.output.dense.weight: requires_grad=True
+encoder.layer.7.attention.output.dense.bias: requires_grad=True
+encoder.layer.7.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.7.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.7.intermediate.dense.weight: requires_grad=True
+encoder.layer.7.intermediate.dense.bias: requires_grad=True
+encoder.layer.7.output.dense.weight: requires_grad=True
+encoder.layer.7.output.dense.bias: requires_grad=True
+encoder.layer.7.output.LayerNorm.weight: requires_grad=True
+encoder.layer.7.output.LayerNorm.bias: requires_grad=True
+encoder.layer.8.attention.self.query.weight: requires_grad=True
+encoder.layer.8.attention.self.query.bias: requires_grad=True
+encoder.layer.8.attention.self.key.weight: requires_grad=True
+encoder.layer.8.attention.self.key.bias: requires_grad=True
+encoder.layer.8.attention.self.value.weight: requires_grad=True
+encoder.layer.8.attention.self.value.bias: requires_grad=True
+encoder.layer.8.attention.output.dense.weight: requires_grad=True
+encoder.layer.8.attention.output.dense.bias: requires_grad=True
+encoder.layer.8.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.8.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.8.intermediate.dense.weight: requires_grad=True
+encoder.layer.8.intermediate.dense.bias: requires_grad=True
+encoder.layer.8.output.dense.weight: requires_grad=True
+encoder.layer.8.output.dense.bias: requires_grad=True
+encoder.layer.8.output.LayerNorm.weight: requires_grad=True
+encoder.layer.8.output.LayerNorm.bias: requires_grad=True
+encoder.layer.9.attention.self.query.weight: requires_grad=True
+encoder.layer.9.attention.self.query.bias: requires_grad=True
+encoder.layer.9.attention.self.key.weight: requires_grad=True
+encoder.layer.9.attention.self.key.bias: requires_grad=True
+encoder.layer.9.attention.self.value.weight: requires_grad=True
+encoder.layer.9.attention.self.value.bias: requires_grad=True
+encoder.layer.9.attention.output.dense.weight: requires_grad=True
+encoder.layer.9.attention.output.dense.bias: requires_grad=True
+encoder.layer.9.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.9.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.9.intermediate.dense.weight: requires_grad=True
+encoder.layer.9.intermediate.dense.bias: requires_grad=True
+encoder.layer.9.output.dense.weight: requires_grad=True
+encoder.layer.9.output.dense.bias: requires_grad=True
+encoder.layer.9.output.LayerNorm.weight: requires_grad=True
+encoder.layer.9.output.LayerNorm.bias: requires_grad=True
+encoder.layer.10.attention.self.query.weight: requires_grad=True
+encoder.layer.10.attention.self.query.bias: requires_grad=True
+encoder.layer.10.attention.self.key.weight: requires_grad=True
+encoder.layer.10.attention.self.key.bias: requires_grad=True
+encoder.layer.10.attention.self.value.weight: requires_grad=True
+encoder.layer.10.attention.self.value.bias: requires_grad=True
+encoder.layer.10.attention.output.dense.weight: requires_grad=True
+encoder.layer.10.attention.output.dense.bias: requires_grad=True
+encoder.layer.10.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.10.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.10.intermediate.dense.weight: requires_grad=True
+encoder.layer.10.intermediate.dense.bias: requires_grad=True
+encoder.layer.10.output.dense.weight: requires_grad=True
+encoder.layer.10.output.dense.bias: requires_grad=True
+encoder.layer.10.output.LayerNorm.weight: requires_grad=True
+encoder.layer.10.output.LayerNorm.bias: requires_grad=True
+encoder.layer.11.attention.self.query.weight: requires_grad=True
+encoder.layer.11.attention.self.query.bias: requires_grad=True
+encoder.layer.11.attention.self.key.weight: requires_grad=True
+encoder.layer.11.attention.self.key.bias: requires_grad=True
+encoder.layer.11.attention.self.value.weight: requires_grad=True
+encoder.layer.11.attention.self.value.bias: requires_grad=True
+encoder.layer.11.attention.output.dense.weight: requires_grad=True
+encoder.layer.11.attention.output.dense.bias: requires_grad=True
+encoder.layer.11.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.11.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.11.intermediate.dense.weight: requires_grad=True
+encoder.layer.11.intermediate.dense.bias: requires_grad=True
+encoder.layer.11.output.dense.weight: requires_grad=True
+encoder.layer.11.output.dense.bias: requires_grad=True
+encoder.layer.11.output.LayerNorm.weight: requires_grad=True
+encoder.layer.11.output.LayerNorm.bias: requires_grad=True
+pooler.dense.weight: requires_grad=True
+pooler.dense.bias: requires_grad=True
+
+ Epoch 1 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.347
+Validation Loss: 1.332
+Validation Accuracy: 0.428
+
+ Epoch 2 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.300
+Validation Loss: 1.256
+Validation Accuracy: 0.428
+
+ Epoch 3 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.239
+Validation Loss: 1.192
+Validation Accuracy: 0.428
+
+ Epoch 4 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.152
+Validation Loss: 1.074
+Validation Accuracy: 0.604
+
+ Epoch 5 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.047
+Validation Loss: 0.971
+Validation Accuracy: 0.706
+
+ Epoch 6 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.953
+Validation Loss: 0.904
+Validation Accuracy: 0.722
+
+ Epoch 7 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.883
+Validation Loss: 0.853
+Validation Accuracy: 0.725
+
+ Epoch 8 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.825
+Validation Loss: 0.810
+Validation Accuracy: 0.741
+
+ Epoch 9 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.781
+Validation Loss: 0.783
+Validation Accuracy: 0.735
+
+ Epoch 10 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.737
+Validation Loss: 0.750
+Validation Accuracy: 0.751
+== flag 1.601 roberta result On test data ==
+# Test Accuracy: 0.7657%
+Precision: 0.7773
+Recall: 0.7657
+F1 Score: 0.7382
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.81      0.87      0.84       558
+           1       0.71      0.88      0.79       358
+           2       0.89      0.07      0.12       123
+           3       0.75      0.74      0.74       382
+
+    accuracy                           0.77      1421
+   macro avg       0.79      0.64      0.62      1421
+weighted avg       0.78      0.77      0.74      1421
+
+Confusion Matrix:
+[[483  32   1  42]
+ [ 19 315   0  24]
+ [ 30  56   8  29]
+ [ 62  38   0 282]]
+flag 1.11  model: roberta has finished  : roberta
+
+
+
+===================================================== 
+flag 1.10  model: distilbert has started ==>   distilbert
+===================================================== 
+embeddings.word_embeddings.weight: requires_grad=True
+embeddings.position_embeddings.weight: requires_grad=True
+embeddings.LayerNorm.weight: requires_grad=True
+embeddings.LayerNorm.bias: requires_grad=True
+transformer.layer.0.attention.q_lin.weight: requires_grad=True
+transformer.layer.0.attention.q_lin.bias: requires_grad=True
+transformer.layer.0.attention.k_lin.weight: requires_grad=True
+transformer.layer.0.attention.k_lin.bias: requires_grad=True
+transformer.layer.0.attention.v_lin.weight: requires_grad=True
+transformer.layer.0.attention.v_lin.bias: requires_grad=True
+transformer.layer.0.attention.out_lin.weight: requires_grad=True
+transformer.layer.0.attention.out_lin.bias: requires_grad=True
+transformer.layer.0.sa_layer_norm.weight: requires_grad=True
+transformer.layer.0.sa_layer_norm.bias: requires_grad=True
+transformer.layer.0.ffn.lin1.weight: requires_grad=True
+transformer.layer.0.ffn.lin1.bias: requires_grad=True
+transformer.layer.0.ffn.lin2.weight: requires_grad=True
+transformer.layer.0.ffn.lin2.bias: requires_grad=True
+transformer.layer.0.output_layer_norm.weight: requires_grad=True
+transformer.layer.0.output_layer_norm.bias: requires_grad=True
+transformer.layer.1.attention.q_lin.weight: requires_grad=True
+transformer.layer.1.attention.q_lin.bias: requires_grad=True
+transformer.layer.1.attention.k_lin.weight: requires_grad=True
+transformer.layer.1.attention.k_lin.bias: requires_grad=True
+transformer.layer.1.attention.v_lin.weight: requires_grad=True
+transformer.layer.1.attention.v_lin.bias: requires_grad=True
+transformer.layer.1.attention.out_lin.weight: requires_grad=True
+transformer.layer.1.attention.out_lin.bias: requires_grad=True
+transformer.layer.1.sa_layer_norm.weight: requires_grad=True
+transformer.layer.1.sa_layer_norm.bias: requires_grad=True
+transformer.layer.1.ffn.lin1.weight: requires_grad=True
+transformer.layer.1.ffn.lin1.bias: requires_grad=True
+transformer.layer.1.ffn.lin2.weight: requires_grad=True
+transformer.layer.1.ffn.lin2.bias: requires_grad=True
+transformer.layer.1.output_layer_norm.weight: requires_grad=True
+transformer.layer.1.output_layer_norm.bias: requires_grad=True
+transformer.layer.2.attention.q_lin.weight: requires_grad=True
+transformer.layer.2.attention.q_lin.bias: requires_grad=True
+transformer.layer.2.attention.k_lin.weight: requires_grad=True
+transformer.layer.2.attention.k_lin.bias: requires_grad=True
+transformer.layer.2.attention.v_lin.weight: requires_grad=True
+transformer.layer.2.attention.v_lin.bias: requires_grad=True
+transformer.layer.2.attention.out_lin.weight: requires_grad=True
+transformer.layer.2.attention.out_lin.bias: requires_grad=True
+transformer.layer.2.sa_layer_norm.weight: requires_grad=True
+transformer.layer.2.sa_layer_norm.bias: requires_grad=True
+transformer.layer.2.ffn.lin1.weight: requires_grad=True
+transformer.layer.2.ffn.lin1.bias: requires_grad=True
+transformer.layer.2.ffn.lin2.weight: requires_grad=True
+transformer.layer.2.ffn.lin2.bias: requires_grad=True
+transformer.layer.2.output_layer_norm.weight: requires_grad=True
+transformer.layer.2.output_layer_norm.bias: requires_grad=True
+transformer.layer.3.attention.q_lin.weight: requires_grad=True
+transformer.layer.3.attention.q_lin.bias: requires_grad=True
+transformer.layer.3.attention.k_lin.weight: requires_grad=True
+transformer.layer.3.attention.k_lin.bias: requires_grad=True
+transformer.layer.3.attention.v_lin.weight: requires_grad=True
+transformer.layer.3.attention.v_lin.bias: requires_grad=True
+transformer.layer.3.attention.out_lin.weight: requires_grad=True
+transformer.layer.3.attention.out_lin.bias: requires_grad=True
+transformer.layer.3.sa_layer_norm.weight: requires_grad=True
+transformer.layer.3.sa_layer_norm.bias: requires_grad=True
+transformer.layer.3.ffn.lin1.weight: requires_grad=True
+transformer.layer.3.ffn.lin1.bias: requires_grad=True
+transformer.layer.3.ffn.lin2.weight: requires_grad=True
+transformer.layer.3.ffn.lin2.bias: requires_grad=True
+transformer.layer.3.output_layer_norm.weight: requires_grad=True
+transformer.layer.3.output_layer_norm.bias: requires_grad=True
+transformer.layer.4.attention.q_lin.weight: requires_grad=True
+transformer.layer.4.attention.q_lin.bias: requires_grad=True
+transformer.layer.4.attention.k_lin.weight: requires_grad=True
+transformer.layer.4.attention.k_lin.bias: requires_grad=True
+transformer.layer.4.attention.v_lin.weight: requires_grad=True
+transformer.layer.4.attention.v_lin.bias: requires_grad=True
+transformer.layer.4.attention.out_lin.weight: requires_grad=True
+transformer.layer.4.attention.out_lin.bias: requires_grad=True
+transformer.layer.4.sa_layer_norm.weight: requires_grad=True
+transformer.layer.4.sa_layer_norm.bias: requires_grad=True
+transformer.layer.4.ffn.lin1.weight: requires_grad=True
+transformer.layer.4.ffn.lin1.bias: requires_grad=True
+transformer.layer.4.ffn.lin2.weight: requires_grad=True
+transformer.layer.4.ffn.lin2.bias: requires_grad=True
+transformer.layer.4.output_layer_norm.weight: requires_grad=True
+transformer.layer.4.output_layer_norm.bias: requires_grad=True
+transformer.layer.5.attention.q_lin.weight: requires_grad=True
+transformer.layer.5.attention.q_lin.bias: requires_grad=True
+transformer.layer.5.attention.k_lin.weight: requires_grad=True
+transformer.layer.5.attention.k_lin.bias: requires_grad=True
+transformer.layer.5.attention.v_lin.weight: requires_grad=True
+transformer.layer.5.attention.v_lin.bias: requires_grad=True
+transformer.layer.5.attention.out_lin.weight: requires_grad=True
+transformer.layer.5.attention.out_lin.bias: requires_grad=True
+transformer.layer.5.sa_layer_norm.weight: requires_grad=True
+transformer.layer.5.sa_layer_norm.bias: requires_grad=True
+transformer.layer.5.ffn.lin1.weight: requires_grad=True
+transformer.layer.5.ffn.lin1.bias: requires_grad=True
+transformer.layer.5.ffn.lin2.weight: requires_grad=True
+transformer.layer.5.ffn.lin2.bias: requires_grad=True
+transformer.layer.5.output_layer_norm.weight: requires_grad=True
+transformer.layer.5.output_layer_norm.bias: requires_grad=True
+
+ Epoch 1 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.338
+Validation Loss: 1.297
+Validation Accuracy: 0.430
+
+ Epoch 2 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.265
+Validation Loss: 1.236
+Validation Accuracy: 0.428
+
+ Epoch 3 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.214
+Validation Loss: 1.184
+Validation Accuracy: 0.430
+
+ Epoch 4 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.153
+Validation Loss: 1.106
+Validation Accuracy: 0.561
+
+ Epoch 5 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.072
+Validation Loss: 1.018
+Validation Accuracy: 0.671
+
+ Epoch 6 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.994
+Validation Loss: 0.945
+Validation Accuracy: 0.679
+
+ Epoch 7 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.927
+Validation Loss: 0.886
+Validation Accuracy: 0.709
+
+ Epoch 8 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.863
+Validation Loss: 0.840
+Validation Accuracy: 0.709
+
+ Epoch 9 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.811
+Validation Loss: 0.804
+Validation Accuracy: 0.717
+
+ Epoch 10 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.768
+Validation Loss: 0.776
+Validation Accuracy: 0.722
+== flag 1.601 distilbert result On test data ==
+# Test Accuracy: 0.7410%
+Precision: 0.7596
+Recall: 0.7410
+F1 Score: 0.7145
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.77      0.90      0.83       558
+           1       0.73      0.78      0.75       358
+           2       1.00      0.08      0.15       123
+           3       0.69      0.68      0.69       382
+
+    accuracy                           0.74      1421
+   macro avg       0.80      0.61      0.61      1421
+weighted avg       0.76      0.74      0.71      1421
+
+Confusion Matrix:
+[[502  12   0  44]
+ [ 39 280   0  39]
+ [ 32  46  10  35]
+ [ 75  46   0 261]]
+flag 1.11  model: distilbert has finished  : distilbert
+
+
+
+===================================================== 
+flag 1.10  model: electra has started ==>   electra
+===================================================== 
+embeddings.word_embeddings.weight: requires_grad=True
+embeddings.position_embeddings.weight: requires_grad=True
+embeddings.token_type_embeddings.weight: requires_grad=True
+embeddings.LayerNorm.weight: requires_grad=True
+embeddings.LayerNorm.bias: requires_grad=True
+encoder.layer.0.attention.self.query.weight: requires_grad=True
+encoder.layer.0.attention.self.query.bias: requires_grad=True
+encoder.layer.0.attention.self.key.weight: requires_grad=True
+encoder.layer.0.attention.self.key.bias: requires_grad=True
+encoder.layer.0.attention.self.value.weight: requires_grad=True
+encoder.layer.0.attention.self.value.bias: requires_grad=True
+encoder.layer.0.attention.output.dense.weight: requires_grad=True
+encoder.layer.0.attention.output.dense.bias: requires_grad=True
+encoder.layer.0.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.0.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.0.intermediate.dense.weight: requires_grad=True
+encoder.layer.0.intermediate.dense.bias: requires_grad=True
+encoder.layer.0.output.dense.weight: requires_grad=True
+encoder.layer.0.output.dense.bias: requires_grad=True
+encoder.layer.0.output.LayerNorm.weight: requires_grad=True
+encoder.layer.0.output.LayerNorm.bias: requires_grad=True
+encoder.layer.1.attention.self.query.weight: requires_grad=True
+encoder.layer.1.attention.self.query.bias: requires_grad=True
+encoder.layer.1.attention.self.key.weight: requires_grad=True
+encoder.layer.1.attention.self.key.bias: requires_grad=True
+encoder.layer.1.attention.self.value.weight: requires_grad=True
+encoder.layer.1.attention.self.value.bias: requires_grad=True
+encoder.layer.1.attention.output.dense.weight: requires_grad=True
+encoder.layer.1.attention.output.dense.bias: requires_grad=True
+encoder.layer.1.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.1.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.1.intermediate.dense.weight: requires_grad=True
+encoder.layer.1.intermediate.dense.bias: requires_grad=True
+encoder.layer.1.output.dense.weight: requires_grad=True
+encoder.layer.1.output.dense.bias: requires_grad=True
+encoder.layer.1.output.LayerNorm.weight: requires_grad=True
+encoder.layer.1.output.LayerNorm.bias: requires_grad=True
+encoder.layer.2.attention.self.query.weight: requires_grad=True
+encoder.layer.2.attention.self.query.bias: requires_grad=True
+encoder.layer.2.attention.self.key.weight: requires_grad=True
+encoder.layer.2.attention.self.key.bias: requires_grad=True
+encoder.layer.2.attention.self.value.weight: requires_grad=True
+encoder.layer.2.attention.self.value.bias: requires_grad=True
+encoder.layer.2.attention.output.dense.weight: requires_grad=True
+encoder.layer.2.attention.output.dense.bias: requires_grad=True
+encoder.layer.2.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.2.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.2.intermediate.dense.weight: requires_grad=True
+encoder.layer.2.intermediate.dense.bias: requires_grad=True
+encoder.layer.2.output.dense.weight: requires_grad=True
+encoder.layer.2.output.dense.bias: requires_grad=True
+encoder.layer.2.output.LayerNorm.weight: requires_grad=True
+encoder.layer.2.output.LayerNorm.bias: requires_grad=True
+encoder.layer.3.attention.self.query.weight: requires_grad=True
+encoder.layer.3.attention.self.query.bias: requires_grad=True
+encoder.layer.3.attention.self.key.weight: requires_grad=True
+encoder.layer.3.attention.self.key.bias: requires_grad=True
+encoder.layer.3.attention.self.value.weight: requires_grad=True
+encoder.layer.3.attention.self.value.bias: requires_grad=True
+encoder.layer.3.attention.output.dense.weight: requires_grad=True
+encoder.layer.3.attention.output.dense.bias: requires_grad=True
+encoder.layer.3.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.3.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.3.intermediate.dense.weight: requires_grad=True
+encoder.layer.3.intermediate.dense.bias: requires_grad=True
+encoder.layer.3.output.dense.weight: requires_grad=True
+encoder.layer.3.output.dense.bias: requires_grad=True
+encoder.layer.3.output.LayerNorm.weight: requires_grad=True
+encoder.layer.3.output.LayerNorm.bias: requires_grad=True
+encoder.layer.4.attention.self.query.weight: requires_grad=True
+encoder.layer.4.attention.self.query.bias: requires_grad=True
+encoder.layer.4.attention.self.key.weight: requires_grad=True
+encoder.layer.4.attention.self.key.bias: requires_grad=True
+encoder.layer.4.attention.self.value.weight: requires_grad=True
+encoder.layer.4.attention.self.value.bias: requires_grad=True
+encoder.layer.4.attention.output.dense.weight: requires_grad=True
+encoder.layer.4.attention.output.dense.bias: requires_grad=True
+encoder.layer.4.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.4.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.4.intermediate.dense.weight: requires_grad=True
+encoder.layer.4.intermediate.dense.bias: requires_grad=True
+encoder.layer.4.output.dense.weight: requires_grad=True
+encoder.layer.4.output.dense.bias: requires_grad=True
+encoder.layer.4.output.LayerNorm.weight: requires_grad=True
+encoder.layer.4.output.LayerNorm.bias: requires_grad=True
+encoder.layer.5.attention.self.query.weight: requires_grad=True
+encoder.layer.5.attention.self.query.bias: requires_grad=True
+encoder.layer.5.attention.self.key.weight: requires_grad=True
+encoder.layer.5.attention.self.key.bias: requires_grad=True
+encoder.layer.5.attention.self.value.weight: requires_grad=True
+encoder.layer.5.attention.self.value.bias: requires_grad=True
+encoder.layer.5.attention.output.dense.weight: requires_grad=True
+encoder.layer.5.attention.output.dense.bias: requires_grad=True
+encoder.layer.5.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.5.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.5.intermediate.dense.weight: requires_grad=True
+encoder.layer.5.intermediate.dense.bias: requires_grad=True
+encoder.layer.5.output.dense.weight: requires_grad=True
+encoder.layer.5.output.dense.bias: requires_grad=True
+encoder.layer.5.output.LayerNorm.weight: requires_grad=True
+encoder.layer.5.output.LayerNorm.bias: requires_grad=True
+encoder.layer.6.attention.self.query.weight: requires_grad=True
+encoder.layer.6.attention.self.query.bias: requires_grad=True
+encoder.layer.6.attention.self.key.weight: requires_grad=True
+encoder.layer.6.attention.self.key.bias: requires_grad=True
+encoder.layer.6.attention.self.value.weight: requires_grad=True
+encoder.layer.6.attention.self.value.bias: requires_grad=True
+encoder.layer.6.attention.output.dense.weight: requires_grad=True
+encoder.layer.6.attention.output.dense.bias: requires_grad=True
+encoder.layer.6.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.6.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.6.intermediate.dense.weight: requires_grad=True
+encoder.layer.6.intermediate.dense.bias: requires_grad=True
+encoder.layer.6.output.dense.weight: requires_grad=True
+encoder.layer.6.output.dense.bias: requires_grad=True
+encoder.layer.6.output.LayerNorm.weight: requires_grad=True
+encoder.layer.6.output.LayerNorm.bias: requires_grad=True
+encoder.layer.7.attention.self.query.weight: requires_grad=True
+encoder.layer.7.attention.self.query.bias: requires_grad=True
+encoder.layer.7.attention.self.key.weight: requires_grad=True
+encoder.layer.7.attention.self.key.bias: requires_grad=True
+encoder.layer.7.attention.self.value.weight: requires_grad=True
+encoder.layer.7.attention.self.value.bias: requires_grad=True
+encoder.layer.7.attention.output.dense.weight: requires_grad=True
+encoder.layer.7.attention.output.dense.bias: requires_grad=True
+encoder.layer.7.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.7.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.7.intermediate.dense.weight: requires_grad=True
+encoder.layer.7.intermediate.dense.bias: requires_grad=True
+encoder.layer.7.output.dense.weight: requires_grad=True
+encoder.layer.7.output.dense.bias: requires_grad=True
+encoder.layer.7.output.LayerNorm.weight: requires_grad=True
+encoder.layer.7.output.LayerNorm.bias: requires_grad=True
+encoder.layer.8.attention.self.query.weight: requires_grad=True
+encoder.layer.8.attention.self.query.bias: requires_grad=True
+encoder.layer.8.attention.self.key.weight: requires_grad=True
+encoder.layer.8.attention.self.key.bias: requires_grad=True
+encoder.layer.8.attention.self.value.weight: requires_grad=True
+encoder.layer.8.attention.self.value.bias: requires_grad=True
+encoder.layer.8.attention.output.dense.weight: requires_grad=True
+encoder.layer.8.attention.output.dense.bias: requires_grad=True
+encoder.layer.8.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.8.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.8.intermediate.dense.weight: requires_grad=True
+encoder.layer.8.intermediate.dense.bias: requires_grad=True
+encoder.layer.8.output.dense.weight: requires_grad=True
+encoder.layer.8.output.dense.bias: requires_grad=True
+encoder.layer.8.output.LayerNorm.weight: requires_grad=True
+encoder.layer.8.output.LayerNorm.bias: requires_grad=True
+encoder.layer.9.attention.self.query.weight: requires_grad=True
+encoder.layer.9.attention.self.query.bias: requires_grad=True
+encoder.layer.9.attention.self.key.weight: requires_grad=True
+encoder.layer.9.attention.self.key.bias: requires_grad=True
+encoder.layer.9.attention.self.value.weight: requires_grad=True
+encoder.layer.9.attention.self.value.bias: requires_grad=True
+encoder.layer.9.attention.output.dense.weight: requires_grad=True
+encoder.layer.9.attention.output.dense.bias: requires_grad=True
+encoder.layer.9.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.9.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.9.intermediate.dense.weight: requires_grad=True
+encoder.layer.9.intermediate.dense.bias: requires_grad=True
+encoder.layer.9.output.dense.weight: requires_grad=True
+encoder.layer.9.output.dense.bias: requires_grad=True
+encoder.layer.9.output.LayerNorm.weight: requires_grad=True
+encoder.layer.9.output.LayerNorm.bias: requires_grad=True
+encoder.layer.10.attention.self.query.weight: requires_grad=True
+encoder.layer.10.attention.self.query.bias: requires_grad=True
+encoder.layer.10.attention.self.key.weight: requires_grad=True
+encoder.layer.10.attention.self.key.bias: requires_grad=True
+encoder.layer.10.attention.self.value.weight: requires_grad=True
+encoder.layer.10.attention.self.value.bias: requires_grad=True
+encoder.layer.10.attention.output.dense.weight: requires_grad=True
+encoder.layer.10.attention.output.dense.bias: requires_grad=True
+encoder.layer.10.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.10.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.10.intermediate.dense.weight: requires_grad=True
+encoder.layer.10.intermediate.dense.bias: requires_grad=True
+encoder.layer.10.output.dense.weight: requires_grad=True
+encoder.layer.10.output.dense.bias: requires_grad=True
+encoder.layer.10.output.LayerNorm.weight: requires_grad=True
+encoder.layer.10.output.LayerNorm.bias: requires_grad=True
+encoder.layer.11.attention.self.query.weight: requires_grad=True
+encoder.layer.11.attention.self.query.bias: requires_grad=True
+encoder.layer.11.attention.self.key.weight: requires_grad=True
+encoder.layer.11.attention.self.key.bias: requires_grad=True
+encoder.layer.11.attention.self.value.weight: requires_grad=True
+encoder.layer.11.attention.self.value.bias: requires_grad=True
+encoder.layer.11.attention.output.dense.weight: requires_grad=True
+encoder.layer.11.attention.output.dense.bias: requires_grad=True
+encoder.layer.11.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.11.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.11.intermediate.dense.weight: requires_grad=True
+encoder.layer.11.intermediate.dense.bias: requires_grad=True
+encoder.layer.11.output.dense.weight: requires_grad=True
+encoder.layer.11.output.dense.bias: requires_grad=True
+encoder.layer.11.output.LayerNorm.weight: requires_grad=True
+encoder.layer.11.output.LayerNorm.bias: requires_grad=True
+
+ Epoch 1 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.361
+Validation Loss: 1.337
+Validation Accuracy: 0.417
+
+ Epoch 2 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.313
+Validation Loss: 1.289
+Validation Accuracy: 0.428
+
+ Epoch 3 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.277
+Validation Loss: 1.257
+Validation Accuracy: 0.428
+
+ Epoch 4 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.255
+Validation Loss: 1.235
+Validation Accuracy: 0.428
+
+ Epoch 5 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.231
+Validation Loss: 1.206
+Validation Accuracy: 0.428
+
+ Epoch 6 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.192
+Validation Loss: 1.140
+Validation Accuracy: 0.460
+
+ Epoch 7 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.132
+Validation Loss: 1.075
+Validation Accuracy: 0.545
+
+ Epoch 8 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.073
+Validation Loss: 1.022
+Validation Accuracy: 0.623
+
+ Epoch 9 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.026
+Validation Loss: 0.978
+Validation Accuracy: 0.671
+
+ Epoch 10 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.979
+Validation Loss: 0.937
+Validation Accuracy: 0.695
+== flag 1.601 electra result On test data ==
+# Test Accuracy: 0.6875%
+Precision: 0.6275
+Recall: 0.6875
+F1 Score: 0.6551
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.75      0.88      0.81       558
+           1       0.74      0.72      0.73       358
+           2       0.00      0.00      0.00       123
+           3       0.55      0.59      0.57       382
+
+    accuracy                           0.69      1421
+   macro avg       0.51      0.55      0.53      1421
+weighted avg       0.63      0.69      0.66      1421
+
+Confusion Matrix:
+[[491  17   0  50]
+ [ 32 259   0  67]
+ [ 22  30   0  71]
+ [112  43   0 227]]
+flag 1.11  model: electra has finished  : electra
+
+
+
+===================================================== 
+flag 1.10  model: gpt2 has started ==>   gpt2
+===================================================== 
+wte.weight: requires_grad=True
+wpe.weight: requires_grad=True
+h.0.ln_1.weight: requires_grad=True
+h.0.ln_1.bias: requires_grad=True
+h.0.attn.c_attn.weight: requires_grad=True
+h.0.attn.c_attn.bias: requires_grad=True
+h.0.attn.c_proj.weight: requires_grad=True
+h.0.attn.c_proj.bias: requires_grad=True
+h.0.ln_2.weight: requires_grad=True
+h.0.ln_2.bias: requires_grad=True
+h.0.mlp.c_fc.weight: requires_grad=True
+h.0.mlp.c_fc.bias: requires_grad=True
+h.0.mlp.c_proj.weight: requires_grad=True
+h.0.mlp.c_proj.bias: requires_grad=True
+h.1.ln_1.weight: requires_grad=True
+h.1.ln_1.bias: requires_grad=True
+h.1.attn.c_attn.weight: requires_grad=True
+h.1.attn.c_attn.bias: requires_grad=True
+h.1.attn.c_proj.weight: requires_grad=True
+h.1.attn.c_proj.bias: requires_grad=True
+h.1.ln_2.weight: requires_grad=True
+h.1.ln_2.bias: requires_grad=True
+h.1.mlp.c_fc.weight: requires_grad=True
+h.1.mlp.c_fc.bias: requires_grad=True
+h.1.mlp.c_proj.weight: requires_grad=True
+h.1.mlp.c_proj.bias: requires_grad=True
+h.2.ln_1.weight: requires_grad=True
+h.2.ln_1.bias: requires_grad=True
+h.2.attn.c_attn.weight: requires_grad=True
+h.2.attn.c_attn.bias: requires_grad=True
+h.2.attn.c_proj.weight: requires_grad=True
+h.2.attn.c_proj.bias: requires_grad=True
+h.2.ln_2.weight: requires_grad=True
+h.2.ln_2.bias: requires_grad=True
+h.2.mlp.c_fc.weight: requires_grad=True
+h.2.mlp.c_fc.bias: requires_grad=True
+h.2.mlp.c_proj.weight: requires_grad=True
+h.2.mlp.c_proj.bias: requires_grad=True
+h.3.ln_1.weight: requires_grad=True
+h.3.ln_1.bias: requires_grad=True
+h.3.attn.c_attn.weight: requires_grad=True
+h.3.attn.c_attn.bias: requires_grad=True
+h.3.attn.c_proj.weight: requires_grad=True
+h.3.attn.c_proj.bias: requires_grad=True
+h.3.ln_2.weight: requires_grad=True
+h.3.ln_2.bias: requires_grad=True
+h.3.mlp.c_fc.weight: requires_grad=True
+h.3.mlp.c_fc.bias: requires_grad=True
+h.3.mlp.c_proj.weight: requires_grad=True
+h.3.mlp.c_proj.bias: requires_grad=True
+h.4.ln_1.weight: requires_grad=True
+h.4.ln_1.bias: requires_grad=True
+h.4.attn.c_attn.weight: requires_grad=True
+h.4.attn.c_attn.bias: requires_grad=True
+h.4.attn.c_proj.weight: requires_grad=True
+h.4.attn.c_proj.bias: requires_grad=True
+h.4.ln_2.weight: requires_grad=True
+h.4.ln_2.bias: requires_grad=True
+h.4.mlp.c_fc.weight: requires_grad=True
+h.4.mlp.c_fc.bias: requires_grad=True
+h.4.mlp.c_proj.weight: requires_grad=True
+h.4.mlp.c_proj.bias: requires_grad=True
+h.5.ln_1.weight: requires_grad=True
+h.5.ln_1.bias: requires_grad=True
+h.5.attn.c_attn.weight: requires_grad=True
+h.5.attn.c_attn.bias: requires_grad=True
+h.5.attn.c_proj.weight: requires_grad=True
+h.5.attn.c_proj.bias: requires_grad=True
+h.5.ln_2.weight: requires_grad=True
+h.5.ln_2.bias: requires_grad=True
+h.5.mlp.c_fc.weight: requires_grad=True
+h.5.mlp.c_fc.bias: requires_grad=True
+h.5.mlp.c_proj.weight: requires_grad=True
+h.5.mlp.c_proj.bias: requires_grad=True
+h.6.ln_1.weight: requires_grad=True
+h.6.ln_1.bias: requires_grad=True
+h.6.attn.c_attn.weight: requires_grad=True
+h.6.attn.c_attn.bias: requires_grad=True
+h.6.attn.c_proj.weight: requires_grad=True
+h.6.attn.c_proj.bias: requires_grad=True
+h.6.ln_2.weight: requires_grad=True
+h.6.ln_2.bias: requires_grad=True
+h.6.mlp.c_fc.weight: requires_grad=True
+h.6.mlp.c_fc.bias: requires_grad=True
+h.6.mlp.c_proj.weight: requires_grad=True
+h.6.mlp.c_proj.bias: requires_grad=True
+h.7.ln_1.weight: requires_grad=True
+h.7.ln_1.bias: requires_grad=True
+h.7.attn.c_attn.weight: requires_grad=True
+h.7.attn.c_attn.bias: requires_grad=True
+h.7.attn.c_proj.weight: requires_grad=True
+h.7.attn.c_proj.bias: requires_grad=True
+h.7.ln_2.weight: requires_grad=True
+h.7.ln_2.bias: requires_grad=True
+h.7.mlp.c_fc.weight: requires_grad=True
+h.7.mlp.c_fc.bias: requires_grad=True
+h.7.mlp.c_proj.weight: requires_grad=True
+h.7.mlp.c_proj.bias: requires_grad=True
+h.8.ln_1.weight: requires_grad=True
+h.8.ln_1.bias: requires_grad=True
+h.8.attn.c_attn.weight: requires_grad=True
+h.8.attn.c_attn.bias: requires_grad=True
+h.8.attn.c_proj.weight: requires_grad=True
+h.8.attn.c_proj.bias: requires_grad=True
+h.8.ln_2.weight: requires_grad=True
+h.8.ln_2.bias: requires_grad=True
+h.8.mlp.c_fc.weight: requires_grad=True
+h.8.mlp.c_fc.bias: requires_grad=True
+h.8.mlp.c_proj.weight: requires_grad=True
+h.8.mlp.c_proj.bias: requires_grad=True
+h.9.ln_1.weight: requires_grad=True
+h.9.ln_1.bias: requires_grad=True
+h.9.attn.c_attn.weight: requires_grad=True
+h.9.attn.c_attn.bias: requires_grad=True
+h.9.attn.c_proj.weight: requires_grad=True
+h.9.attn.c_proj.bias: requires_grad=True
+h.9.ln_2.weight: requires_grad=True
+h.9.ln_2.bias: requires_grad=True
+h.9.mlp.c_fc.weight: requires_grad=True
+h.9.mlp.c_fc.bias: requires_grad=True
+h.9.mlp.c_proj.weight: requires_grad=True
+h.9.mlp.c_proj.bias: requires_grad=True
+h.10.ln_1.weight: requires_grad=True
+h.10.ln_1.bias: requires_grad=True
+h.10.attn.c_attn.weight: requires_grad=True
+h.10.attn.c_attn.bias: requires_grad=True
+h.10.attn.c_proj.weight: requires_grad=True
+h.10.attn.c_proj.bias: requires_grad=True
+h.10.ln_2.weight: requires_grad=True
+h.10.ln_2.bias: requires_grad=True
+h.10.mlp.c_fc.weight: requires_grad=True
+h.10.mlp.c_fc.bias: requires_grad=True
+h.10.mlp.c_proj.weight: requires_grad=True
+h.10.mlp.c_proj.bias: requires_grad=True
+h.11.ln_1.weight: requires_grad=True
+h.11.ln_1.bias: requires_grad=True
+h.11.attn.c_attn.weight: requires_grad=True
+h.11.attn.c_attn.bias: requires_grad=True
+h.11.attn.c_proj.weight: requires_grad=True
+h.11.attn.c_proj.bias: requires_grad=True
+h.11.ln_2.weight: requires_grad=True
+h.11.ln_2.bias: requires_grad=True
+h.11.mlp.c_fc.weight: requires_grad=True
+h.11.mlp.c_fc.bias: requires_grad=True
+h.11.mlp.c_proj.weight: requires_grad=True
+h.11.mlp.c_proj.bias: requires_grad=True
+ln_f.weight: requires_grad=True
+ln_f.bias: requires_grad=True
+
+ Epoch 1 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 2.167
+Validation Loss: 1.661
+Validation Accuracy: 0.281
+
+ Epoch 2 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.579
+Validation Loss: 1.415
+Validation Accuracy: 0.388
+
+ Epoch 3 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.440
+Validation Loss: 1.330
+Validation Accuracy: 0.401
+
+ Epoch 4 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.366
+Validation Loss: 1.284
+Validation Accuracy: 0.412
+
+ Epoch 5 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.328
+Validation Loss: 1.263
+Validation Accuracy: 0.414
+
+ Epoch 6 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.302
+Validation Loss: 1.250
+Validation Accuracy: 0.417
+
+ Epoch 7 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.274
+Validation Loss: 1.241
+Validation Accuracy: 0.417
+
+ Epoch 8 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.266
+Validation Loss: 1.235
+Validation Accuracy: 0.412
+
+ Epoch 9 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.263
+Validation Loss: 1.227
+Validation Accuracy: 0.417
+
+ Epoch 10 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.252
+Validation Loss: 1.219
+Validation Accuracy: 0.417
+== flag 1.601 gpt2 result On test data ==
+# Test Accuracy: 0.3990%
+Precision: 0.2581
+Recall: 0.3990
+F1 Score: 0.2595
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.40      0.96      0.56       558
+           1       0.00      0.00      0.00       358
+           2       0.00      0.00      0.00       123
+           3       0.38      0.09      0.14       382
+
+    accuracy                           0.40      1421
+   macro avg       0.19      0.26      0.18      1421
+weighted avg       0.26      0.40      0.26      1421
+
+Confusion Matrix:
+[[534   0   0  24]
+ [336   0   0  22]
+ [114   0   0   9]
+ [349   0   0  33]]
+flag 1.11  model: gpt2 has finished  : gpt2
+
+
+
+===================================================== 
+flag 1.10  model: longformer has started ==>   longformer
+===================================================== 
+embeddings.word_embeddings.weight: requires_grad=True
+embeddings.token_type_embeddings.weight: requires_grad=True
+embeddings.LayerNorm.weight: requires_grad=True
+embeddings.LayerNorm.bias: requires_grad=True
+embeddings.position_embeddings.weight: requires_grad=True
+encoder.layer.0.attention.self.query.weight: requires_grad=True
+encoder.layer.0.attention.self.query.bias: requires_grad=True
+encoder.layer.0.attention.self.key.weight: requires_grad=True
+encoder.layer.0.attention.self.key.bias: requires_grad=True
+encoder.layer.0.attention.self.value.weight: requires_grad=True
+encoder.layer.0.attention.self.value.bias: requires_grad=True
+encoder.layer.0.attention.self.query_global.weight: requires_grad=True
+encoder.layer.0.attention.self.query_global.bias: requires_grad=True
+encoder.layer.0.attention.self.key_global.weight: requires_grad=True
+encoder.layer.0.attention.self.key_global.bias: requires_grad=True
+encoder.layer.0.attention.self.value_global.weight: requires_grad=True
+encoder.layer.0.attention.self.value_global.bias: requires_grad=True
+encoder.layer.0.attention.output.dense.weight: requires_grad=True
+encoder.layer.0.attention.output.dense.bias: requires_grad=True
+encoder.layer.0.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.0.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.0.intermediate.dense.weight: requires_grad=True
+encoder.layer.0.intermediate.dense.bias: requires_grad=True
+encoder.layer.0.output.dense.weight: requires_grad=True
+encoder.layer.0.output.dense.bias: requires_grad=True
+encoder.layer.0.output.LayerNorm.weight: requires_grad=True
+encoder.layer.0.output.LayerNorm.bias: requires_grad=True
+encoder.layer.1.attention.self.query.weight: requires_grad=True
+encoder.layer.1.attention.self.query.bias: requires_grad=True
+encoder.layer.1.attention.self.key.weight: requires_grad=True
+encoder.layer.1.attention.self.key.bias: requires_grad=True
+encoder.layer.1.attention.self.value.weight: requires_grad=True
+encoder.layer.1.attention.self.value.bias: requires_grad=True
+encoder.layer.1.attention.self.query_global.weight: requires_grad=True
+encoder.layer.1.attention.self.query_global.bias: requires_grad=True
+encoder.layer.1.attention.self.key_global.weight: requires_grad=True
+encoder.layer.1.attention.self.key_global.bias: requires_grad=True
+encoder.layer.1.attention.self.value_global.weight: requires_grad=True
+encoder.layer.1.attention.self.value_global.bias: requires_grad=True
+encoder.layer.1.attention.output.dense.weight: requires_grad=True
+encoder.layer.1.attention.output.dense.bias: requires_grad=True
+encoder.layer.1.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.1.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.1.intermediate.dense.weight: requires_grad=True
+encoder.layer.1.intermediate.dense.bias: requires_grad=True
+encoder.layer.1.output.dense.weight: requires_grad=True
+encoder.layer.1.output.dense.bias: requires_grad=True
+encoder.layer.1.output.LayerNorm.weight: requires_grad=True
+encoder.layer.1.output.LayerNorm.bias: requires_grad=True
+encoder.layer.2.attention.self.query.weight: requires_grad=True
+encoder.layer.2.attention.self.query.bias: requires_grad=True
+encoder.layer.2.attention.self.key.weight: requires_grad=True
+encoder.layer.2.attention.self.key.bias: requires_grad=True
+encoder.layer.2.attention.self.value.weight: requires_grad=True
+encoder.layer.2.attention.self.value.bias: requires_grad=True
+encoder.layer.2.attention.self.query_global.weight: requires_grad=True
+encoder.layer.2.attention.self.query_global.bias: requires_grad=True
+encoder.layer.2.attention.self.key_global.weight: requires_grad=True
+encoder.layer.2.attention.self.key_global.bias: requires_grad=True
+encoder.layer.2.attention.self.value_global.weight: requires_grad=True
+encoder.layer.2.attention.self.value_global.bias: requires_grad=True
+encoder.layer.2.attention.output.dense.weight: requires_grad=True
+encoder.layer.2.attention.output.dense.bias: requires_grad=True
+encoder.layer.2.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.2.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.2.intermediate.dense.weight: requires_grad=True
+encoder.layer.2.intermediate.dense.bias: requires_grad=True
+encoder.layer.2.output.dense.weight: requires_grad=True
+encoder.layer.2.output.dense.bias: requires_grad=True
+encoder.layer.2.output.LayerNorm.weight: requires_grad=True
+encoder.layer.2.output.LayerNorm.bias: requires_grad=True
+encoder.layer.3.attention.self.query.weight: requires_grad=True
+encoder.layer.3.attention.self.query.bias: requires_grad=True
+encoder.layer.3.attention.self.key.weight: requires_grad=True
+encoder.layer.3.attention.self.key.bias: requires_grad=True
+encoder.layer.3.attention.self.value.weight: requires_grad=True
+encoder.layer.3.attention.self.value.bias: requires_grad=True
+encoder.layer.3.attention.self.query_global.weight: requires_grad=True
+encoder.layer.3.attention.self.query_global.bias: requires_grad=True
+encoder.layer.3.attention.self.key_global.weight: requires_grad=True
+encoder.layer.3.attention.self.key_global.bias: requires_grad=True
+encoder.layer.3.attention.self.value_global.weight: requires_grad=True
+encoder.layer.3.attention.self.value_global.bias: requires_grad=True
+encoder.layer.3.attention.output.dense.weight: requires_grad=True
+encoder.layer.3.attention.output.dense.bias: requires_grad=True
+encoder.layer.3.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.3.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.3.intermediate.dense.weight: requires_grad=True
+encoder.layer.3.intermediate.dense.bias: requires_grad=True
+encoder.layer.3.output.dense.weight: requires_grad=True
+encoder.layer.3.output.dense.bias: requires_grad=True
+encoder.layer.3.output.LayerNorm.weight: requires_grad=True
+encoder.layer.3.output.LayerNorm.bias: requires_grad=True
+encoder.layer.4.attention.self.query.weight: requires_grad=True
+encoder.layer.4.attention.self.query.bias: requires_grad=True
+encoder.layer.4.attention.self.key.weight: requires_grad=True
+encoder.layer.4.attention.self.key.bias: requires_grad=True
+encoder.layer.4.attention.self.value.weight: requires_grad=True
+encoder.layer.4.attention.self.value.bias: requires_grad=True
+encoder.layer.4.attention.self.query_global.weight: requires_grad=True
+encoder.layer.4.attention.self.query_global.bias: requires_grad=True
+encoder.layer.4.attention.self.key_global.weight: requires_grad=True
+encoder.layer.4.attention.self.key_global.bias: requires_grad=True
+encoder.layer.4.attention.self.value_global.weight: requires_grad=True
+encoder.layer.4.attention.self.value_global.bias: requires_grad=True
+encoder.layer.4.attention.output.dense.weight: requires_grad=True
+encoder.layer.4.attention.output.dense.bias: requires_grad=True
+encoder.layer.4.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.4.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.4.intermediate.dense.weight: requires_grad=True
+encoder.layer.4.intermediate.dense.bias: requires_grad=True
+encoder.layer.4.output.dense.weight: requires_grad=True
+encoder.layer.4.output.dense.bias: requires_grad=True
+encoder.layer.4.output.LayerNorm.weight: requires_grad=True
+encoder.layer.4.output.LayerNorm.bias: requires_grad=True
+encoder.layer.5.attention.self.query.weight: requires_grad=True
+encoder.layer.5.attention.self.query.bias: requires_grad=True
+encoder.layer.5.attention.self.key.weight: requires_grad=True
+encoder.layer.5.attention.self.key.bias: requires_grad=True
+encoder.layer.5.attention.self.value.weight: requires_grad=True
+encoder.layer.5.attention.self.value.bias: requires_grad=True
+encoder.layer.5.attention.self.query_global.weight: requires_grad=True
+encoder.layer.5.attention.self.query_global.bias: requires_grad=True
+encoder.layer.5.attention.self.key_global.weight: requires_grad=True
+encoder.layer.5.attention.self.key_global.bias: requires_grad=True
+encoder.layer.5.attention.self.value_global.weight: requires_grad=True
+encoder.layer.5.attention.self.value_global.bias: requires_grad=True
+encoder.layer.5.attention.output.dense.weight: requires_grad=True
+encoder.layer.5.attention.output.dense.bias: requires_grad=True
+encoder.layer.5.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.5.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.5.intermediate.dense.weight: requires_grad=True
+encoder.layer.5.intermediate.dense.bias: requires_grad=True
+encoder.layer.5.output.dense.weight: requires_grad=True
+encoder.layer.5.output.dense.bias: requires_grad=True
+encoder.layer.5.output.LayerNorm.weight: requires_grad=True
+encoder.layer.5.output.LayerNorm.bias: requires_grad=True
+encoder.layer.6.attention.self.query.weight: requires_grad=True
+encoder.layer.6.attention.self.query.bias: requires_grad=True
+encoder.layer.6.attention.self.key.weight: requires_grad=True
+encoder.layer.6.attention.self.key.bias: requires_grad=True
+encoder.layer.6.attention.self.value.weight: requires_grad=True
+encoder.layer.6.attention.self.value.bias: requires_grad=True
+encoder.layer.6.attention.self.query_global.weight: requires_grad=True
+encoder.layer.6.attention.self.query_global.bias: requires_grad=True
+encoder.layer.6.attention.self.key_global.weight: requires_grad=True
+encoder.layer.6.attention.self.key_global.bias: requires_grad=True
+encoder.layer.6.attention.self.value_global.weight: requires_grad=True
+encoder.layer.6.attention.self.value_global.bias: requires_grad=True
+encoder.layer.6.attention.output.dense.weight: requires_grad=True
+encoder.layer.6.attention.output.dense.bias: requires_grad=True
+encoder.layer.6.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.6.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.6.intermediate.dense.weight: requires_grad=True
+encoder.layer.6.intermediate.dense.bias: requires_grad=True
+encoder.layer.6.output.dense.weight: requires_grad=True
+encoder.layer.6.output.dense.bias: requires_grad=True
+encoder.layer.6.output.LayerNorm.weight: requires_grad=True
+encoder.layer.6.output.LayerNorm.bias: requires_grad=True
+encoder.layer.7.attention.self.query.weight: requires_grad=True
+encoder.layer.7.attention.self.query.bias: requires_grad=True
+encoder.layer.7.attention.self.key.weight: requires_grad=True
+encoder.layer.7.attention.self.key.bias: requires_grad=True
+encoder.layer.7.attention.self.value.weight: requires_grad=True
+encoder.layer.7.attention.self.value.bias: requires_grad=True
+encoder.layer.7.attention.self.query_global.weight: requires_grad=True
+encoder.layer.7.attention.self.query_global.bias: requires_grad=True
+encoder.layer.7.attention.self.key_global.weight: requires_grad=True
+encoder.layer.7.attention.self.key_global.bias: requires_grad=True
+encoder.layer.7.attention.self.value_global.weight: requires_grad=True
+encoder.layer.7.attention.self.value_global.bias: requires_grad=True
+encoder.layer.7.attention.output.dense.weight: requires_grad=True
+encoder.layer.7.attention.output.dense.bias: requires_grad=True
+encoder.layer.7.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.7.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.7.intermediate.dense.weight: requires_grad=True
+encoder.layer.7.intermediate.dense.bias: requires_grad=True
+encoder.layer.7.output.dense.weight: requires_grad=True
+encoder.layer.7.output.dense.bias: requires_grad=True
+encoder.layer.7.output.LayerNorm.weight: requires_grad=True
+encoder.layer.7.output.LayerNorm.bias: requires_grad=True
+encoder.layer.8.attention.self.query.weight: requires_grad=True
+encoder.layer.8.attention.self.query.bias: requires_grad=True
+encoder.layer.8.attention.self.key.weight: requires_grad=True
+encoder.layer.8.attention.self.key.bias: requires_grad=True
+encoder.layer.8.attention.self.value.weight: requires_grad=True
+encoder.layer.8.attention.self.value.bias: requires_grad=True
+encoder.layer.8.attention.self.query_global.weight: requires_grad=True
+encoder.layer.8.attention.self.query_global.bias: requires_grad=True
+encoder.layer.8.attention.self.key_global.weight: requires_grad=True
+encoder.layer.8.attention.self.key_global.bias: requires_grad=True
+encoder.layer.8.attention.self.value_global.weight: requires_grad=True
+encoder.layer.8.attention.self.value_global.bias: requires_grad=True
+encoder.layer.8.attention.output.dense.weight: requires_grad=True
+encoder.layer.8.attention.output.dense.bias: requires_grad=True
+encoder.layer.8.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.8.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.8.intermediate.dense.weight: requires_grad=True
+encoder.layer.8.intermediate.dense.bias: requires_grad=True
+encoder.layer.8.output.dense.weight: requires_grad=True
+encoder.layer.8.output.dense.bias: requires_grad=True
+encoder.layer.8.output.LayerNorm.weight: requires_grad=True
+encoder.layer.8.output.LayerNorm.bias: requires_grad=True
+encoder.layer.9.attention.self.query.weight: requires_grad=True
+encoder.layer.9.attention.self.query.bias: requires_grad=True
+encoder.layer.9.attention.self.key.weight: requires_grad=True
+encoder.layer.9.attention.self.key.bias: requires_grad=True
+encoder.layer.9.attention.self.value.weight: requires_grad=True
+encoder.layer.9.attention.self.value.bias: requires_grad=True
+encoder.layer.9.attention.self.query_global.weight: requires_grad=True
+encoder.layer.9.attention.self.query_global.bias: requires_grad=True
+encoder.layer.9.attention.self.key_global.weight: requires_grad=True
+encoder.layer.9.attention.self.key_global.bias: requires_grad=True
+encoder.layer.9.attention.self.value_global.weight: requires_grad=True
+encoder.layer.9.attention.self.value_global.bias: requires_grad=True
+encoder.layer.9.attention.output.dense.weight: requires_grad=True
+encoder.layer.9.attention.output.dense.bias: requires_grad=True
+encoder.layer.9.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.9.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.9.intermediate.dense.weight: requires_grad=True
+encoder.layer.9.intermediate.dense.bias: requires_grad=True
+encoder.layer.9.output.dense.weight: requires_grad=True
+encoder.layer.9.output.dense.bias: requires_grad=True
+encoder.layer.9.output.LayerNorm.weight: requires_grad=True
+encoder.layer.9.output.LayerNorm.bias: requires_grad=True
+encoder.layer.10.attention.self.query.weight: requires_grad=True
+encoder.layer.10.attention.self.query.bias: requires_grad=True
+encoder.layer.10.attention.self.key.weight: requires_grad=True
+encoder.layer.10.attention.self.key.bias: requires_grad=True
+encoder.layer.10.attention.self.value.weight: requires_grad=True
+encoder.layer.10.attention.self.value.bias: requires_grad=True
+encoder.layer.10.attention.self.query_global.weight: requires_grad=True
+encoder.layer.10.attention.self.query_global.bias: requires_grad=True
+encoder.layer.10.attention.self.key_global.weight: requires_grad=True
+encoder.layer.10.attention.self.key_global.bias: requires_grad=True
+encoder.layer.10.attention.self.value_global.weight: requires_grad=True
+encoder.layer.10.attention.self.value_global.bias: requires_grad=True
+encoder.layer.10.attention.output.dense.weight: requires_grad=True
+encoder.layer.10.attention.output.dense.bias: requires_grad=True
+encoder.layer.10.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.10.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.10.intermediate.dense.weight: requires_grad=True
+encoder.layer.10.intermediate.dense.bias: requires_grad=True
+encoder.layer.10.output.dense.weight: requires_grad=True
+encoder.layer.10.output.dense.bias: requires_grad=True
+encoder.layer.10.output.LayerNorm.weight: requires_grad=True
+encoder.layer.10.output.LayerNorm.bias: requires_grad=True
+encoder.layer.11.attention.self.query.weight: requires_grad=True
+encoder.layer.11.attention.self.query.bias: requires_grad=True
+encoder.layer.11.attention.self.key.weight: requires_grad=True
+encoder.layer.11.attention.self.key.bias: requires_grad=True
+encoder.layer.11.attention.self.value.weight: requires_grad=True
+encoder.layer.11.attention.self.value.bias: requires_grad=True
+encoder.layer.11.attention.self.query_global.weight: requires_grad=True
+encoder.layer.11.attention.self.query_global.bias: requires_grad=True
+encoder.layer.11.attention.self.key_global.weight: requires_grad=True
+encoder.layer.11.attention.self.key_global.bias: requires_grad=True
+encoder.layer.11.attention.self.value_global.weight: requires_grad=True
+encoder.layer.11.attention.self.value_global.bias: requires_grad=True
+encoder.layer.11.attention.output.dense.weight: requires_grad=True
+encoder.layer.11.attention.output.dense.bias: requires_grad=True
+encoder.layer.11.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.11.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.11.intermediate.dense.weight: requires_grad=True
+encoder.layer.11.intermediate.dense.bias: requires_grad=True
+encoder.layer.11.output.dense.weight: requires_grad=True
+encoder.layer.11.output.dense.bias: requires_grad=True
+encoder.layer.11.output.LayerNorm.weight: requires_grad=True
+encoder.layer.11.output.LayerNorm.bias: requires_grad=True
+pooler.dense.weight: requires_grad=True
+pooler.dense.bias: requires_grad=True
+
+ Epoch 1 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.360
+Validation Loss: 1.338
+Validation Accuracy: 0.428
+
+ Epoch 2 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.309
+Validation Loss: 1.273
+Validation Accuracy: 0.428
+
+ Epoch 3 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.242
+Validation Loss: 1.186
+Validation Accuracy: 0.428
+
+ Epoch 4 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.142
+Validation Loss: 1.021
+Validation Accuracy: 0.650
+
+ Epoch 5 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.975
+Validation Loss: 0.874
+Validation Accuracy: 0.711
+
+ Epoch 6 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.857
+Validation Loss: 0.800
+Validation Accuracy: 0.714
+
+ Epoch 7 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.775
+Validation Loss: 0.753
+Validation Accuracy: 0.727
+
+ Epoch 8 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.720
+Validation Loss: 0.723
+Validation Accuracy: 0.735
+
+ Epoch 9 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.677
+Validation Loss: 0.712
+Validation Accuracy: 0.743
+
+ Epoch 10 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.638
+Validation Loss: 0.684
+Validation Accuracy: 0.770
+== flag 1.601 longformer result On test data ==
+# Test Accuracy: 0.7868%
+Precision: 0.7896
+Recall: 0.7868
+F1 Score: 0.7760
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.87      0.84       558
+           1       0.77      0.86      0.81       358
+           2       0.84      0.29      0.43       123
+           3       0.74      0.76      0.75       382
+
+    accuracy                           0.79      1421
+   macro avg       0.79      0.70      0.71      1421
+weighted avg       0.79      0.79      0.78      1421
+
+Confusion Matrix:
+[[483  23   4  48]
+ [ 22 308   2  26]
+ [ 30  30  36  27]
+ [ 52  38   1 291]]
+flag 1.11  model: longformer has finished  : longformer
+
+
+
+===================================================== 
+flag 1.10  model: luke has started ==>   luke
+===================================================== 
+embeddings.word_embeddings.weight: requires_grad=True
+embeddings.position_embeddings.weight: requires_grad=True
+embeddings.token_type_embeddings.weight: requires_grad=True
+embeddings.LayerNorm.weight: requires_grad=True
+embeddings.LayerNorm.bias: requires_grad=True
+entity_embeddings.entity_embeddings.weight: requires_grad=True
+entity_embeddings.entity_embedding_dense.weight: requires_grad=True
+entity_embeddings.position_embeddings.weight: requires_grad=True
+entity_embeddings.token_type_embeddings.weight: requires_grad=True
+entity_embeddings.LayerNorm.weight: requires_grad=True
+entity_embeddings.LayerNorm.bias: requires_grad=True
+encoder.layer.0.attention.self.query.weight: requires_grad=True
+encoder.layer.0.attention.self.query.bias: requires_grad=True
+encoder.layer.0.attention.self.key.weight: requires_grad=True
+encoder.layer.0.attention.self.key.bias: requires_grad=True
+encoder.layer.0.attention.self.value.weight: requires_grad=True
+encoder.layer.0.attention.self.value.bias: requires_grad=True
+encoder.layer.0.attention.self.w2e_query.weight: requires_grad=True
+encoder.layer.0.attention.self.w2e_query.bias: requires_grad=True
+encoder.layer.0.attention.self.e2w_query.weight: requires_grad=True
+encoder.layer.0.attention.self.e2w_query.bias: requires_grad=True
+encoder.layer.0.attention.self.e2e_query.weight: requires_grad=True
+encoder.layer.0.attention.self.e2e_query.bias: requires_grad=True
+encoder.layer.0.attention.output.dense.weight: requires_grad=True
+encoder.layer.0.attention.output.dense.bias: requires_grad=True
+encoder.layer.0.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.0.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.0.intermediate.dense.weight: requires_grad=True
+encoder.layer.0.intermediate.dense.bias: requires_grad=True
+encoder.layer.0.output.dense.weight: requires_grad=True
+encoder.layer.0.output.dense.bias: requires_grad=True
+encoder.layer.0.output.LayerNorm.weight: requires_grad=True
+encoder.layer.0.output.LayerNorm.bias: requires_grad=True
+encoder.layer.1.attention.self.query.weight: requires_grad=True
+encoder.layer.1.attention.self.query.bias: requires_grad=True
+encoder.layer.1.attention.self.key.weight: requires_grad=True
+encoder.layer.1.attention.self.key.bias: requires_grad=True
+encoder.layer.1.attention.self.value.weight: requires_grad=True
+encoder.layer.1.attention.self.value.bias: requires_grad=True
+encoder.layer.1.attention.self.w2e_query.weight: requires_grad=True
+encoder.layer.1.attention.self.w2e_query.bias: requires_grad=True
+encoder.layer.1.attention.self.e2w_query.weight: requires_grad=True
+encoder.layer.1.attention.self.e2w_query.bias: requires_grad=True
+encoder.layer.1.attention.self.e2e_query.weight: requires_grad=True
+encoder.layer.1.attention.self.e2e_query.bias: requires_grad=True
+encoder.layer.1.attention.output.dense.weight: requires_grad=True
+encoder.layer.1.attention.output.dense.bias: requires_grad=True
+encoder.layer.1.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.1.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.1.intermediate.dense.weight: requires_grad=True
+encoder.layer.1.intermediate.dense.bias: requires_grad=True
+encoder.layer.1.output.dense.weight: requires_grad=True
+encoder.layer.1.output.dense.bias: requires_grad=True
+encoder.layer.1.output.LayerNorm.weight: requires_grad=True
+encoder.layer.1.output.LayerNorm.bias: requires_grad=True
+encoder.layer.2.attention.self.query.weight: requires_grad=True
+encoder.layer.2.attention.self.query.bias: requires_grad=True
+encoder.layer.2.attention.self.key.weight: requires_grad=True
+encoder.layer.2.attention.self.key.bias: requires_grad=True
+encoder.layer.2.attention.self.value.weight: requires_grad=True
+encoder.layer.2.attention.self.value.bias: requires_grad=True
+encoder.layer.2.attention.self.w2e_query.weight: requires_grad=True
+encoder.layer.2.attention.self.w2e_query.bias: requires_grad=True
+encoder.layer.2.attention.self.e2w_query.weight: requires_grad=True
+encoder.layer.2.attention.self.e2w_query.bias: requires_grad=True
+encoder.layer.2.attention.self.e2e_query.weight: requires_grad=True
+encoder.layer.2.attention.self.e2e_query.bias: requires_grad=True
+encoder.layer.2.attention.output.dense.weight: requires_grad=True
+encoder.layer.2.attention.output.dense.bias: requires_grad=True
+encoder.layer.2.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.2.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.2.intermediate.dense.weight: requires_grad=True
+encoder.layer.2.intermediate.dense.bias: requires_grad=True
+encoder.layer.2.output.dense.weight: requires_grad=True
+encoder.layer.2.output.dense.bias: requires_grad=True
+encoder.layer.2.output.LayerNorm.weight: requires_grad=True
+encoder.layer.2.output.LayerNorm.bias: requires_grad=True
+encoder.layer.3.attention.self.query.weight: requires_grad=True
+encoder.layer.3.attention.self.query.bias: requires_grad=True
+encoder.layer.3.attention.self.key.weight: requires_grad=True
+encoder.layer.3.attention.self.key.bias: requires_grad=True
+encoder.layer.3.attention.self.value.weight: requires_grad=True
+encoder.layer.3.attention.self.value.bias: requires_grad=True
+encoder.layer.3.attention.self.w2e_query.weight: requires_grad=True
+encoder.layer.3.attention.self.w2e_query.bias: requires_grad=True
+encoder.layer.3.attention.self.e2w_query.weight: requires_grad=True
+encoder.layer.3.attention.self.e2w_query.bias: requires_grad=True
+encoder.layer.3.attention.self.e2e_query.weight: requires_grad=True
+encoder.layer.3.attention.self.e2e_query.bias: requires_grad=True
+encoder.layer.3.attention.output.dense.weight: requires_grad=True
+encoder.layer.3.attention.output.dense.bias: requires_grad=True
+encoder.layer.3.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.3.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.3.intermediate.dense.weight: requires_grad=True
+encoder.layer.3.intermediate.dense.bias: requires_grad=True
+encoder.layer.3.output.dense.weight: requires_grad=True
+encoder.layer.3.output.dense.bias: requires_grad=True
+encoder.layer.3.output.LayerNorm.weight: requires_grad=True
+encoder.layer.3.output.LayerNorm.bias: requires_grad=True
+encoder.layer.4.attention.self.query.weight: requires_grad=True
+encoder.layer.4.attention.self.query.bias: requires_grad=True
+encoder.layer.4.attention.self.key.weight: requires_grad=True
+encoder.layer.4.attention.self.key.bias: requires_grad=True
+encoder.layer.4.attention.self.value.weight: requires_grad=True
+encoder.layer.4.attention.self.value.bias: requires_grad=True
+encoder.layer.4.attention.self.w2e_query.weight: requires_grad=True
+encoder.layer.4.attention.self.w2e_query.bias: requires_grad=True
+encoder.layer.4.attention.self.e2w_query.weight: requires_grad=True
+encoder.layer.4.attention.self.e2w_query.bias: requires_grad=True
+encoder.layer.4.attention.self.e2e_query.weight: requires_grad=True
+encoder.layer.4.attention.self.e2e_query.bias: requires_grad=True
+encoder.layer.4.attention.output.dense.weight: requires_grad=True
+encoder.layer.4.attention.output.dense.bias: requires_grad=True
+encoder.layer.4.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.4.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.4.intermediate.dense.weight: requires_grad=True
+encoder.layer.4.intermediate.dense.bias: requires_grad=True
+encoder.layer.4.output.dense.weight: requires_grad=True
+encoder.layer.4.output.dense.bias: requires_grad=True
+encoder.layer.4.output.LayerNorm.weight: requires_grad=True
+encoder.layer.4.output.LayerNorm.bias: requires_grad=True
+encoder.layer.5.attention.self.query.weight: requires_grad=True
+encoder.layer.5.attention.self.query.bias: requires_grad=True
+encoder.layer.5.attention.self.key.weight: requires_grad=True
+encoder.layer.5.attention.self.key.bias: requires_grad=True
+encoder.layer.5.attention.self.value.weight: requires_grad=True
+encoder.layer.5.attention.self.value.bias: requires_grad=True
+encoder.layer.5.attention.self.w2e_query.weight: requires_grad=True
+encoder.layer.5.attention.self.w2e_query.bias: requires_grad=True
+encoder.layer.5.attention.self.e2w_query.weight: requires_grad=True
+encoder.layer.5.attention.self.e2w_query.bias: requires_grad=True
+encoder.layer.5.attention.self.e2e_query.weight: requires_grad=True
+encoder.layer.5.attention.self.e2e_query.bias: requires_grad=True
+encoder.layer.5.attention.output.dense.weight: requires_grad=True
+encoder.layer.5.attention.output.dense.bias: requires_grad=True
+encoder.layer.5.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.5.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.5.intermediate.dense.weight: requires_grad=True
+encoder.layer.5.intermediate.dense.bias: requires_grad=True
+encoder.layer.5.output.dense.weight: requires_grad=True
+encoder.layer.5.output.dense.bias: requires_grad=True
+encoder.layer.5.output.LayerNorm.weight: requires_grad=True
+encoder.layer.5.output.LayerNorm.bias: requires_grad=True
+encoder.layer.6.attention.self.query.weight: requires_grad=True
+encoder.layer.6.attention.self.query.bias: requires_grad=True
+encoder.layer.6.attention.self.key.weight: requires_grad=True
+encoder.layer.6.attention.self.key.bias: requires_grad=True
+encoder.layer.6.attention.self.value.weight: requires_grad=True
+encoder.layer.6.attention.self.value.bias: requires_grad=True
+encoder.layer.6.attention.self.w2e_query.weight: requires_grad=True
+encoder.layer.6.attention.self.w2e_query.bias: requires_grad=True
+encoder.layer.6.attention.self.e2w_query.weight: requires_grad=True
+encoder.layer.6.attention.self.e2w_query.bias: requires_grad=True
+encoder.layer.6.attention.self.e2e_query.weight: requires_grad=True
+encoder.layer.6.attention.self.e2e_query.bias: requires_grad=True
+encoder.layer.6.attention.output.dense.weight: requires_grad=True
+encoder.layer.6.attention.output.dense.bias: requires_grad=True
+encoder.layer.6.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.6.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.6.intermediate.dense.weight: requires_grad=True
+encoder.layer.6.intermediate.dense.bias: requires_grad=True
+encoder.layer.6.output.dense.weight: requires_grad=True
+encoder.layer.6.output.dense.bias: requires_grad=True
+encoder.layer.6.output.LayerNorm.weight: requires_grad=True
+encoder.layer.6.output.LayerNorm.bias: requires_grad=True
+encoder.layer.7.attention.self.query.weight: requires_grad=True
+encoder.layer.7.attention.self.query.bias: requires_grad=True
+encoder.layer.7.attention.self.key.weight: requires_grad=True
+encoder.layer.7.attention.self.key.bias: requires_grad=True
+encoder.layer.7.attention.self.value.weight: requires_grad=True
+encoder.layer.7.attention.self.value.bias: requires_grad=True
+encoder.layer.7.attention.self.w2e_query.weight: requires_grad=True
+encoder.layer.7.attention.self.w2e_query.bias: requires_grad=True
+encoder.layer.7.attention.self.e2w_query.weight: requires_grad=True
+encoder.layer.7.attention.self.e2w_query.bias: requires_grad=True
+encoder.layer.7.attention.self.e2e_query.weight: requires_grad=True
+encoder.layer.7.attention.self.e2e_query.bias: requires_grad=True
+encoder.layer.7.attention.output.dense.weight: requires_grad=True
+encoder.layer.7.attention.output.dense.bias: requires_grad=True
+encoder.layer.7.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.7.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.7.intermediate.dense.weight: requires_grad=True
+encoder.layer.7.intermediate.dense.bias: requires_grad=True
+encoder.layer.7.output.dense.weight: requires_grad=True
+encoder.layer.7.output.dense.bias: requires_grad=True
+encoder.layer.7.output.LayerNorm.weight: requires_grad=True
+encoder.layer.7.output.LayerNorm.bias: requires_grad=True
+encoder.layer.8.attention.self.query.weight: requires_grad=True
+encoder.layer.8.attention.self.query.bias: requires_grad=True
+encoder.layer.8.attention.self.key.weight: requires_grad=True
+encoder.layer.8.attention.self.key.bias: requires_grad=True
+encoder.layer.8.attention.self.value.weight: requires_grad=True
+encoder.layer.8.attention.self.value.bias: requires_grad=True
+encoder.layer.8.attention.self.w2e_query.weight: requires_grad=True
+encoder.layer.8.attention.self.w2e_query.bias: requires_grad=True
+encoder.layer.8.attention.self.e2w_query.weight: requires_grad=True
+encoder.layer.8.attention.self.e2w_query.bias: requires_grad=True
+encoder.layer.8.attention.self.e2e_query.weight: requires_grad=True
+encoder.layer.8.attention.self.e2e_query.bias: requires_grad=True
+encoder.layer.8.attention.output.dense.weight: requires_grad=True
+encoder.layer.8.attention.output.dense.bias: requires_grad=True
+encoder.layer.8.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.8.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.8.intermediate.dense.weight: requires_grad=True
+encoder.layer.8.intermediate.dense.bias: requires_grad=True
+encoder.layer.8.output.dense.weight: requires_grad=True
+encoder.layer.8.output.dense.bias: requires_grad=True
+encoder.layer.8.output.LayerNorm.weight: requires_grad=True
+encoder.layer.8.output.LayerNorm.bias: requires_grad=True
+encoder.layer.9.attention.self.query.weight: requires_grad=True
+encoder.layer.9.attention.self.query.bias: requires_grad=True
+encoder.layer.9.attention.self.key.weight: requires_grad=True
+encoder.layer.9.attention.self.key.bias: requires_grad=True
+encoder.layer.9.attention.self.value.weight: requires_grad=True
+encoder.layer.9.attention.self.value.bias: requires_grad=True
+encoder.layer.9.attention.self.w2e_query.weight: requires_grad=True
+encoder.layer.9.attention.self.w2e_query.bias: requires_grad=True
+encoder.layer.9.attention.self.e2w_query.weight: requires_grad=True
+encoder.layer.9.attention.self.e2w_query.bias: requires_grad=True
+encoder.layer.9.attention.self.e2e_query.weight: requires_grad=True
+encoder.layer.9.attention.self.e2e_query.bias: requires_grad=True
+encoder.layer.9.attention.output.dense.weight: requires_grad=True
+encoder.layer.9.attention.output.dense.bias: requires_grad=True
+encoder.layer.9.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.9.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.9.intermediate.dense.weight: requires_grad=True
+encoder.layer.9.intermediate.dense.bias: requires_grad=True
+encoder.layer.9.output.dense.weight: requires_grad=True
+encoder.layer.9.output.dense.bias: requires_grad=True
+encoder.layer.9.output.LayerNorm.weight: requires_grad=True
+encoder.layer.9.output.LayerNorm.bias: requires_grad=True
+encoder.layer.10.attention.self.query.weight: requires_grad=True
+encoder.layer.10.attention.self.query.bias: requires_grad=True
+encoder.layer.10.attention.self.key.weight: requires_grad=True
+encoder.layer.10.attention.self.key.bias: requires_grad=True
+encoder.layer.10.attention.self.value.weight: requires_grad=True
+encoder.layer.10.attention.self.value.bias: requires_grad=True
+encoder.layer.10.attention.self.w2e_query.weight: requires_grad=True
+encoder.layer.10.attention.self.w2e_query.bias: requires_grad=True
+encoder.layer.10.attention.self.e2w_query.weight: requires_grad=True
+encoder.layer.10.attention.self.e2w_query.bias: requires_grad=True
+encoder.layer.10.attention.self.e2e_query.weight: requires_grad=True
+encoder.layer.10.attention.self.e2e_query.bias: requires_grad=True
+encoder.layer.10.attention.output.dense.weight: requires_grad=True
+encoder.layer.10.attention.output.dense.bias: requires_grad=True
+encoder.layer.10.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.10.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.10.intermediate.dense.weight: requires_grad=True
+encoder.layer.10.intermediate.dense.bias: requires_grad=True
+encoder.layer.10.output.dense.weight: requires_grad=True
+encoder.layer.10.output.dense.bias: requires_grad=True
+encoder.layer.10.output.LayerNorm.weight: requires_grad=True
+encoder.layer.10.output.LayerNorm.bias: requires_grad=True
+encoder.layer.11.attention.self.query.weight: requires_grad=True
+encoder.layer.11.attention.self.query.bias: requires_grad=True
+encoder.layer.11.attention.self.key.weight: requires_grad=True
+encoder.layer.11.attention.self.key.bias: requires_grad=True
+encoder.layer.11.attention.self.value.weight: requires_grad=True
+encoder.layer.11.attention.self.value.bias: requires_grad=True
+encoder.layer.11.attention.self.w2e_query.weight: requires_grad=True
+encoder.layer.11.attention.self.w2e_query.bias: requires_grad=True
+encoder.layer.11.attention.self.e2w_query.weight: requires_grad=True
+encoder.layer.11.attention.self.e2w_query.bias: requires_grad=True
+encoder.layer.11.attention.self.e2e_query.weight: requires_grad=True
+encoder.layer.11.attention.self.e2e_query.bias: requires_grad=True
+encoder.layer.11.attention.output.dense.weight: requires_grad=True
+encoder.layer.11.attention.output.dense.bias: requires_grad=True
+encoder.layer.11.attention.output.LayerNorm.weight: requires_grad=True
+encoder.layer.11.attention.output.LayerNorm.bias: requires_grad=True
+encoder.layer.11.intermediate.dense.weight: requires_grad=True
+encoder.layer.11.intermediate.dense.bias: requires_grad=True
+encoder.layer.11.output.dense.weight: requires_grad=True
+encoder.layer.11.output.dense.bias: requires_grad=True
+encoder.layer.11.output.LayerNorm.weight: requires_grad=True
+encoder.layer.11.output.LayerNorm.bias: requires_grad=True
+pooler.dense.weight: requires_grad=True
+pooler.dense.bias: requires_grad=True
+
+ Epoch 1 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.371
+Validation Loss: 1.327
+Validation Accuracy: 0.428
+
+ Epoch 2 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.267
+Validation Loss: 1.181
+Validation Accuracy: 0.428
+
+ Epoch 3 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.133
+Validation Loss: 1.006
+Validation Accuracy: 0.676
+
+ Epoch 4 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.990
+Validation Loss: 0.878
+Validation Accuracy: 0.703
+
+ Epoch 5 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.882
+Validation Loss: 0.801
+Validation Accuracy: 0.733
+
+ Epoch 6 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.801
+Validation Loss: 0.750
+Validation Accuracy: 0.730
+
+ Epoch 7 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.729
+Validation Loss: 0.717
+Validation Accuracy: 0.743
+
+ Epoch 8 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.681
+Validation Loss: 0.689
+Validation Accuracy: 0.746
+
+ Epoch 9 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.644
+Validation Loss: 0.674
+Validation Accuracy: 0.759
+
+ Epoch 10 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.615
+Validation Loss: 0.667
+Validation Accuracy: 0.757
+== flag 1.601 luke result On test data ==
+# Test Accuracy: 0.7994%
+Precision: 0.7974
+Recall: 0.7994
+F1 Score: 0.7948
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.87      0.84       558
+           1       0.81      0.84      0.82       358
+           2       0.76      0.46      0.57       123
+           3       0.77      0.77      0.77       382
+
+    accuracy                           0.80      1421
+   macro avg       0.79      0.73      0.75      1421
+weighted avg       0.80      0.80      0.79      1421
+
+Confusion Matrix:
+[[486  20   8  44]
+ [ 27 299   9  23]
+ [ 26  20  56  21]
+ [ 55  31   1 295]]
+flag 1.11  model: luke has finished  : luke
+
+
+
+===================================================== 
+flag 1.10  model: t5 has started ==>   t5
+===================================================== 
+shared.weight: requires_grad=True
+encoder.block.0.layer.0.SelfAttention.q.weight: requires_grad=True
+encoder.block.0.layer.0.SelfAttention.k.weight: requires_grad=True
+encoder.block.0.layer.0.SelfAttention.v.weight: requires_grad=True
+encoder.block.0.layer.0.SelfAttention.o.weight: requires_grad=True
+encoder.block.0.layer.0.SelfAttention.relative_attention_bias.weight: requires_grad=True
+encoder.block.0.layer.0.layer_norm.weight: requires_grad=True
+encoder.block.0.layer.1.DenseReluDense.wi.weight: requires_grad=True
+encoder.block.0.layer.1.DenseReluDense.wo.weight: requires_grad=True
+encoder.block.0.layer.1.layer_norm.weight: requires_grad=True
+encoder.block.1.layer.0.SelfAttention.q.weight: requires_grad=True
+encoder.block.1.layer.0.SelfAttention.k.weight: requires_grad=True
+encoder.block.1.layer.0.SelfAttention.v.weight: requires_grad=True
+encoder.block.1.layer.0.SelfAttention.o.weight: requires_grad=True
+encoder.block.1.layer.0.layer_norm.weight: requires_grad=True
+encoder.block.1.layer.1.DenseReluDense.wi.weight: requires_grad=True
+encoder.block.1.layer.1.DenseReluDense.wo.weight: requires_grad=True
+encoder.block.1.layer.1.layer_norm.weight: requires_grad=True
+encoder.block.2.layer.0.SelfAttention.q.weight: requires_grad=True
+encoder.block.2.layer.0.SelfAttention.k.weight: requires_grad=True
+encoder.block.2.layer.0.SelfAttention.v.weight: requires_grad=True
+encoder.block.2.layer.0.SelfAttention.o.weight: requires_grad=True
+encoder.block.2.layer.0.layer_norm.weight: requires_grad=True
+encoder.block.2.layer.1.DenseReluDense.wi.weight: requires_grad=True
+encoder.block.2.layer.1.DenseReluDense.wo.weight: requires_grad=True
+encoder.block.2.layer.1.layer_norm.weight: requires_grad=True
+encoder.block.3.layer.0.SelfAttention.q.weight: requires_grad=True
+encoder.block.3.layer.0.SelfAttention.k.weight: requires_grad=True
+encoder.block.3.layer.0.SelfAttention.v.weight: requires_grad=True
+encoder.block.3.layer.0.SelfAttention.o.weight: requires_grad=True
+encoder.block.3.layer.0.layer_norm.weight: requires_grad=True
+encoder.block.3.layer.1.DenseReluDense.wi.weight: requires_grad=True
+encoder.block.3.layer.1.DenseReluDense.wo.weight: requires_grad=True
+encoder.block.3.layer.1.layer_norm.weight: requires_grad=True
+encoder.block.4.layer.0.SelfAttention.q.weight: requires_grad=True
+encoder.block.4.layer.0.SelfAttention.k.weight: requires_grad=True
+encoder.block.4.layer.0.SelfAttention.v.weight: requires_grad=True
+encoder.block.4.layer.0.SelfAttention.o.weight: requires_grad=True
+encoder.block.4.layer.0.layer_norm.weight: requires_grad=True
+encoder.block.4.layer.1.DenseReluDense.wi.weight: requires_grad=True
+encoder.block.4.layer.1.DenseReluDense.wo.weight: requires_grad=True
+encoder.block.4.layer.1.layer_norm.weight: requires_grad=True
+encoder.block.5.layer.0.SelfAttention.q.weight: requires_grad=True
+encoder.block.5.layer.0.SelfAttention.k.weight: requires_grad=True
+encoder.block.5.layer.0.SelfAttention.v.weight: requires_grad=True
+encoder.block.5.layer.0.SelfAttention.o.weight: requires_grad=True
+encoder.block.5.layer.0.layer_norm.weight: requires_grad=True
+encoder.block.5.layer.1.DenseReluDense.wi.weight: requires_grad=True
+encoder.block.5.layer.1.DenseReluDense.wo.weight: requires_grad=True
+encoder.block.5.layer.1.layer_norm.weight: requires_grad=True
+encoder.block.6.layer.0.SelfAttention.q.weight: requires_grad=True
+encoder.block.6.layer.0.SelfAttention.k.weight: requires_grad=True
+encoder.block.6.layer.0.SelfAttention.v.weight: requires_grad=True
+encoder.block.6.layer.0.SelfAttention.o.weight: requires_grad=True
+encoder.block.6.layer.0.layer_norm.weight: requires_grad=True
+encoder.block.6.layer.1.DenseReluDense.wi.weight: requires_grad=True
+encoder.block.6.layer.1.DenseReluDense.wo.weight: requires_grad=True
+encoder.block.6.layer.1.layer_norm.weight: requires_grad=True
+encoder.block.7.layer.0.SelfAttention.q.weight: requires_grad=True
+encoder.block.7.layer.0.SelfAttention.k.weight: requires_grad=True
+encoder.block.7.layer.0.SelfAttention.v.weight: requires_grad=True
+encoder.block.7.layer.0.SelfAttention.o.weight: requires_grad=True
+encoder.block.7.layer.0.layer_norm.weight: requires_grad=True
+encoder.block.7.layer.1.DenseReluDense.wi.weight: requires_grad=True
+encoder.block.7.layer.1.DenseReluDense.wo.weight: requires_grad=True
+encoder.block.7.layer.1.layer_norm.weight: requires_grad=True
+encoder.block.8.layer.0.SelfAttention.q.weight: requires_grad=True
+encoder.block.8.layer.0.SelfAttention.k.weight: requires_grad=True
+encoder.block.8.layer.0.SelfAttention.v.weight: requires_grad=True
+encoder.block.8.layer.0.SelfAttention.o.weight: requires_grad=True
+encoder.block.8.layer.0.layer_norm.weight: requires_grad=True
+encoder.block.8.layer.1.DenseReluDense.wi.weight: requires_grad=True
+encoder.block.8.layer.1.DenseReluDense.wo.weight: requires_grad=True
+encoder.block.8.layer.1.layer_norm.weight: requires_grad=True
+encoder.block.9.layer.0.SelfAttention.q.weight: requires_grad=True
+encoder.block.9.layer.0.SelfAttention.k.weight: requires_grad=True
+encoder.block.9.layer.0.SelfAttention.v.weight: requires_grad=True
+encoder.block.9.layer.0.SelfAttention.o.weight: requires_grad=True
+encoder.block.9.layer.0.layer_norm.weight: requires_grad=True
+encoder.block.9.layer.1.DenseReluDense.wi.weight: requires_grad=True
+encoder.block.9.layer.1.DenseReluDense.wo.weight: requires_grad=True
+encoder.block.9.layer.1.layer_norm.weight: requires_grad=True
+encoder.block.10.layer.0.SelfAttention.q.weight: requires_grad=True
+encoder.block.10.layer.0.SelfAttention.k.weight: requires_grad=True
+encoder.block.10.layer.0.SelfAttention.v.weight: requires_grad=True
+encoder.block.10.layer.0.SelfAttention.o.weight: requires_grad=True
+encoder.block.10.layer.0.layer_norm.weight: requires_grad=True
+encoder.block.10.layer.1.DenseReluDense.wi.weight: requires_grad=True
+encoder.block.10.layer.1.DenseReluDense.wo.weight: requires_grad=True
+encoder.block.10.layer.1.layer_norm.weight: requires_grad=True
+encoder.block.11.layer.0.SelfAttention.q.weight: requires_grad=True
+encoder.block.11.layer.0.SelfAttention.k.weight: requires_grad=True
+encoder.block.11.layer.0.SelfAttention.v.weight: requires_grad=True
+encoder.block.11.layer.0.SelfAttention.o.weight: requires_grad=True
+encoder.block.11.layer.0.layer_norm.weight: requires_grad=True
+encoder.block.11.layer.1.DenseReluDense.wi.weight: requires_grad=True
+encoder.block.11.layer.1.DenseReluDense.wo.weight: requires_grad=True
+encoder.block.11.layer.1.layer_norm.weight: requires_grad=True
+encoder.final_layer_norm.weight: requires_grad=True
+decoder.block.0.layer.0.SelfAttention.q.weight: requires_grad=True
+decoder.block.0.layer.0.SelfAttention.k.weight: requires_grad=True
+decoder.block.0.layer.0.SelfAttention.v.weight: requires_grad=True
+decoder.block.0.layer.0.SelfAttention.o.weight: requires_grad=True
+decoder.block.0.layer.0.SelfAttention.relative_attention_bias.weight: requires_grad=True
+decoder.block.0.layer.0.layer_norm.weight: requires_grad=True
+decoder.block.0.layer.1.EncDecAttention.q.weight: requires_grad=True
+decoder.block.0.layer.1.EncDecAttention.k.weight: requires_grad=True
+decoder.block.0.layer.1.EncDecAttention.v.weight: requires_grad=True
+decoder.block.0.layer.1.EncDecAttention.o.weight: requires_grad=True
+decoder.block.0.layer.1.layer_norm.weight: requires_grad=True
+decoder.block.0.layer.2.DenseReluDense.wi.weight: requires_grad=True
+decoder.block.0.layer.2.DenseReluDense.wo.weight: requires_grad=True
+decoder.block.0.layer.2.layer_norm.weight: requires_grad=True
+decoder.block.1.layer.0.SelfAttention.q.weight: requires_grad=True
+decoder.block.1.layer.0.SelfAttention.k.weight: requires_grad=True
+decoder.block.1.layer.0.SelfAttention.v.weight: requires_grad=True
+decoder.block.1.layer.0.SelfAttention.o.weight: requires_grad=True
+decoder.block.1.layer.0.layer_norm.weight: requires_grad=True
+decoder.block.1.layer.1.EncDecAttention.q.weight: requires_grad=True
+decoder.block.1.layer.1.EncDecAttention.k.weight: requires_grad=True
+decoder.block.1.layer.1.EncDecAttention.v.weight: requires_grad=True
+decoder.block.1.layer.1.EncDecAttention.o.weight: requires_grad=True
+decoder.block.1.layer.1.layer_norm.weight: requires_grad=True
+decoder.block.1.layer.2.DenseReluDense.wi.weight: requires_grad=True
+decoder.block.1.layer.2.DenseReluDense.wo.weight: requires_grad=True
+decoder.block.1.layer.2.layer_norm.weight: requires_grad=True
+decoder.block.2.layer.0.SelfAttention.q.weight: requires_grad=True
+decoder.block.2.layer.0.SelfAttention.k.weight: requires_grad=True
+decoder.block.2.layer.0.SelfAttention.v.weight: requires_grad=True
+decoder.block.2.layer.0.SelfAttention.o.weight: requires_grad=True
+decoder.block.2.layer.0.layer_norm.weight: requires_grad=True
+decoder.block.2.layer.1.EncDecAttention.q.weight: requires_grad=True
+decoder.block.2.layer.1.EncDecAttention.k.weight: requires_grad=True
+decoder.block.2.layer.1.EncDecAttention.v.weight: requires_grad=True
+decoder.block.2.layer.1.EncDecAttention.o.weight: requires_grad=True
+decoder.block.2.layer.1.layer_norm.weight: requires_grad=True
+decoder.block.2.layer.2.DenseReluDense.wi.weight: requires_grad=True
+decoder.block.2.layer.2.DenseReluDense.wo.weight: requires_grad=True
+decoder.block.2.layer.2.layer_norm.weight: requires_grad=True
+decoder.block.3.layer.0.SelfAttention.q.weight: requires_grad=True
+decoder.block.3.layer.0.SelfAttention.k.weight: requires_grad=True
+decoder.block.3.layer.0.SelfAttention.v.weight: requires_grad=True
+decoder.block.3.layer.0.SelfAttention.o.weight: requires_grad=True
+decoder.block.3.layer.0.layer_norm.weight: requires_grad=True
+decoder.block.3.layer.1.EncDecAttention.q.weight: requires_grad=True
+decoder.block.3.layer.1.EncDecAttention.k.weight: requires_grad=True
+decoder.block.3.layer.1.EncDecAttention.v.weight: requires_grad=True
+decoder.block.3.layer.1.EncDecAttention.o.weight: requires_grad=True
+decoder.block.3.layer.1.layer_norm.weight: requires_grad=True
+decoder.block.3.layer.2.DenseReluDense.wi.weight: requires_grad=True
+decoder.block.3.layer.2.DenseReluDense.wo.weight: requires_grad=True
+decoder.block.3.layer.2.layer_norm.weight: requires_grad=True
+decoder.block.4.layer.0.SelfAttention.q.weight: requires_grad=True
+decoder.block.4.layer.0.SelfAttention.k.weight: requires_grad=True
+decoder.block.4.layer.0.SelfAttention.v.weight: requires_grad=True
+decoder.block.4.layer.0.SelfAttention.o.weight: requires_grad=True
+decoder.block.4.layer.0.layer_norm.weight: requires_grad=True
+decoder.block.4.layer.1.EncDecAttention.q.weight: requires_grad=True
+decoder.block.4.layer.1.EncDecAttention.k.weight: requires_grad=True
+decoder.block.4.layer.1.EncDecAttention.v.weight: requires_grad=True
+decoder.block.4.layer.1.EncDecAttention.o.weight: requires_grad=True
+decoder.block.4.layer.1.layer_norm.weight: requires_grad=True
+decoder.block.4.layer.2.DenseReluDense.wi.weight: requires_grad=True
+decoder.block.4.layer.2.DenseReluDense.wo.weight: requires_grad=True
+decoder.block.4.layer.2.layer_norm.weight: requires_grad=True
+decoder.block.5.layer.0.SelfAttention.q.weight: requires_grad=True
+decoder.block.5.layer.0.SelfAttention.k.weight: requires_grad=True
+decoder.block.5.layer.0.SelfAttention.v.weight: requires_grad=True
+decoder.block.5.layer.0.SelfAttention.o.weight: requires_grad=True
+decoder.block.5.layer.0.layer_norm.weight: requires_grad=True
+decoder.block.5.layer.1.EncDecAttention.q.weight: requires_grad=True
+decoder.block.5.layer.1.EncDecAttention.k.weight: requires_grad=True
+decoder.block.5.layer.1.EncDecAttention.v.weight: requires_grad=True
+decoder.block.5.layer.1.EncDecAttention.o.weight: requires_grad=True
+decoder.block.5.layer.1.layer_norm.weight: requires_grad=True
+decoder.block.5.layer.2.DenseReluDense.wi.weight: requires_grad=True
+decoder.block.5.layer.2.DenseReluDense.wo.weight: requires_grad=True
+decoder.block.5.layer.2.layer_norm.weight: requires_grad=True
+decoder.block.6.layer.0.SelfAttention.q.weight: requires_grad=True
+decoder.block.6.layer.0.SelfAttention.k.weight: requires_grad=True
+decoder.block.6.layer.0.SelfAttention.v.weight: requires_grad=True
+decoder.block.6.layer.0.SelfAttention.o.weight: requires_grad=True
+decoder.block.6.layer.0.layer_norm.weight: requires_grad=True
+decoder.block.6.layer.1.EncDecAttention.q.weight: requires_grad=True
+decoder.block.6.layer.1.EncDecAttention.k.weight: requires_grad=True
+decoder.block.6.layer.1.EncDecAttention.v.weight: requires_grad=True
+decoder.block.6.layer.1.EncDecAttention.o.weight: requires_grad=True
+decoder.block.6.layer.1.layer_norm.weight: requires_grad=True
+decoder.block.6.layer.2.DenseReluDense.wi.weight: requires_grad=True
+decoder.block.6.layer.2.DenseReluDense.wo.weight: requires_grad=True
+decoder.block.6.layer.2.layer_norm.weight: requires_grad=True
+decoder.block.7.layer.0.SelfAttention.q.weight: requires_grad=True
+decoder.block.7.layer.0.SelfAttention.k.weight: requires_grad=True
+decoder.block.7.layer.0.SelfAttention.v.weight: requires_grad=True
+decoder.block.7.layer.0.SelfAttention.o.weight: requires_grad=True
+decoder.block.7.layer.0.layer_norm.weight: requires_grad=True
+decoder.block.7.layer.1.EncDecAttention.q.weight: requires_grad=True
+decoder.block.7.layer.1.EncDecAttention.k.weight: requires_grad=True
+decoder.block.7.layer.1.EncDecAttention.v.weight: requires_grad=True
+decoder.block.7.layer.1.EncDecAttention.o.weight: requires_grad=True
+decoder.block.7.layer.1.layer_norm.weight: requires_grad=True
+decoder.block.7.layer.2.DenseReluDense.wi.weight: requires_grad=True
+decoder.block.7.layer.2.DenseReluDense.wo.weight: requires_grad=True
+decoder.block.7.layer.2.layer_norm.weight: requires_grad=True
+decoder.block.8.layer.0.SelfAttention.q.weight: requires_grad=True
+decoder.block.8.layer.0.SelfAttention.k.weight: requires_grad=True
+decoder.block.8.layer.0.SelfAttention.v.weight: requires_grad=True
+decoder.block.8.layer.0.SelfAttention.o.weight: requires_grad=True
+decoder.block.8.layer.0.layer_norm.weight: requires_grad=True
+decoder.block.8.layer.1.EncDecAttention.q.weight: requires_grad=True
+decoder.block.8.layer.1.EncDecAttention.k.weight: requires_grad=True
+decoder.block.8.layer.1.EncDecAttention.v.weight: requires_grad=True
+decoder.block.8.layer.1.EncDecAttention.o.weight: requires_grad=True
+decoder.block.8.layer.1.layer_norm.weight: requires_grad=True
+decoder.block.8.layer.2.DenseReluDense.wi.weight: requires_grad=True
+decoder.block.8.layer.2.DenseReluDense.wo.weight: requires_grad=True
+decoder.block.8.layer.2.layer_norm.weight: requires_grad=True
+decoder.block.9.layer.0.SelfAttention.q.weight: requires_grad=True
+decoder.block.9.layer.0.SelfAttention.k.weight: requires_grad=True
+decoder.block.9.layer.0.SelfAttention.v.weight: requires_grad=True
+decoder.block.9.layer.0.SelfAttention.o.weight: requires_grad=True
+decoder.block.9.layer.0.layer_norm.weight: requires_grad=True
+decoder.block.9.layer.1.EncDecAttention.q.weight: requires_grad=True
+decoder.block.9.layer.1.EncDecAttention.k.weight: requires_grad=True
+decoder.block.9.layer.1.EncDecAttention.v.weight: requires_grad=True
+decoder.block.9.layer.1.EncDecAttention.o.weight: requires_grad=True
+decoder.block.9.layer.1.layer_norm.weight: requires_grad=True
+decoder.block.9.layer.2.DenseReluDense.wi.weight: requires_grad=True
+decoder.block.9.layer.2.DenseReluDense.wo.weight: requires_grad=True
+decoder.block.9.layer.2.layer_norm.weight: requires_grad=True
+decoder.block.10.layer.0.SelfAttention.q.weight: requires_grad=True
+decoder.block.10.layer.0.SelfAttention.k.weight: requires_grad=True
+decoder.block.10.layer.0.SelfAttention.v.weight: requires_grad=True
+decoder.block.10.layer.0.SelfAttention.o.weight: requires_grad=True
+decoder.block.10.layer.0.layer_norm.weight: requires_grad=True
+decoder.block.10.layer.1.EncDecAttention.q.weight: requires_grad=True
+decoder.block.10.layer.1.EncDecAttention.k.weight: requires_grad=True
+decoder.block.10.layer.1.EncDecAttention.v.weight: requires_grad=True
+decoder.block.10.layer.1.EncDecAttention.o.weight: requires_grad=True
+decoder.block.10.layer.1.layer_norm.weight: requires_grad=True
+decoder.block.10.layer.2.DenseReluDense.wi.weight: requires_grad=True
+decoder.block.10.layer.2.DenseReluDense.wo.weight: requires_grad=True
+decoder.block.10.layer.2.layer_norm.weight: requires_grad=True
+decoder.block.11.layer.0.SelfAttention.q.weight: requires_grad=True
+decoder.block.11.layer.0.SelfAttention.k.weight: requires_grad=True
+decoder.block.11.layer.0.SelfAttention.v.weight: requires_grad=True
+decoder.block.11.layer.0.SelfAttention.o.weight: requires_grad=True
+decoder.block.11.layer.0.layer_norm.weight: requires_grad=True
+decoder.block.11.layer.1.EncDecAttention.q.weight: requires_grad=True
+decoder.block.11.layer.1.EncDecAttention.k.weight: requires_grad=True
+decoder.block.11.layer.1.EncDecAttention.v.weight: requires_grad=True
+decoder.block.11.layer.1.EncDecAttention.o.weight: requires_grad=True
+decoder.block.11.layer.1.layer_norm.weight: requires_grad=True
+decoder.block.11.layer.2.DenseReluDense.wi.weight: requires_grad=True
+decoder.block.11.layer.2.DenseReluDense.wo.weight: requires_grad=True
+decoder.block.11.layer.2.layer_norm.weight: requires_grad=True
+decoder.final_layer_norm.weight: requires_grad=True
+
+ Epoch 1 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.364
+Validation Loss: 1.344
+Validation Accuracy: 0.428
+
+ Epoch 2 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.351
+Validation Loss: 1.333
+Validation Accuracy: 0.428
+
+ Epoch 3 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.339
+Validation Loss: 1.323
+Validation Accuracy: 0.428
+
+ Epoch 4 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.330
+Validation Loss: 1.313
+Validation Accuracy: 0.428
+
+ Epoch 5 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.325
+Validation Loss: 1.305
+Validation Accuracy: 0.428
+
+ Epoch 6 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.317
+Validation Loss: 1.297
+Validation Accuracy: 0.428
+
+ Epoch 7 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.312
+Validation Loss: 1.291
+Validation Accuracy: 0.428
+
+ Epoch 8 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.305
+Validation Loss: 1.285
+Validation Accuracy: 0.428
+
+ Epoch 9 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.295
+Validation Loss: 1.279
+Validation Accuracy: 0.428
+
+ Epoch 10 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.293
+Validation Loss: 1.274
+Validation Accuracy: 0.428
+== flag 1.601 t5 result On test data ==
+# Test Accuracy: 0.3927%
+Precision: 0.1542
+Recall: 0.3927
+F1 Score: 0.2214
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.39      1.00      0.56       558
+           1       0.00      0.00      0.00       358
+           2       0.00      0.00      0.00       123
+           3       0.00      0.00      0.00       382
+
+    accuracy                           0.39      1421
+   macro avg       0.10      0.25      0.14      1421
+weighted avg       0.15      0.39      0.22      1421
+
+Confusion Matrix:
+[[558   0   0   0]
+ [358   0   0   0]
+ [123   0   0   0]
+ [382   0   0   0]]
+flag 1.11  model: t5 has finished  : t5
+
+
+
+===================================================== 
+flag 1.10  model: xlnet has started ==>   xlnet
+===================================================== 
+mask_emb: requires_grad=True
+word_embedding.weight: requires_grad=True
+layer.0.rel_attn.q: requires_grad=True
+layer.0.rel_attn.k: requires_grad=True
+layer.0.rel_attn.v: requires_grad=True
+layer.0.rel_attn.o: requires_grad=True
+layer.0.rel_attn.r: requires_grad=True
+layer.0.rel_attn.r_r_bias: requires_grad=True
+layer.0.rel_attn.r_s_bias: requires_grad=True
+layer.0.rel_attn.r_w_bias: requires_grad=True
+layer.0.rel_attn.seg_embed: requires_grad=True
+layer.0.rel_attn.layer_norm.weight: requires_grad=True
+layer.0.rel_attn.layer_norm.bias: requires_grad=True
+layer.0.ff.layer_norm.weight: requires_grad=True
+layer.0.ff.layer_norm.bias: requires_grad=True
+layer.0.ff.layer_1.weight: requires_grad=True
+layer.0.ff.layer_1.bias: requires_grad=True
+layer.0.ff.layer_2.weight: requires_grad=True
+layer.0.ff.layer_2.bias: requires_grad=True
+layer.1.rel_attn.q: requires_grad=True
+layer.1.rel_attn.k: requires_grad=True
+layer.1.rel_attn.v: requires_grad=True
+layer.1.rel_attn.o: requires_grad=True
+layer.1.rel_attn.r: requires_grad=True
+layer.1.rel_attn.r_r_bias: requires_grad=True
+layer.1.rel_attn.r_s_bias: requires_grad=True
+layer.1.rel_attn.r_w_bias: requires_grad=True
+layer.1.rel_attn.seg_embed: requires_grad=True
+layer.1.rel_attn.layer_norm.weight: requires_grad=True
+layer.1.rel_attn.layer_norm.bias: requires_grad=True
+layer.1.ff.layer_norm.weight: requires_grad=True
+layer.1.ff.layer_norm.bias: requires_grad=True
+layer.1.ff.layer_1.weight: requires_grad=True
+layer.1.ff.layer_1.bias: requires_grad=True
+layer.1.ff.layer_2.weight: requires_grad=True
+layer.1.ff.layer_2.bias: requires_grad=True
+layer.2.rel_attn.q: requires_grad=True
+layer.2.rel_attn.k: requires_grad=True
+layer.2.rel_attn.v: requires_grad=True
+layer.2.rel_attn.o: requires_grad=True
+layer.2.rel_attn.r: requires_grad=True
+layer.2.rel_attn.r_r_bias: requires_grad=True
+layer.2.rel_attn.r_s_bias: requires_grad=True
+layer.2.rel_attn.r_w_bias: requires_grad=True
+layer.2.rel_attn.seg_embed: requires_grad=True
+layer.2.rel_attn.layer_norm.weight: requires_grad=True
+layer.2.rel_attn.layer_norm.bias: requires_grad=True
+layer.2.ff.layer_norm.weight: requires_grad=True
+layer.2.ff.layer_norm.bias: requires_grad=True
+layer.2.ff.layer_1.weight: requires_grad=True
+layer.2.ff.layer_1.bias: requires_grad=True
+layer.2.ff.layer_2.weight: requires_grad=True
+layer.2.ff.layer_2.bias: requires_grad=True
+layer.3.rel_attn.q: requires_grad=True
+layer.3.rel_attn.k: requires_grad=True
+layer.3.rel_attn.v: requires_grad=True
+layer.3.rel_attn.o: requires_grad=True
+layer.3.rel_attn.r: requires_grad=True
+layer.3.rel_attn.r_r_bias: requires_grad=True
+layer.3.rel_attn.r_s_bias: requires_grad=True
+layer.3.rel_attn.r_w_bias: requires_grad=True
+layer.3.rel_attn.seg_embed: requires_grad=True
+layer.3.rel_attn.layer_norm.weight: requires_grad=True
+layer.3.rel_attn.layer_norm.bias: requires_grad=True
+layer.3.ff.layer_norm.weight: requires_grad=True
+layer.3.ff.layer_norm.bias: requires_grad=True
+layer.3.ff.layer_1.weight: requires_grad=True
+layer.3.ff.layer_1.bias: requires_grad=True
+layer.3.ff.layer_2.weight: requires_grad=True
+layer.3.ff.layer_2.bias: requires_grad=True
+layer.4.rel_attn.q: requires_grad=True
+layer.4.rel_attn.k: requires_grad=True
+layer.4.rel_attn.v: requires_grad=True
+layer.4.rel_attn.o: requires_grad=True
+layer.4.rel_attn.r: requires_grad=True
+layer.4.rel_attn.r_r_bias: requires_grad=True
+layer.4.rel_attn.r_s_bias: requires_grad=True
+layer.4.rel_attn.r_w_bias: requires_grad=True
+layer.4.rel_attn.seg_embed: requires_grad=True
+layer.4.rel_attn.layer_norm.weight: requires_grad=True
+layer.4.rel_attn.layer_norm.bias: requires_grad=True
+layer.4.ff.layer_norm.weight: requires_grad=True
+layer.4.ff.layer_norm.bias: requires_grad=True
+layer.4.ff.layer_1.weight: requires_grad=True
+layer.4.ff.layer_1.bias: requires_grad=True
+layer.4.ff.layer_2.weight: requires_grad=True
+layer.4.ff.layer_2.bias: requires_grad=True
+layer.5.rel_attn.q: requires_grad=True
+layer.5.rel_attn.k: requires_grad=True
+layer.5.rel_attn.v: requires_grad=True
+layer.5.rel_attn.o: requires_grad=True
+layer.5.rel_attn.r: requires_grad=True
+layer.5.rel_attn.r_r_bias: requires_grad=True
+layer.5.rel_attn.r_s_bias: requires_grad=True
+layer.5.rel_attn.r_w_bias: requires_grad=True
+layer.5.rel_attn.seg_embed: requires_grad=True
+layer.5.rel_attn.layer_norm.weight: requires_grad=True
+layer.5.rel_attn.layer_norm.bias: requires_grad=True
+layer.5.ff.layer_norm.weight: requires_grad=True
+layer.5.ff.layer_norm.bias: requires_grad=True
+layer.5.ff.layer_1.weight: requires_grad=True
+layer.5.ff.layer_1.bias: requires_grad=True
+layer.5.ff.layer_2.weight: requires_grad=True
+layer.5.ff.layer_2.bias: requires_grad=True
+layer.6.rel_attn.q: requires_grad=True
+layer.6.rel_attn.k: requires_grad=True
+layer.6.rel_attn.v: requires_grad=True
+layer.6.rel_attn.o: requires_grad=True
+layer.6.rel_attn.r: requires_grad=True
+layer.6.rel_attn.r_r_bias: requires_grad=True
+layer.6.rel_attn.r_s_bias: requires_grad=True
+layer.6.rel_attn.r_w_bias: requires_grad=True
+layer.6.rel_attn.seg_embed: requires_grad=True
+layer.6.rel_attn.layer_norm.weight: requires_grad=True
+layer.6.rel_attn.layer_norm.bias: requires_grad=True
+layer.6.ff.layer_norm.weight: requires_grad=True
+layer.6.ff.layer_norm.bias: requires_grad=True
+layer.6.ff.layer_1.weight: requires_grad=True
+layer.6.ff.layer_1.bias: requires_grad=True
+layer.6.ff.layer_2.weight: requires_grad=True
+layer.6.ff.layer_2.bias: requires_grad=True
+layer.7.rel_attn.q: requires_grad=True
+layer.7.rel_attn.k: requires_grad=True
+layer.7.rel_attn.v: requires_grad=True
+layer.7.rel_attn.o: requires_grad=True
+layer.7.rel_attn.r: requires_grad=True
+layer.7.rel_attn.r_r_bias: requires_grad=True
+layer.7.rel_attn.r_s_bias: requires_grad=True
+layer.7.rel_attn.r_w_bias: requires_grad=True
+layer.7.rel_attn.seg_embed: requires_grad=True
+layer.7.rel_attn.layer_norm.weight: requires_grad=True
+layer.7.rel_attn.layer_norm.bias: requires_grad=True
+layer.7.ff.layer_norm.weight: requires_grad=True
+layer.7.ff.layer_norm.bias: requires_grad=True
+layer.7.ff.layer_1.weight: requires_grad=True
+layer.7.ff.layer_1.bias: requires_grad=True
+layer.7.ff.layer_2.weight: requires_grad=True
+layer.7.ff.layer_2.bias: requires_grad=True
+layer.8.rel_attn.q: requires_grad=True
+layer.8.rel_attn.k: requires_grad=True
+layer.8.rel_attn.v: requires_grad=True
+layer.8.rel_attn.o: requires_grad=True
+layer.8.rel_attn.r: requires_grad=True
+layer.8.rel_attn.r_r_bias: requires_grad=True
+layer.8.rel_attn.r_s_bias: requires_grad=True
+layer.8.rel_attn.r_w_bias: requires_grad=True
+layer.8.rel_attn.seg_embed: requires_grad=True
+layer.8.rel_attn.layer_norm.weight: requires_grad=True
+layer.8.rel_attn.layer_norm.bias: requires_grad=True
+layer.8.ff.layer_norm.weight: requires_grad=True
+layer.8.ff.layer_norm.bias: requires_grad=True
+layer.8.ff.layer_1.weight: requires_grad=True
+layer.8.ff.layer_1.bias: requires_grad=True
+layer.8.ff.layer_2.weight: requires_grad=True
+layer.8.ff.layer_2.bias: requires_grad=True
+layer.9.rel_attn.q: requires_grad=True
+layer.9.rel_attn.k: requires_grad=True
+layer.9.rel_attn.v: requires_grad=True
+layer.9.rel_attn.o: requires_grad=True
+layer.9.rel_attn.r: requires_grad=True
+layer.9.rel_attn.r_r_bias: requires_grad=True
+layer.9.rel_attn.r_s_bias: requires_grad=True
+layer.9.rel_attn.r_w_bias: requires_grad=True
+layer.9.rel_attn.seg_embed: requires_grad=True
+layer.9.rel_attn.layer_norm.weight: requires_grad=True
+layer.9.rel_attn.layer_norm.bias: requires_grad=True
+layer.9.ff.layer_norm.weight: requires_grad=True
+layer.9.ff.layer_norm.bias: requires_grad=True
+layer.9.ff.layer_1.weight: requires_grad=True
+layer.9.ff.layer_1.bias: requires_grad=True
+layer.9.ff.layer_2.weight: requires_grad=True
+layer.9.ff.layer_2.bias: requires_grad=True
+layer.10.rel_attn.q: requires_grad=True
+layer.10.rel_attn.k: requires_grad=True
+layer.10.rel_attn.v: requires_grad=True
+layer.10.rel_attn.o: requires_grad=True
+layer.10.rel_attn.r: requires_grad=True
+layer.10.rel_attn.r_r_bias: requires_grad=True
+layer.10.rel_attn.r_s_bias: requires_grad=True
+layer.10.rel_attn.r_w_bias: requires_grad=True
+layer.10.rel_attn.seg_embed: requires_grad=True
+layer.10.rel_attn.layer_norm.weight: requires_grad=True
+layer.10.rel_attn.layer_norm.bias: requires_grad=True
+layer.10.ff.layer_norm.weight: requires_grad=True
+layer.10.ff.layer_norm.bias: requires_grad=True
+layer.10.ff.layer_1.weight: requires_grad=True
+layer.10.ff.layer_1.bias: requires_grad=True
+layer.10.ff.layer_2.weight: requires_grad=True
+layer.10.ff.layer_2.bias: requires_grad=True
+layer.11.rel_attn.q: requires_grad=True
+layer.11.rel_attn.k: requires_grad=True
+layer.11.rel_attn.v: requires_grad=True
+layer.11.rel_attn.o: requires_grad=True
+layer.11.rel_attn.r: requires_grad=True
+layer.11.rel_attn.r_r_bias: requires_grad=True
+layer.11.rel_attn.r_s_bias: requires_grad=True
+layer.11.rel_attn.r_w_bias: requires_grad=True
+layer.11.rel_attn.seg_embed: requires_grad=True
+layer.11.rel_attn.layer_norm.weight: requires_grad=True
+layer.11.rel_attn.layer_norm.bias: requires_grad=True
+layer.11.ff.layer_norm.weight: requires_grad=True
+layer.11.ff.layer_norm.bias: requires_grad=True
+layer.11.ff.layer_1.weight: requires_grad=True
+layer.11.ff.layer_1.bias: requires_grad=True
+layer.11.ff.layer_2.weight: requires_grad=True
+layer.11.ff.layer_2.bias: requires_grad=True
+
+ Epoch 1 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.351
+Validation Loss: 1.268
+Validation Accuracy: 0.422
+
+ Epoch 2 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.257
+Validation Loss: 1.212
+Validation Accuracy: 0.433
+
+ Epoch 3 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.218
+Validation Loss: 1.163
+Validation Accuracy: 0.481
+
+ Epoch 4 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.161
+Validation Loss: 1.105
+Validation Accuracy: 0.527
+
+ Epoch 5 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.100
+Validation Loss: 1.030
+Validation Accuracy: 0.564
+
+ Epoch 6 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 1.051
+Validation Loss: 0.987
+Validation Accuracy: 0.596
+
+ Epoch 7 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.993
+Validation Loss: 0.944
+Validation Accuracy: 0.612
+
+ Epoch 8 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.931
+Validation Loss: 0.917
+Validation Accuracy: 0.626
+
+ Epoch 9 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.893
+Validation Loss: 0.888
+Validation Accuracy: 0.644
+
+ Epoch 10 / 10
+  Batch    50  of    102.
+  Batch   100  of    102.
+
+Evaluating...
+
+Training Loss: 0.848
+Validation Loss: 0.873
+Validation Accuracy: 0.652
+== flag 1.601 xlnet result On test data ==
+# Test Accuracy: 0.6861%
+Precision: 0.7001
+Recall: 0.6861
+F1 Score: 0.6732
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.75      0.78      0.76       558
+           1       0.74      0.73      0.74       358
+           2       0.80      0.16      0.27       123
+           3       0.56      0.68      0.61       382
+
+    accuracy                           0.69      1421
+   macro avg       0.71      0.59      0.60      1421
+weighted avg       0.70      0.69      0.67      1421
+
+Confusion Matrix:
+[[434  28   2  94]
+ [ 38 262   1  57]
+ [ 30  22  20  51]
+ [ 80  41   2 259]]
+flag 1.11  model: xlnet has finished  : xlnet

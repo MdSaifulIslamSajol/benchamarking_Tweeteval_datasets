@@ -1,0 +1,4856 @@
+learning rate  : 0.0001
+epochs : 20
+                                                text  label
+0  @user Bono... who cares. Soon people will unde...      0
+1  @user Eight years the republicans denied obama...      1
+2  @user Get him some line help. He is gonna be j...      0
+3                @user @user She is great. Hi Fiona!      0
+4  @user She has become a parody unto herself? Sh...      1
+                                                text
+0  @user Bono... who cares. Soon people will unde...
+1  @user Eight years the republicans denied obama...
+2  @user Get him some line help. He is gonna be j...
+3                @user @user She is great. Hi Fiona!
+4  @user She has become a parody unto herself? Sh...
+   label
+0      0
+1      1
+2      0
+3      0
+4      1
+                                                text  label
+0       @user @user WiiU is not even a real console.      0
+1  @user @user @user If he is from AZ I would put...      1
+2  @user I thought Canada had strict gun control....      0
+3  @user @user @user @user @user @user @user @use...      0
+4           1 Minute of Truth: Gun Control via @user      0
+                                                text
+0       @user @user WiiU is not even a real console.
+1  @user @user @user If he is from AZ I would put...
+2  @user I thought Canada had strict gun control....
+3  @user @user @user @user @user @user @user @use...
+4           1 Minute of Truth: Gun Control via @user
+   label
+0      0
+1      1
+2      0
+3      0
+4      0
+                                                text  label
+0  #ibelieveblaseyford is liar she is fat ugly li...      1
+1  @user @user @user I got in a pretty deep debat...      0
+2  ...if you want more shootings and more death, ...      0
+3  Angels now have 6 runs. Five of them have come...      0
+4  #Travel #Movies and Unix #Fortune combined  Vi...      0
+                                                text
+0  #ibelieveblaseyford is liar she is fat ugly li...
+1  @user @user @user I got in a pretty deep debat...
+2  ...if you want more shootings and more death, ...
+3  Angels now have 6 runs. Five of them have come...
+4  #Travel #Movies and Unix #Fortune combined  Vi...
+                                                text
+0  #ibelieveblaseyford is liar she is fat ugly li...
+1  @user @user @user I got in a pretty deep debat...
+2  ...if you want more shootings and more death, ...
+3  Angels now have 6 runs. Five of them have come...
+4  #Travel #Movies and Unix #Fortune combined  Vi...
+len(train_labels) 11916
+len(test_labels) 860
+len(val_labels) 1324
+
+Unique values count in train_labels:
+label
+0    7975
+1    3941
+Name: count, dtype: int64
+
+Unique values count in val_labels:
+label
+0    865
+1    459
+Name: count, dtype: int64
+
+Unique values count in test_labels:
+label
+0    620
+1    240
+Name: count, dtype: int64
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   bert
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7973
+
+Evaluating...
+
+Training Loss: 0.554
+Validation Loss: 0.536
+Validation Accuracy: 0.7779
+
+ Epoch 2 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7518
+
+Evaluating...
+
+Training Loss: 0.510
+Validation Loss: 0.583
+Validation Accuracy: 0.7281
+
+ Epoch 3 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7899
+
+Evaluating...
+
+Training Loss: 0.529
+Validation Loss: 0.557
+Validation Accuracy: 0.7545
+
+ Epoch 4 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7816
+
+Evaluating...
+
+Training Loss: 0.548
+Validation Loss: 0.562
+Validation Accuracy: 0.7583
+
+ Epoch 5 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6990
+
+Evaluating...
+
+Training Loss: 0.529
+Validation Loss: 0.650
+Validation Accuracy: 0.6767
+
+ Epoch 6 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6711
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.666
+Validation Accuracy: 0.6548
+
+ Epoch 7 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6694
+
+Evaluating...
+
+Training Loss: 0.635
+Validation Loss: 0.651
+Validation Accuracy: 0.6533
+
+ Epoch 8 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7298
+
+Evaluating...
+
+Training Loss: 0.630
+Validation Loss: 0.594
+Validation Accuracy: 0.7137
+
+ Epoch 9 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.640
+Validation Loss: 0.646
+Validation Accuracy: 0.6533
+
+ Epoch 10 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.653
+Validation Accuracy: 0.6533
+
+ Epoch 11 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.646
+Validation Accuracy: 0.6533
+
+ Epoch 12 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.649
+Validation Accuracy: 0.6533
+
+ Epoch 13 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 14 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.635
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 15 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.646
+Validation Accuracy: 0.6533
+
+ Epoch 16 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 17 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.646
+Validation Accuracy: 0.6533
+
+ Epoch 18 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.647
+Validation Accuracy: 0.6533
+
+ Epoch 19 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.647
+Validation Accuracy: 0.6533
+
+ Epoch 20 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.649
+Validation Accuracy: 0.6533
+
+
+         == flag 1.601 bert result On test data ==
+# called_model : bert
+# Test Accuracy: 0.8174%
+Precision: 0.8107
+Recall: 0.8174
+F1 Score: 0.8049
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.94      0.88       620
+           1       0.76      0.51      0.61       240
+
+    accuracy                           0.82       860
+   macro avg       0.79      0.72      0.74       860
+weighted avg       0.81      0.82      0.80       860
+
+Confusion Matrix:
+[[581  39]
+ [118 122]]
+
+flag 1.11  model:  finished  with:   bert
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   roberta
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7243
+
+Evaluating...
+
+Training Loss: 0.582
+Validation Loss: 0.618
+Validation Accuracy: 0.7107
+
+ Epoch 2 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7341
+
+Evaluating...
+
+Training Loss: 0.575
+Validation Loss: 0.593
+Validation Accuracy: 0.7137
+
+ Epoch 3 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6700
+
+Evaluating...
+
+Training Loss: 0.623
+Validation Loss: 0.655
+Validation Accuracy: 0.6548
+
+ Epoch 4 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6699
+
+Evaluating...
+
+Training Loss: 0.639
+Validation Loss: 0.651
+Validation Accuracy: 0.6548
+
+ Epoch 5 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6698
+
+Evaluating...
+
+Training Loss: 0.639
+Validation Loss: 0.644
+Validation Accuracy: 0.6548
+
+ Epoch 6 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6699
+
+Evaluating...
+
+Training Loss: 0.638
+Validation Loss: 0.644
+Validation Accuracy: 0.6541
+
+ Epoch 7 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6694
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 8 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6692
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 9 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6692
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 10 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6692
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 11 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6692
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 12 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6692
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.646
+Validation Accuracy: 0.6533
+
+ Epoch 13 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6692
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.644
+Validation Accuracy: 0.6533
+
+ Epoch 14 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6692
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 15 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6692
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 16 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6692
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 17 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7190
+
+Evaluating...
+
+Training Loss: 0.633
+Validation Loss: 0.631
+Validation Accuracy: 0.6964
+
+ Epoch 18 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.641
+Validation Loss: 0.648
+Validation Accuracy: 0.6533
+
+ Epoch 19 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.638
+Validation Loss: 0.653
+Validation Accuracy: 0.6533
+
+ Epoch 20 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.649
+Validation Accuracy: 0.6533
+
+
+         == flag 1.601 roberta result On test data ==
+# called_model : roberta
+# Test Accuracy: 0.7674%
+Precision: 0.7947
+Recall: 0.7674
+F1 Score: 0.7079
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.99      0.86       620
+           1       0.88      0.19      0.32       240
+
+    accuracy                           0.77       860
+   macro avg       0.82      0.59      0.59       860
+weighted avg       0.79      0.77      0.71       860
+
+Confusion Matrix:
+[[614   6]
+ [194  46]]
+
+flag 1.11  model:  finished  with:   roberta
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   distilbert
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8399
+
+Evaluating...
+
+Training Loss: 0.491
+Validation Loss: 0.482
+Validation Accuracy: 0.7704
+
+ Epoch 2 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9224
+
+Evaluating...
+
+Training Loss: 0.367
+Validation Loss: 0.497
+Validation Accuracy: 0.7870
+
+ Epoch 3 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9565
+
+Evaluating...
+
+Training Loss: 0.242
+Validation Loss: 0.564
+Validation Accuracy: 0.7628
+
+ Epoch 4 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9761
+
+Evaluating...
+
+Training Loss: 0.155
+Validation Loss: 0.731
+Validation Accuracy: 0.7545
+
+ Epoch 5 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9875
+
+Evaluating...
+
+Training Loss: 0.105
+Validation Loss: 0.996
+Validation Accuracy: 0.7576
+
+ Epoch 6 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9899
+
+Evaluating...
+
+Training Loss: 0.078
+Validation Loss: 0.945
+Validation Accuracy: 0.7606
+
+ Epoch 7 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9915
+
+Evaluating...
+
+Training Loss: 0.063
+Validation Loss: 1.141
+Validation Accuracy: 0.7553
+
+ Epoch 8 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9935
+
+Evaluating...
+
+Training Loss: 0.057
+Validation Loss: 1.453
+Validation Accuracy: 0.7621
+
+ Epoch 9 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9912
+
+Evaluating...
+
+Training Loss: 0.053
+Validation Loss: 1.114
+Validation Accuracy: 0.7485
+
+ Epoch 10 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9924
+
+Evaluating...
+
+Training Loss: 0.045
+Validation Loss: 1.338
+Validation Accuracy: 0.7523
+
+ Epoch 11 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9916
+
+Evaluating...
+
+Training Loss: 0.047
+Validation Loss: 1.365
+Validation Accuracy: 0.7508
+
+ Epoch 12 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9951
+
+Evaluating...
+
+Training Loss: 0.038
+Validation Loss: 1.475
+Validation Accuracy: 0.7560
+
+ Epoch 13 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9927
+
+Evaluating...
+
+Training Loss: 0.044
+Validation Loss: 1.479
+Validation Accuracy: 0.7659
+
+ Epoch 14 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9945
+
+Evaluating...
+
+Training Loss: 0.047
+Validation Loss: 1.443
+Validation Accuracy: 0.7613
+
+ Epoch 15 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9956
+
+Evaluating...
+
+Training Loss: 0.045
+Validation Loss: 1.480
+Validation Accuracy: 0.7553
+
+ Epoch 16 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9959
+
+Evaluating...
+
+Training Loss: 0.036
+Validation Loss: 1.188
+Validation Accuracy: 0.7666
+
+ Epoch 17 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9956
+
+Evaluating...
+
+Training Loss: 0.033
+Validation Loss: 1.676
+Validation Accuracy: 0.7508
+
+ Epoch 18 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9947
+
+Evaluating...
+
+Training Loss: 0.037
+Validation Loss: 1.554
+Validation Accuracy: 0.7545
+
+ Epoch 19 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9944
+
+Evaluating...
+
+Training Loss: 0.040
+Validation Loss: 1.448
+Validation Accuracy: 0.7576
+
+ Epoch 20 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9903
+
+Evaluating...
+
+Training Loss: 0.047
+Validation Loss: 1.365
+Validation Accuracy: 0.7606
+
+
+         == flag 1.601 distilbert result On test data ==
+# called_model : distilbert
+# Test Accuracy: 0.7977%
+Precision: 0.8247
+Recall: 0.7977
+F1 Score: 0.8049
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.80      0.85       620
+           1       0.60      0.80      0.69       240
+
+    accuracy                           0.80       860
+   macro avg       0.76      0.80      0.77       860
+weighted avg       0.82      0.80      0.80       860
+
+Confusion Matrix:
+[[495 125]
+ [ 49 191]]
+
+flag 1.11  model:  finished  with:   distilbert
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   electra
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8092
+
+Evaluating...
+
+Training Loss: 0.527
+Validation Loss: 0.477
+Validation Accuracy: 0.7832
+
+ Epoch 2 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7940
+
+Evaluating...
+
+Training Loss: 0.491
+Validation Loss: 0.524
+Validation Accuracy: 0.7779
+
+ Epoch 3 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8231
+
+Evaluating...
+
+Training Loss: 0.502
+Validation Loss: 0.538
+Validation Accuracy: 0.7757
+
+ Epoch 4 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7948
+
+Evaluating...
+
+Training Loss: 0.504
+Validation Loss: 0.554
+Validation Accuracy: 0.7674
+
+ Epoch 5 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7990
+
+Evaluating...
+
+Training Loss: 0.526
+Validation Loss: 0.555
+Validation Accuracy: 0.7606
+
+ Epoch 6 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8044
+
+Evaluating...
+
+Training Loss: 0.488
+Validation Loss: 0.537
+Validation Accuracy: 0.7636
+
+ Epoch 7 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8045
+
+Evaluating...
+
+Training Loss: 0.477
+Validation Loss: 0.527
+Validation Accuracy: 0.7659
+
+ Epoch 8 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7972
+
+Evaluating...
+
+Training Loss: 0.485
+Validation Loss: 0.533
+Validation Accuracy: 0.7651
+
+ Epoch 9 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7994
+
+Evaluating...
+
+Training Loss: 0.506
+Validation Loss: 0.551
+Validation Accuracy: 0.7613
+
+ Epoch 10 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8059
+
+Evaluating...
+
+Training Loss: 0.501
+Validation Loss: 0.541
+Validation Accuracy: 0.7644
+
+ Epoch 11 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8033
+
+Evaluating...
+
+Training Loss: 0.492
+Validation Loss: 0.533
+Validation Accuracy: 0.7689
+
+ Epoch 12 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8062
+
+Evaluating...
+
+Training Loss: 0.489
+Validation Loss: 0.547
+Validation Accuracy: 0.7598
+
+ Epoch 13 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8023
+
+Evaluating...
+
+Training Loss: 0.494
+Validation Loss: 0.552
+Validation Accuracy: 0.7681
+
+ Epoch 14 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7361
+
+Evaluating...
+
+Training Loss: 0.589
+Validation Loss: 0.594
+Validation Accuracy: 0.7364
+
+ Epoch 15 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7716
+
+Evaluating...
+
+Training Loss: 0.585
+Validation Loss: 0.560
+Validation Accuracy: 0.7530
+
+ Epoch 16 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7737
+
+Evaluating...
+
+Training Loss: 0.534
+Validation Loss: 0.565
+Validation Accuracy: 0.7394
+
+ Epoch 17 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7586
+
+Evaluating...
+
+Training Loss: 0.547
+Validation Loss: 0.571
+Validation Accuracy: 0.7424
+
+ Epoch 18 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7611
+
+Evaluating...
+
+Training Loss: 0.555
+Validation Loss: 0.567
+Validation Accuracy: 0.7440
+
+ Epoch 19 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7612
+
+Evaluating...
+
+Training Loss: 0.555
+Validation Loss: 0.565
+Validation Accuracy: 0.7447
+
+ Epoch 20 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7642
+
+Evaluating...
+
+Training Loss: 0.554
+Validation Loss: 0.567
+Validation Accuracy: 0.7440
+
+
+         == flag 1.601 electra result On test data ==
+# called_model : electra
+# Test Accuracy: 0.8360%
+Precision: 0.8314
+Recall: 0.8360
+F1 Score: 0.8266
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.85      0.94      0.89       620
+           1       0.79      0.56      0.66       240
+
+    accuracy                           0.84       860
+   macro avg       0.82      0.75      0.77       860
+weighted avg       0.83      0.84      0.83       860
+
+Confusion Matrix:
+[[584  36]
+ [105 135]]
+
+flag 1.11  model:  finished  with:   electra
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   gpt2
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8317
+
+Evaluating...
+
+Training Loss: 0.511
+Validation Loss: 0.453
+Validation Accuracy: 0.7847
+
+ Epoch 2 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8702
+
+Evaluating...
+
+Training Loss: 0.420
+Validation Loss: 0.472
+Validation Accuracy: 0.7757
+
+ Epoch 3 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9301
+
+Evaluating...
+
+Training Loss: 0.336
+Validation Loss: 0.469
+Validation Accuracy: 0.7764
+
+ Epoch 4 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9690
+
+Evaluating...
+
+Training Loss: 0.227
+Validation Loss: 0.632
+Validation Accuracy: 0.7681
+
+ Epoch 5 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9829
+
+Evaluating...
+
+Training Loss: 0.151
+Validation Loss: 0.853
+Validation Accuracy: 0.7704
+
+ Epoch 6 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9842
+
+Evaluating...
+
+Training Loss: 0.107
+Validation Loss: 1.099
+Validation Accuracy: 0.7810
+
+ Epoch 7 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9909
+
+Evaluating...
+
+Training Loss: 0.082
+Validation Loss: 1.123
+Validation Accuracy: 0.7704
+
+ Epoch 8 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9946
+
+Evaluating...
+
+Training Loss: 0.060
+Validation Loss: 1.387
+Validation Accuracy: 0.7825
+
+ Epoch 9 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9948
+
+Evaluating...
+
+Training Loss: 0.048
+Validation Loss: 1.342
+Validation Accuracy: 0.7666
+
+ Epoch 10 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9947
+
+Evaluating...
+
+Training Loss: 0.037
+Validation Loss: 1.554
+Validation Accuracy: 0.7840
+
+ Epoch 11 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9954
+
+Evaluating...
+
+Training Loss: 0.043
+Validation Loss: 1.399
+Validation Accuracy: 0.7878
+
+ Epoch 12 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9947
+
+Evaluating...
+
+Training Loss: 0.037
+Validation Loss: 1.372
+Validation Accuracy: 0.7734
+
+ Epoch 13 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9964
+
+Evaluating...
+
+Training Loss: 0.039
+Validation Loss: 1.469
+Validation Accuracy: 0.7742
+
+ Epoch 14 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9964
+
+Evaluating...
+
+Training Loss: 0.038
+Validation Loss: 1.439
+Validation Accuracy: 0.7772
+
+ Epoch 15 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9964
+
+Evaluating...
+
+Training Loss: 0.029
+Validation Loss: 1.329
+Validation Accuracy: 0.7885
+
+ Epoch 16 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9959
+
+Evaluating...
+
+Training Loss: 0.030
+Validation Loss: 1.553
+Validation Accuracy: 0.7764
+
+ Epoch 17 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9972
+
+Evaluating...
+
+Training Loss: 0.033
+Validation Loss: 1.654
+Validation Accuracy: 0.7787
+
+ Epoch 18 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9964
+
+Evaluating...
+
+Training Loss: 0.025
+Validation Loss: 1.610
+Validation Accuracy: 0.7711
+
+ Epoch 19 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9965
+
+Evaluating...
+
+Training Loss: 0.031
+Validation Loss: 1.421
+Validation Accuracy: 0.7681
+
+ Epoch 20 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9974
+
+Evaluating...
+
+Training Loss: 0.027
+Validation Loss: 1.494
+Validation Accuracy: 0.7908
+
+
+         == flag 1.601 gpt2 result On test data ==
+# called_model : gpt2
+# Test Accuracy: 0.8326%
+Precision: 0.8310
+Recall: 0.8326
+F1 Score: 0.8317
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.88      0.89      0.88       620
+           1       0.71      0.68      0.69       240
+
+    accuracy                           0.83       860
+   macro avg       0.79      0.79      0.79       860
+weighted avg       0.83      0.83      0.83       860
+
+Confusion Matrix:
+[[552  68]
+ [ 76 164]]
+
+flag 1.11  model:  finished  with:   gpt2
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   longformer
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8035
+
+Evaluating...
+
+Training Loss: 0.553
+Validation Loss: 0.532
+Validation Accuracy: 0.7757
+
+ Epoch 2 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7790
+
+Evaluating...
+
+Training Loss: 0.541
+Validation Loss: 0.542
+Validation Accuracy: 0.7560
+
+ Epoch 3 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7658
+
+Evaluating...
+
+Training Loss: 0.535
+Validation Loss: 0.581
+Validation Accuracy: 0.7440
+
+ Epoch 4 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.521
+Validation Loss: 0.566
+Validation Accuracy: 0.6533
+
+ Epoch 5 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.593
+Validation Loss: 0.631
+Validation Accuracy: 0.6533
+
+ Epoch 6 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.638
+Validation Loss: 0.651
+Validation Accuracy: 0.6533
+
+ Epoch 7 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.650
+Validation Accuracy: 0.6533
+
+ Epoch 8 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.638
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 9 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 10 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.650
+Validation Accuracy: 0.6533
+
+ Epoch 11 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.647
+Validation Accuracy: 0.6533
+
+ Epoch 12 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 13 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.650
+Validation Accuracy: 0.6533
+
+ Epoch 14 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.648
+Validation Accuracy: 0.6533
+
+ Epoch 15 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.647
+Validation Accuracy: 0.6533
+
+ Epoch 16 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.635
+Validation Loss: 0.651
+Validation Accuracy: 0.6533
+
+ Epoch 17 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 18 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.647
+Validation Accuracy: 0.6533
+
+ Epoch 19 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.644
+Validation Accuracy: 0.6533
+
+ Epoch 20 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+
+         == flag 1.601 longformer result On test data ==
+# called_model : longformer
+# Test Accuracy: 0.8174%
+Precision: 0.8154
+Recall: 0.8174
+F1 Score: 0.7995
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.82      0.96      0.88       620
+           1       0.80      0.46      0.58       240
+
+    accuracy                           0.82       860
+   macro avg       0.81      0.71      0.73       860
+weighted avg       0.82      0.82      0.80       860
+
+Confusion Matrix:
+[[593  27]
+ [130 110]]
+
+flag 1.11  model:  finished  with:   longformer
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   luke
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.631
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 2 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.642
+Validation Loss: 0.647
+Validation Accuracy: 0.6533
+
+ Epoch 3 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.640
+Validation Loss: 0.647
+Validation Accuracy: 0.6533
+
+ Epoch 4 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.639
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 5 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.638
+Validation Loss: 0.647
+Validation Accuracy: 0.6533
+
+ Epoch 6 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.640
+Validation Loss: 0.647
+Validation Accuracy: 0.6533
+
+ Epoch 7 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 8 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.646
+Validation Accuracy: 0.6533
+
+ Epoch 9 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.638
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 10 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.649
+Validation Accuracy: 0.6533
+
+ Epoch 11 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 12 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 13 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.647
+Validation Accuracy: 0.6533
+
+ Epoch 14 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.650
+Validation Accuracy: 0.6533
+
+ Epoch 15 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.635
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 16 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.637
+Validation Loss: 0.646
+Validation Accuracy: 0.6533
+
+ Epoch 17 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.647
+Validation Accuracy: 0.6533
+
+ Epoch 18 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.635
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 19 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.636
+Validation Loss: 0.645
+Validation Accuracy: 0.6533
+
+ Epoch 20 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.635
+Validation Loss: 0.653
+Validation Accuracy: 0.6533
+
+
+         == flag 1.601 luke result On test data ==
+# called_model : luke
+# Test Accuracy: 0.7209%
+Precision: 0.5197
+Recall: 0.7209
+F1 Score: 0.6040
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.72      1.00      0.84       620
+           1       0.00      0.00      0.00       240
+
+    accuracy                           0.72       860
+   macro avg       0.36      0.50      0.42       860
+weighted avg       0.52      0.72      0.60       860
+
+Confusion Matrix:
+[[620   0]
+ [240   0]]
+
+flag 1.11  model:  finished  with:   luke
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   t5
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8338
+
+Evaluating...
+
+Training Loss: 0.554
+Validation Loss: 0.487
+Validation Accuracy: 0.7764
+
+ Epoch 2 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8828
+
+Evaluating...
+
+Training Loss: 0.406
+Validation Loss: 0.470
+Validation Accuracy: 0.7900
+
+ Epoch 3 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8995
+
+Evaluating...
+
+Training Loss: 0.334
+Validation Loss: 0.563
+Validation Accuracy: 0.7545
+
+ Epoch 4 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9659
+
+Evaluating...
+
+Training Loss: 0.257
+Validation Loss: 0.580
+Validation Accuracy: 0.7772
+
+ Epoch 5 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9645
+
+Evaluating...
+
+Training Loss: 0.189
+Validation Loss: 0.835
+Validation Accuracy: 0.7508
+
+ Epoch 6 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9872
+
+Evaluating...
+
+Training Loss: 0.135
+Validation Loss: 0.837
+Validation Accuracy: 0.7719
+
+ Epoch 7 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9885
+
+Evaluating...
+
+Training Loss: 0.111
+Validation Loss: 1.016
+Validation Accuracy: 0.7674
+
+ Epoch 8 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9894
+
+Evaluating...
+
+Training Loss: 0.086
+Validation Loss: 1.100
+Validation Accuracy: 0.7749
+
+ Epoch 9 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9940
+
+Evaluating...
+
+Training Loss: 0.075
+Validation Loss: 1.350
+Validation Accuracy: 0.7711
+
+ Epoch 10 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9941
+
+Evaluating...
+
+Training Loss: 0.061
+Validation Loss: 1.278
+Validation Accuracy: 0.7613
+
+ Epoch 11 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9930
+
+Evaluating...
+
+Training Loss: 0.051
+Validation Loss: 1.455
+Validation Accuracy: 0.7606
+
+ Epoch 12 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9959
+
+Evaluating...
+
+Training Loss: 0.049
+Validation Loss: 1.588
+Validation Accuracy: 0.7560
+
+ Epoch 13 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9933
+
+Evaluating...
+
+Training Loss: 0.051
+Validation Loss: 1.379
+Validation Accuracy: 0.7523
+
+ Epoch 14 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9971
+
+Evaluating...
+
+Training Loss: 0.043
+Validation Loss: 1.581
+Validation Accuracy: 0.7651
+
+ Epoch 15 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9967
+
+Evaluating...
+
+Training Loss: 0.032
+Validation Loss: 1.552
+Validation Accuracy: 0.7659
+
+ Epoch 16 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9969
+
+Evaluating...
+
+Training Loss: 0.033
+Validation Loss: 1.764
+Validation Accuracy: 0.7651
+
+ Epoch 17 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9966
+
+Evaluating...
+
+Training Loss: 0.034
+Validation Loss: 1.687
+Validation Accuracy: 0.7621
+
+ Epoch 18 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9970
+
+Evaluating...
+
+Training Loss: 0.026
+Validation Loss: 1.782
+Validation Accuracy: 0.7734
+
+ Epoch 19 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9965
+
+Evaluating...
+
+Training Loss: 0.039
+Validation Loss: 1.667
+Validation Accuracy: 0.7644
+
+ Epoch 20 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.9964
+
+Evaluating...
+
+Training Loss: 0.033
+Validation Loss: 1.792
+Validation Accuracy: 0.7606
+
+
+         == flag 1.601 t5 result On test data ==
+# called_model : t5
+# Test Accuracy: 0.8500%
+Precision: 0.8494
+Recall: 0.8500
+F1 Score: 0.8497
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.89      0.90      0.90       620
+           1       0.73      0.72      0.73       240
+
+    accuracy                           0.85       860
+   macro avg       0.81      0.81      0.81       860
+weighted avg       0.85      0.85      0.85       860
+
+Confusion Matrix:
+[[557  63]
+ [ 66 174]]
+
+flag 1.11  model:  finished  with:   t5
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   xlnet
+===================================================== 
+
+ Epoch 1 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8010
+
+Evaluating...
+
+Training Loss: 0.579
+Validation Loss: 0.506
+Validation Accuracy: 0.7719
+
+ Epoch 2 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8207
+
+Evaluating...
+
+Training Loss: 0.523
+Validation Loss: 0.537
+Validation Accuracy: 0.7666
+
+ Epoch 3 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8516
+
+Evaluating...
+
+Training Loss: 0.483
+Validation Loss: 0.507
+Validation Accuracy: 0.7817
+
+ Epoch 4 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8452
+
+Evaluating...
+
+Training Loss: 0.457
+Validation Loss: 0.550
+Validation Accuracy: 0.7734
+
+ Epoch 5 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8218
+
+Evaluating...
+
+Training Loss: 0.483
+Validation Loss: 0.547
+Validation Accuracy: 0.7727
+
+ Epoch 6 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.574
+Validation Loss: 0.593
+Validation Accuracy: 0.6533
+
+ Epoch 7 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8265
+
+Evaluating...
+
+Training Loss: 0.478
+Validation Loss: 0.556
+Validation Accuracy: 0.7621
+
+ Epoch 8 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8302
+
+Evaluating...
+
+Training Loss: 0.495
+Validation Loss: 0.602
+Validation Accuracy: 0.7538
+
+ Epoch 9 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7989
+
+Evaluating...
+
+Training Loss: 0.478
+Validation Loss: 0.575
+Validation Accuracy: 0.7492
+
+ Epoch 10 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.8050
+
+Evaluating...
+
+Training Loss: 0.497
+Validation Loss: 0.566
+Validation Accuracy: 0.7492
+
+ Epoch 11 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7732
+
+Evaluating...
+
+Training Loss: 0.507
+Validation Loss: 0.578
+Validation Accuracy: 0.7145
+
+ Epoch 12 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7992
+
+Evaluating...
+
+Training Loss: 0.513
+Validation Loss: 0.574
+Validation Accuracy: 0.7394
+
+ Epoch 13 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.524
+Validation Loss: 0.562
+Validation Accuracy: 0.6533
+
+ Epoch 14 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7935
+
+Evaluating...
+
+Training Loss: 0.525
+Validation Loss: 0.579
+Validation Accuracy: 0.7349
+
+ Epoch 15 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.7342
+
+Evaluating...
+
+Training Loss: 0.537
+Validation Loss: 0.598
+Validation Accuracy: 0.7130
+
+ Epoch 16 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6658
+
+Evaluating...
+
+Training Loss: 0.588
+Validation Loss: 0.644
+Validation Accuracy: 0.6541
+
+ Epoch 17 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.619
+Validation Loss: 0.628
+Validation Accuracy: 0.6533
+
+ Epoch 18 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.610
+Validation Loss: 0.627
+Validation Accuracy: 0.6533
+
+ Epoch 19 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6693
+
+Evaluating...
+
+Training Loss: 0.608
+Validation Loss: 0.629
+Validation Accuracy: 0.6533
+
+ Epoch 20 / 20
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+
+Evaluating...
+  Batch    50  of    373.
+  Batch   100  of    373.
+  Batch   150  of    373.
+  Batch   200  of    373.
+  Batch   250  of    373.
+  Batch   300  of    373.
+  Batch   350  of    373.
+Training Accuracy: 0.6817
+
+Evaluating...
+
+Training Loss: 0.613
+Validation Loss: 0.635
+Validation Accuracy: 0.6563
+
+
+         == flag 1.601 xlnet result On test data ==
+# called_model : xlnet
+# Test Accuracy: 0.7988%
+Precision: 0.8036
+Recall: 0.7988
+F1 Score: 0.8009
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.87      0.85      0.86       620
+           1       0.63      0.68      0.65       240
+
+    accuracy                           0.80       860
+   macro avg       0.75      0.76      0.76       860
+weighted avg       0.80      0.80      0.80       860
+
+Confusion Matrix:
+[[525  95]
+ [ 78 162]]
+
+flag 1.11  model:  finished  with:   xlnet

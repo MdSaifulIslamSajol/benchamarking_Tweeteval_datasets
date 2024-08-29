@@ -1,0 +1,774 @@
+learning rate  : 1e-06
+epochs : 20
+                                                text  label
+0  @user @user is the UK's answer to @user and @u...      1
+1  @user @user nah abi gonna get married to a ric...      0
+2  RT @user Look for our latest indiegogo campaig...      2
+3  @user what's so wrong with getting dick? How c...      2
+4  Sehri time seems to be turning into let's get ...      0
+                                                text
+0  @user @user is the UK's answer to @user and @u...
+1  @user @user nah abi gonna get married to a ric...
+2  RT @user Look for our latest indiegogo campaig...
+3  @user what's so wrong with getting dick? How c...
+4  Sehri time seems to be turning into let's get ...
+   label
+0      1
+1      0
+2      2
+3      2
+4      0
+                                                text  label
+0  I take it personally when people call my dog a...      2
+1  Everfetching: i wanna chat with a feminist, or...      0
+2  .@feminismvibes Men don't admit to being raped...      1
+3  U.S. putting a women on $10 bill instead of $2...      1
+4  With Hillary's lead over Sanders narrowing, ho...      1
+                                                text
+0  I take it personally when people call my dog a...
+1  Everfetching: i wanna chat with a feminist, or...
+2  .@feminismvibes Men don't admit to being raped...
+3  U.S. putting a women on $10 bill instead of $2...
+4  With Hillary's lead over Sanders narrowing, ho...
+   label
+0      2
+1      0
+2      1
+3      1
+4      1
+                                                text  label
+0  Feminists can TOTALLY wear makeup and don't te...      1
+1  I searched for posts with "feminist" tag and s...      1
+2  I saw a little girl wearing a mustache from th...      1
+3  Women are taught to put their values into thei...      1
+4  If u link anti feminism with misogyny or inequ...      1
+                                                text
+0  Feminists can TOTALLY wear makeup and don't te...
+1  I searched for posts with "feminist" tag and s...
+2  I saw a little girl wearing a mustache from th...
+3  Women are taught to put their values into thei...
+4  If u link anti feminism with misogyny or inequ...
+                                                text
+0  Feminists can TOTALLY wear makeup and don't te...
+1  I searched for posts with "feminist" tag and s...
+2  I saw a little girl wearing a mustache from th...
+3  Women are taught to put their values into thei...
+4  If u link anti feminism with misogyny or inequ...
+len(train_labels) 597
+len(test_labels) 285
+len(val_labels) 67
+
+Unique values count in train_labels:
+label
+1    295
+2    189
+0    113
+Name: count, dtype: int64
+
+Unique values count in val_labels:
+label
+1    33
+2    21
+0    13
+Name: count, dtype: int64
+
+Unique values count in test_labels:
+label
+1    183
+2     58
+0     44
+Name: count, dtype: int64
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   longformer
+===================================================== 
+
+ Epoch 1 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.363
+Validation Loss: 1.344
+Validation Accuracy: 0.4925
+
+ Epoch 2 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.347
+Validation Loss: 1.328
+Validation Accuracy: 0.4925
+
+ Epoch 3 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.329
+Validation Loss: 1.311
+Validation Accuracy: 0.4925
+
+ Epoch 4 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.309
+Validation Loss: 1.293
+Validation Accuracy: 0.4925
+
+ Epoch 5 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.291
+Validation Loss: 1.271
+Validation Accuracy: 0.4925
+
+ Epoch 6 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.272
+Validation Loss: 1.242
+Validation Accuracy: 0.4925
+
+ Epoch 7 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.244
+Validation Loss: 1.200
+Validation Accuracy: 0.4925
+
+ Epoch 8 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.200
+Validation Loss: 1.140
+Validation Accuracy: 0.4925
+
+ Epoch 9 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.158
+Validation Loss: 1.078
+Validation Accuracy: 0.4925
+
+ Epoch 10 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.122
+Validation Loss: 1.039
+Validation Accuracy: 0.4925
+
+ Epoch 11 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.088
+Validation Loss: 1.019
+Validation Accuracy: 0.4925
+
+ Epoch 12 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.069
+Validation Loss: 1.001
+Validation Accuracy: 0.4925
+
+ Epoch 13 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.055
+Validation Loss: 0.987
+Validation Accuracy: 0.4925
+
+ Epoch 14 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.042
+Validation Loss: 0.971
+Validation Accuracy: 0.4925
+
+ Epoch 15 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.023
+Validation Loss: 0.956
+Validation Accuracy: 0.4925
+
+ Epoch 16 / 20
+Training Accuracy: 0.4975
+
+Training Loss: 1.011
+Validation Loss: 0.938
+Validation Accuracy: 0.4925
+
+ Epoch 17 / 20
+Training Accuracy: 0.5276
+
+Training Loss: 0.996
+Validation Loss: 0.925
+Validation Accuracy: 0.5224
+
+ Epoch 18 / 20
+Training Accuracy: 0.5930
+
+Training Loss: 0.977
+Validation Loss: 0.910
+Validation Accuracy: 0.5224
+
+ Epoch 19 / 20
+Training Accuracy: 0.6030
+
+Training Loss: 0.959
+Validation Loss: 0.885
+Validation Accuracy: 0.5522
+
+ Epoch 20 / 20
+Training Accuracy: 0.6114
+
+Training Loss: 0.932
+Validation Loss: 0.865
+Validation Accuracy: 0.5821
+
+
+         == flag 1.601 longformer result On test data ==
+# called_model : longformer
+# Test Accuracy: 0.5825%
+Precision: 0.5026
+Recall: 0.5825
+F1 Score: 0.5394
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        44
+           1       0.68      0.78      0.73       183
+           2       0.31      0.40      0.35        58
+
+    accuracy                           0.58       285
+   macro avg       0.33      0.39      0.36       285
+weighted avg       0.50      0.58      0.54       285
+
+Confusion Matrix:
+[[  0  31  13]
+ [  2 143  38]
+ [  0  35  23]]
+
+flag 1.11  model:  finished  with:   longformer
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   luke
+===================================================== 
+
+ Epoch 1 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.272
+Validation Loss: 1.248
+Validation Accuracy: 0.4925
+
+ Epoch 2 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.253
+Validation Loss: 1.231
+Validation Accuracy: 0.4925
+
+ Epoch 3 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.240
+Validation Loss: 1.212
+Validation Accuracy: 0.4925
+
+ Epoch 4 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.222
+Validation Loss: 1.189
+Validation Accuracy: 0.4925
+
+ Epoch 5 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.196
+Validation Loss: 1.154
+Validation Accuracy: 0.4925
+
+ Epoch 6 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.163
+Validation Loss: 1.103
+Validation Accuracy: 0.4925
+
+ Epoch 7 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.112
+Validation Loss: 1.038
+Validation Accuracy: 0.4925
+
+ Epoch 8 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.081
+Validation Loss: 0.999
+Validation Accuracy: 0.4925
+
+ Epoch 9 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.063
+Validation Loss: 0.983
+Validation Accuracy: 0.4925
+
+ Epoch 10 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.041
+Validation Loss: 0.970
+Validation Accuracy: 0.4925
+
+ Epoch 11 / 20
+Training Accuracy: 0.4941
+
+Training Loss: 1.026
+Validation Loss: 0.954
+Validation Accuracy: 0.4925
+
+ Epoch 12 / 20
+Training Accuracy: 0.4975
+
+Training Loss: 1.007
+Validation Loss: 0.932
+Validation Accuracy: 0.4925
+
+ Epoch 13 / 20
+Training Accuracy: 0.5008
+
+Training Loss: 0.985
+Validation Loss: 0.912
+Validation Accuracy: 0.4925
+
+ Epoch 14 / 20
+Training Accuracy: 0.5293
+
+Training Loss: 0.973
+Validation Loss: 0.890
+Validation Accuracy: 0.5373
+
+ Epoch 15 / 20
+Training Accuracy: 0.5544
+
+Training Loss: 0.946
+Validation Loss: 0.870
+Validation Accuracy: 0.5522
+
+ Epoch 16 / 20
+Training Accuracy: 0.5896
+
+Training Loss: 0.924
+Validation Loss: 0.852
+Validation Accuracy: 0.5821
+
+ Epoch 17 / 20
+Training Accuracy: 0.6013
+
+Training Loss: 0.914
+Validation Loss: 0.833
+Validation Accuracy: 0.5970
+
+ Epoch 18 / 20
+Training Accuracy: 0.6616
+
+Training Loss: 0.881
+Validation Loss: 0.831
+Validation Accuracy: 0.6418
+
+ Epoch 19 / 20
+Training Accuracy: 0.6801
+
+Training Loss: 0.855
+Validation Loss: 0.812
+Validation Accuracy: 0.5970
+
+ Epoch 20 / 20
+Training Accuracy: 0.7219
+
+Training Loss: 0.836
+Validation Loss: 0.803
+Validation Accuracy: 0.6119
+
+
+         == flag 1.601 luke result On test data ==
+# called_model : luke
+# Test Accuracy: 0.6421%
+Precision: 0.6412
+Recall: 0.6421
+F1 Score: 0.6365
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.63      0.39      0.48        44
+           1       0.72      0.77      0.74       183
+           2       0.40      0.43      0.42        58
+
+    accuracy                           0.64       285
+   macro avg       0.58      0.53      0.55       285
+weighted avg       0.64      0.64      0.64       285
+
+Confusion Matrix:
+[[ 17  23   4]
+ [  9 141  33]
+ [  1  32  25]]
+
+flag 1.11  model:  finished  with:   luke
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   t5
+===================================================== 
+
+ Epoch 1 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.517
+Validation Loss: 1.580
+Validation Accuracy: 0.1940
+
+ Epoch 2 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.503
+Validation Loss: 1.565
+Validation Accuracy: 0.1940
+
+ Epoch 3 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.494
+Validation Loss: 1.550
+Validation Accuracy: 0.1940
+
+ Epoch 4 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.494
+Validation Loss: 1.536
+Validation Accuracy: 0.1940
+
+ Epoch 5 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.482
+Validation Loss: 1.522
+Validation Accuracy: 0.1940
+
+ Epoch 6 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.461
+Validation Loss: 1.509
+Validation Accuracy: 0.1940
+
+ Epoch 7 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.464
+Validation Loss: 1.496
+Validation Accuracy: 0.1940
+
+ Epoch 8 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.454
+Validation Loss: 1.483
+Validation Accuracy: 0.1940
+
+ Epoch 9 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.445
+Validation Loss: 1.471
+Validation Accuracy: 0.1940
+
+ Epoch 10 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.432
+Validation Loss: 1.460
+Validation Accuracy: 0.1940
+
+ Epoch 11 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.426
+Validation Loss: 1.450
+Validation Accuracy: 0.1940
+
+ Epoch 12 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.422
+Validation Loss: 1.439
+Validation Accuracy: 0.1940
+
+ Epoch 13 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.415
+Validation Loss: 1.429
+Validation Accuracy: 0.1940
+
+ Epoch 14 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.409
+Validation Loss: 1.419
+Validation Accuracy: 0.1940
+
+ Epoch 15 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.397
+Validation Loss: 1.410
+Validation Accuracy: 0.1940
+
+ Epoch 16 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.390
+Validation Loss: 1.401
+Validation Accuracy: 0.1940
+
+ Epoch 17 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.390
+Validation Loss: 1.393
+Validation Accuracy: 0.1940
+
+ Epoch 18 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.378
+Validation Loss: 1.384
+Validation Accuracy: 0.1940
+
+ Epoch 19 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.371
+Validation Loss: 1.376
+Validation Accuracy: 0.1940
+
+ Epoch 20 / 20
+Training Accuracy: 0.1893
+
+Training Loss: 1.368
+Validation Loss: 1.369
+Validation Accuracy: 0.1940
+
+
+         == flag 1.601 t5 result On test data ==
+# called_model : t5
+# Test Accuracy: 0.1544%
+Precision: 0.0238
+Recall: 0.1544
+F1 Score: 0.0413
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.15      1.00      0.27        44
+           1       0.00      0.00      0.00       183
+           2       0.00      0.00      0.00        58
+
+    accuracy                           0.15       285
+   macro avg       0.05      0.33      0.09       285
+weighted avg       0.02      0.15      0.04       285
+
+Confusion Matrix:
+[[ 44   0   0]
+ [183   0   0]
+ [ 58   0   0]]
+
+flag 1.11  model:  finished  with:   t5
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   xlnet
+===================================================== 
+
+ Epoch 1 / 20
+Training Accuracy: 0.4690
+
+Training Loss: 1.247
+Validation Loss: 1.066
+Validation Accuracy: 0.5075
+
+ Epoch 2 / 20
+Training Accuracy: 0.4992
+
+Training Loss: 1.163
+Validation Loss: 1.018
+Validation Accuracy: 0.4925
+
+ Epoch 3 / 20
+Training Accuracy: 0.5075
+
+Training Loss: 1.123
+Validation Loss: 1.013
+Validation Accuracy: 0.5075
+
+ Epoch 4 / 20
+Training Accuracy: 0.5142
+
+Training Loss: 1.101
+Validation Loss: 1.001
+Validation Accuracy: 0.4925
+
+ Epoch 5 / 20
+Training Accuracy: 0.5310
+
+Training Loss: 1.078
+Validation Loss: 0.998
+Validation Accuracy: 0.4627
+
+ Epoch 6 / 20
+Training Accuracy: 0.5544
+
+Training Loss: 1.058
+Validation Loss: 0.983
+Validation Accuracy: 0.5075
+
+ Epoch 7 / 20
+Training Accuracy: 0.5477
+
+Training Loss: 1.063
+Validation Loss: 0.967
+Validation Accuracy: 0.5075
+
+ Epoch 8 / 20
+Training Accuracy: 0.5695
+
+Training Loss: 1.032
+Validation Loss: 0.963
+Validation Accuracy: 0.4925
+
+ Epoch 9 / 20
+Training Accuracy: 0.5913
+
+Training Loss: 1.036
+Validation Loss: 0.941
+Validation Accuracy: 0.5075
+
+ Epoch 10 / 20
+Training Accuracy: 0.5863
+
+Training Loss: 0.998
+Validation Loss: 0.930
+Validation Accuracy: 0.5224
+
+ Epoch 11 / 20
+Training Accuracy: 0.5913
+
+Training Loss: 1.016
+Validation Loss: 0.908
+Validation Accuracy: 0.5075
+
+ Epoch 12 / 20
+Training Accuracy: 0.6181
+
+Training Loss: 1.005
+Validation Loss: 0.906
+Validation Accuracy: 0.5522
+
+ Epoch 13 / 20
+Training Accuracy: 0.6281
+
+Training Loss: 1.016
+Validation Loss: 0.904
+Validation Accuracy: 0.5522
+
+ Epoch 14 / 20
+Training Accuracy: 0.6265
+
+Training Loss: 0.961
+Validation Loss: 0.888
+Validation Accuracy: 0.5672
+
+ Epoch 15 / 20
+Training Accuracy: 0.6533
+
+Training Loss: 0.961
+Validation Loss: 0.883
+Validation Accuracy: 0.5373
+
+ Epoch 16 / 20
+Training Accuracy: 0.6616
+
+Training Loss: 0.954
+Validation Loss: 0.869
+Validation Accuracy: 0.5373
+
+ Epoch 17 / 20
+Training Accuracy: 0.6700
+
+Training Loss: 0.940
+Validation Loss: 0.860
+Validation Accuracy: 0.5224
+
+ Epoch 18 / 20
+Training Accuracy: 0.6700
+
+Training Loss: 0.912
+Validation Loss: 0.843
+Validation Accuracy: 0.5672
+
+ Epoch 19 / 20
+Training Accuracy: 0.6784
+
+Training Loss: 0.911
+Validation Loss: 0.843
+Validation Accuracy: 0.5373
+
+ Epoch 20 / 20
+Training Accuracy: 0.6784
+
+Training Loss: 0.905
+Validation Loss: 0.828
+Validation Accuracy: 0.5373
+
+
+         == flag 1.601 xlnet result On test data ==
+# called_model : xlnet
+# Test Accuracy: 0.5298%
+Precision: 0.5411
+Recall: 0.5298
+F1 Score: 0.5326
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.30      0.20      0.24        44
+           1       0.69      0.67      0.68       183
+           2       0.26      0.34      0.29        58
+
+    accuracy                           0.53       285
+   macro avg       0.42      0.41      0.41       285
+weighted avg       0.54      0.53      0.53       285
+
+Confusion Matrix:
+[[  9  23  12]
+ [ 15 122  46]
+ [  6  32  20]]
+
+flag 1.11  model:  finished  with:   xlnet
+
+Execution Finished

@@ -1,0 +1,1337 @@
+learning rate  : 1e-06
+epochs : 20
+                                                text  label
+0  Why Is The Pope Upset?  via @user #UnzippedTru...      0
+1  We support Australia's Climate Roundtable whic...      2
+2  It's nights like this when I'm not so fond of ...      0
+3  #Republican party will go down in history book...      0
+4  RT @user @user We need degrowth - stop destroy...      2
+                                                text
+0  Why Is The Pope Upset?  via @user #UnzippedTru...
+1  We support Australia's Climate Roundtable whic...
+2  It's nights like this when I'm not so fond of ...
+3  #Republican party will go down in history book...
+4  RT @user @user We need degrowth - stop destroy...
+   label
+0      0
+1      2
+2      0
+3      0
+4      2
+                                                text  label
+0  #Mission:#Climate @ home > Simplify (by @user ...      2
+1  Can @user use $866,615 of jet fuel on His #Ear...      0
+2  .@whelan60 "While this debate goes on, yet mor...      0
+3  Sir David Attenborough and @user  dissgussing ...      2
+4  How did the #GreatBarrierReef look to you comp...      2
+                                                text
+0  #Mission:#Climate @ home > Simplify (by @user ...
+1  Can @user use $866,615 of jet fuel on His #Ear...
+2  .@whelan60 "While this debate goes on, yet mor...
+3  Sir David Attenborough and @user  dissgussing ...
+4  How did the #GreatBarrierReef look to you comp...
+   label
+0      2
+1      0
+2      0
+3      2
+4      2
+                                                text  label
+0  Closed door session begins. More after they de...      0
+1  What is the #energiewende agenda? Why are they...      2
+2  @user Stocker: Fish catch potential could drop...      2
+3  ...a longer memory, and a sterner sense of jus...      0
+4  Boni "Future Sea level rise will not be unifor...      2
+                                                text
+0  Closed door session begins. More after they de...
+1  What is the #energiewende agenda? Why are they...
+2  @user Stocker: Fish catch potential could drop...
+3  ...a longer memory, and a sterner sense of jus...
+4  Boni "Future Sea level rise will not be unifor...
+                                                text
+0  Closed door session begins. More after they de...
+1  What is the #energiewende agenda? Why are they...
+2  @user Stocker: Fish catch potential could drop...
+3  ...a longer memory, and a sterner sense of jus...
+4  Boni "Future Sea level rise will not be unifor...
+len(train_labels) 355
+len(test_labels) 169
+len(val_labels) 40
+
+Unique values count in train_labels:
+label
+2    191
+0    151
+1     13
+Name: count, dtype: int64
+
+Unique values count in val_labels:
+label
+2    21
+0    17
+1     2
+Name: count, dtype: int64
+
+Unique values count in test_labels:
+label
+2    123
+0     35
+1     11
+Name: count, dtype: int64
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   bert
+===================================================== 
+
+ Epoch 1 / 20
+Training Accuracy: 0.4141
+
+Training Loss: 1.359
+Validation Loss: 1.341
+Validation Accuracy: 0.4250
+
+ Epoch 2 / 20
+Training Accuracy: 0.5239
+
+Training Loss: 1.325
+Validation Loss: 1.318
+Validation Accuracy: 0.5500
+
+ Epoch 3 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 1.291
+Validation Loss: 1.294
+Validation Accuracy: 0.5250
+
+ Epoch 4 / 20
+Training Accuracy: 0.5408
+
+Training Loss: 1.260
+Validation Loss: 1.270
+Validation Accuracy: 0.5250
+
+ Epoch 5 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.239
+Validation Loss: 1.244
+Validation Accuracy: 0.5250
+
+ Epoch 6 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.220
+Validation Loss: 1.219
+Validation Accuracy: 0.5250
+
+ Epoch 7 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.194
+Validation Loss: 1.189
+Validation Accuracy: 0.5250
+
+ Epoch 8 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.168
+Validation Loss: 1.156
+Validation Accuracy: 0.5250
+
+ Epoch 9 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.147
+Validation Loss: 1.128
+Validation Accuracy: 0.5250
+
+ Epoch 10 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.117
+Validation Loss: 1.103
+Validation Accuracy: 0.5250
+
+ Epoch 11 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.097
+Validation Loss: 1.081
+Validation Accuracy: 0.5250
+
+ Epoch 12 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.076
+Validation Loss: 1.059
+Validation Accuracy: 0.5250
+
+ Epoch 13 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.053
+Validation Loss: 1.040
+Validation Accuracy: 0.5250
+
+ Epoch 14 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.041
+Validation Loss: 1.023
+Validation Accuracy: 0.5250
+
+ Epoch 15 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.020
+Validation Loss: 1.006
+Validation Accuracy: 0.5250
+
+ Epoch 16 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.005
+Validation Loss: 0.993
+Validation Accuracy: 0.5250
+
+ Epoch 17 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 0.991
+Validation Loss: 0.980
+Validation Accuracy: 0.5250
+
+ Epoch 18 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 0.984
+Validation Loss: 0.968
+Validation Accuracy: 0.5250
+
+ Epoch 19 / 20
+Training Accuracy: 0.5408
+
+Training Loss: 0.971
+Validation Loss: 0.958
+Validation Accuracy: 0.5250
+
+ Epoch 20 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 0.958
+Validation Loss: 0.950
+Validation Accuracy: 0.5250
+
+
+         == flag 1.601 bert result On test data ==
+# called_model : bert
+# Test Accuracy: 0.7278%
+Precision: 0.5297
+Recall: 0.7278
+F1 Score: 0.6132
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        35
+           1       0.00      0.00      0.00        11
+           2       0.73      1.00      0.84       123
+
+    accuracy                           0.73       169
+   macro avg       0.24      0.33      0.28       169
+weighted avg       0.53      0.73      0.61       169
+
+Confusion Matrix:
+[[  0   0  35]
+ [  0   0  11]
+ [  0   0 123]]
+
+flag 1.11  model:  finished  with:   bert
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   roberta
+===================================================== 
+
+ Epoch 1 / 20
+Training Accuracy: 0.0000
+
+Training Loss: 1.406
+Validation Loss: 1.402
+Validation Accuracy: 0.0000
+
+ Epoch 2 / 20
+Training Accuracy: 0.0000
+
+Training Loss: 1.393
+Validation Loss: 1.391
+Validation Accuracy: 0.0000
+
+ Epoch 3 / 20
+Training Accuracy: 0.5324
+
+Training Loss: 1.383
+Validation Loss: 1.380
+Validation Accuracy: 0.5250
+
+ Epoch 4 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.368
+Validation Loss: 1.367
+Validation Accuracy: 0.5250
+
+ Epoch 5 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.350
+Validation Loss: 1.353
+Validation Accuracy: 0.5250
+
+ Epoch 6 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.334
+Validation Loss: 1.336
+Validation Accuracy: 0.5250
+
+ Epoch 7 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.318
+Validation Loss: 1.314
+Validation Accuracy: 0.5250
+
+ Epoch 8 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.291
+Validation Loss: 1.282
+Validation Accuracy: 0.5250
+
+ Epoch 9 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.240
+Validation Loss: 1.224
+Validation Accuracy: 0.5250
+
+ Epoch 10 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.180
+Validation Loss: 1.136
+Validation Accuracy: 0.5250
+
+ Epoch 11 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.096
+Validation Loss: 1.065
+Validation Accuracy: 0.5250
+
+ Epoch 12 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.055
+Validation Loss: 1.024
+Validation Accuracy: 0.5250
+
+ Epoch 13 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.016
+Validation Loss: 0.988
+Validation Accuracy: 0.5250
+
+ Epoch 14 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 0.983
+Validation Loss: 0.958
+Validation Accuracy: 0.5250
+
+ Epoch 15 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 0.951
+Validation Loss: 0.933
+Validation Accuracy: 0.5250
+
+ Epoch 16 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 0.940
+Validation Loss: 0.911
+Validation Accuracy: 0.5250
+
+ Epoch 17 / 20
+Training Accuracy: 0.5746
+
+Training Loss: 0.916
+Validation Loss: 0.882
+Validation Accuracy: 0.5250
+
+ Epoch 18 / 20
+Training Accuracy: 0.6789
+
+Training Loss: 0.885
+Validation Loss: 0.854
+Validation Accuracy: 0.6750
+
+ Epoch 19 / 20
+Training Accuracy: 0.7662
+
+Training Loss: 0.869
+Validation Loss: 0.826
+Validation Accuracy: 0.7250
+
+ Epoch 20 / 20
+Training Accuracy: 0.8056
+
+Training Loss: 0.841
+Validation Loss: 0.793
+Validation Accuracy: 0.8000
+
+
+         == flag 1.601 roberta result On test data ==
+# called_model : roberta
+# Test Accuracy: 0.8225%
+Precision: 0.7693
+Recall: 0.8225
+F1 Score: 0.7850
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.54      0.66        35
+           1       0.00      0.00      0.00        11
+           2       0.82      0.98      0.89       123
+
+    accuracy                           0.82       169
+   macro avg       0.55      0.51      0.52       169
+weighted avg       0.77      0.82      0.79       169
+
+Confusion Matrix:
+[[ 19   0  16]
+ [  1   0  10]
+ [  3   0 120]]
+
+flag 1.11  model:  finished  with:   roberta
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   distilbert
+===================================================== 
+
+ Epoch 1 / 20
+Training Accuracy: 0.3803
+
+Training Loss: 1.387
+Validation Loss: 1.362
+Validation Accuracy: 0.3250
+
+ Epoch 2 / 20
+Training Accuracy: 0.4563
+
+Training Loss: 1.367
+Validation Loss: 1.338
+Validation Accuracy: 0.4000
+
+ Epoch 3 / 20
+Training Accuracy: 0.4394
+
+Training Loss: 1.335
+Validation Loss: 1.314
+Validation Accuracy: 0.3750
+
+ Epoch 4 / 20
+Training Accuracy: 0.4479
+
+Training Loss: 1.313
+Validation Loss: 1.287
+Validation Accuracy: 0.4750
+
+ Epoch 5 / 20
+Training Accuracy: 0.4648
+
+Training Loss: 1.277
+Validation Loss: 1.255
+Validation Accuracy: 0.5500
+
+ Epoch 6 / 20
+Training Accuracy: 0.5239
+
+Training Loss: 1.241
+Validation Loss: 1.222
+Validation Accuracy: 0.5000
+
+ Epoch 7 / 20
+Training Accuracy: 0.5324
+
+Training Loss: 1.194
+Validation Loss: 1.185
+Validation Accuracy: 0.5250
+
+ Epoch 8 / 20
+Training Accuracy: 0.5352
+
+Training Loss: 1.160
+Validation Loss: 1.144
+Validation Accuracy: 0.5250
+
+ Epoch 9 / 20
+Training Accuracy: 0.5352
+
+Training Loss: 1.115
+Validation Loss: 1.101
+Validation Accuracy: 0.5250
+
+ Epoch 10 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.065
+Validation Loss: 1.056
+Validation Accuracy: 0.5250
+
+ Epoch 11 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.034
+Validation Loss: 1.018
+Validation Accuracy: 0.5250
+
+ Epoch 12 / 20
+Training Accuracy: 0.5408
+
+Training Loss: 0.999
+Validation Loss: 0.986
+Validation Accuracy: 0.5250
+
+ Epoch 13 / 20
+Training Accuracy: 0.5408
+
+Training Loss: 0.967
+Validation Loss: 0.961
+Validation Accuracy: 0.5250
+
+ Epoch 14 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 0.986
+Validation Loss: 0.944
+Validation Accuracy: 0.5250
+
+ Epoch 15 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 0.925
+Validation Loss: 0.926
+Validation Accuracy: 0.5250
+
+ Epoch 16 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 0.918
+Validation Loss: 0.908
+Validation Accuracy: 0.5250
+
+ Epoch 17 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 0.930
+Validation Loss: 0.896
+Validation Accuracy: 0.5250
+
+ Epoch 18 / 20
+Training Accuracy: 0.5465
+
+Training Loss: 0.877
+Validation Loss: 0.883
+Validation Accuracy: 0.5250
+
+ Epoch 19 / 20
+Training Accuracy: 0.5577
+
+Training Loss: 0.869
+Validation Loss: 0.870
+Validation Accuracy: 0.5250
+
+ Epoch 20 / 20
+Training Accuracy: 0.5718
+
+Training Loss: 0.855
+Validation Loss: 0.858
+Validation Accuracy: 0.5500
+
+
+         == flag 1.601 distilbert result On test data ==
+# called_model : distilbert
+# Test Accuracy: 0.7396%
+Precision: 0.7432
+Recall: 0.7396
+F1 Score: 0.6398
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.06      0.11        35
+           1       0.00      0.00      0.00        11
+           2       0.74      1.00      0.85       123
+
+    accuracy                           0.74       169
+   macro avg       0.58      0.35      0.32       169
+weighted avg       0.74      0.74      0.64       169
+
+Confusion Matrix:
+[[  2   0  33]
+ [  0   0  11]
+ [  0   0 123]]
+
+flag 1.11  model:  finished  with:   distilbert
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   electra
+===================================================== 
+
+ Epoch 1 / 20
+Training Accuracy: 0.0535
+
+Training Loss: 1.435
+Validation Loss: 1.430
+Validation Accuracy: 0.0750
+
+ Epoch 2 / 20
+Training Accuracy: 0.2873
+
+Training Loss: 1.402
+Validation Loss: 1.391
+Validation Accuracy: 0.3000
+
+ Epoch 3 / 20
+Training Accuracy: 0.5465
+
+Training Loss: 1.371
+Validation Loss: 1.355
+Validation Accuracy: 0.5250
+
+ Epoch 4 / 20
+Training Accuracy: 0.5718
+
+Training Loss: 1.343
+Validation Loss: 1.324
+Validation Accuracy: 0.5250
+
+ Epoch 5 / 20
+Training Accuracy: 0.5577
+
+Training Loss: 1.316
+Validation Loss: 1.294
+Validation Accuracy: 0.5250
+
+ Epoch 6 / 20
+Training Accuracy: 0.5521
+
+Training Loss: 1.285
+Validation Loss: 1.266
+Validation Accuracy: 0.5250
+
+ Epoch 7 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 1.255
+Validation Loss: 1.239
+Validation Accuracy: 0.5500
+
+ Epoch 8 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 1.227
+Validation Loss: 1.212
+Validation Accuracy: 0.5250
+
+ Epoch 9 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 1.202
+Validation Loss: 1.186
+Validation Accuracy: 0.5250
+
+ Epoch 10 / 20
+Training Accuracy: 0.5465
+
+Training Loss: 1.176
+Validation Loss: 1.161
+Validation Accuracy: 0.5250
+
+ Epoch 11 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 1.141
+Validation Loss: 1.136
+Validation Accuracy: 0.5250
+
+ Epoch 12 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 1.127
+Validation Loss: 1.112
+Validation Accuracy: 0.5250
+
+ Epoch 13 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 1.113
+Validation Loss: 1.090
+Validation Accuracy: 0.5250
+
+ Epoch 14 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 1.069
+Validation Loss: 1.070
+Validation Accuracy: 0.5250
+
+ Epoch 15 / 20
+Training Accuracy: 0.5465
+
+Training Loss: 1.059
+Validation Loss: 1.050
+Validation Accuracy: 0.5250
+
+ Epoch 16 / 20
+Training Accuracy: 0.5465
+
+Training Loss: 1.036
+Validation Loss: 1.033
+Validation Accuracy: 0.5250
+
+ Epoch 17 / 20
+Training Accuracy: 0.5465
+
+Training Loss: 1.020
+Validation Loss: 1.016
+Validation Accuracy: 0.5250
+
+ Epoch 18 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 0.993
+Validation Loss: 1.000
+Validation Accuracy: 0.5250
+
+ Epoch 19 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 0.982
+Validation Loss: 0.989
+Validation Accuracy: 0.5250
+
+ Epoch 20 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 0.972
+Validation Loss: 0.978
+Validation Accuracy: 0.5250
+
+
+         == flag 1.601 electra result On test data ==
+# called_model : electra
+# Test Accuracy: 0.7278%
+Precision: 0.5297
+Recall: 0.7278
+F1 Score: 0.6132
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.00      0.00      0.00        35
+           1       0.00      0.00      0.00        11
+           2       0.73      1.00      0.84       123
+
+    accuracy                           0.73       169
+   macro avg       0.24      0.33      0.28       169
+weighted avg       0.53      0.73      0.61       169
+
+Confusion Matrix:
+[[  0   0  35]
+ [  0   0  11]
+ [  0   0 123]]
+
+flag 1.11  model:  finished  with:   electra
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   gpt2
+===================================================== 
+
+ Epoch 1 / 20
+Training Accuracy: 0.0000
+
+Training Loss: 3.749
+Validation Loss: 3.420
+Validation Accuracy: 0.0000
+
+ Epoch 2 / 20
+Training Accuracy: 0.0000
+
+Training Loss: 3.499
+Validation Loss: 3.043
+Validation Accuracy: 0.0000
+
+ Epoch 3 / 20
+Training Accuracy: 0.0000
+
+Training Loss: 2.934
+Validation Loss: 2.587
+Validation Accuracy: 0.0000
+
+ Epoch 4 / 20
+Training Accuracy: 0.0000
+
+Training Loss: 2.595
+Validation Loss: 2.250
+Validation Accuracy: 0.0000
+
+ Epoch 5 / 20
+Training Accuracy: 0.0000
+
+Training Loss: 2.206
+Validation Loss: 1.959
+Validation Accuracy: 0.0000
+
+ Epoch 6 / 20
+Training Accuracy: 0.0028
+
+Training Loss: 2.067
+Validation Loss: 1.745
+Validation Accuracy: 0.0000
+
+ Epoch 7 / 20
+Training Accuracy: 0.0028
+
+Training Loss: 1.917
+Validation Loss: 1.669
+Validation Accuracy: 0.0000
+
+ Epoch 8 / 20
+Training Accuracy: 0.0085
+
+Training Loss: 1.973
+Validation Loss: 1.599
+Validation Accuracy: 0.0250
+
+ Epoch 9 / 20
+Training Accuracy: 0.0254
+
+Training Loss: 1.776
+Validation Loss: 1.531
+Validation Accuracy: 0.0250
+
+ Epoch 10 / 20
+Training Accuracy: 0.0873
+
+Training Loss: 1.707
+Validation Loss: 1.468
+Validation Accuracy: 0.1250
+
+ Epoch 11 / 20
+Training Accuracy: 0.1521
+
+Training Loss: 1.634
+Validation Loss: 1.415
+Validation Accuracy: 0.2000
+
+ Epoch 12 / 20
+Training Accuracy: 0.1972
+
+Training Loss: 1.578
+Validation Loss: 1.359
+Validation Accuracy: 0.2750
+
+ Epoch 13 / 20
+Training Accuracy: 0.2423
+
+Training Loss: 1.589
+Validation Loss: 1.316
+Validation Accuracy: 0.2750
+
+ Epoch 14 / 20
+Training Accuracy: 0.3183
+
+Training Loss: 1.500
+Validation Loss: 1.275
+Validation Accuracy: 0.3250
+
+ Epoch 15 / 20
+Training Accuracy: 0.3690
+
+Training Loss: 1.432
+Validation Loss: 1.231
+Validation Accuracy: 0.4000
+
+ Epoch 16 / 20
+Training Accuracy: 0.4141
+
+Training Loss: 1.404
+Validation Loss: 1.193
+Validation Accuracy: 0.4750
+
+ Epoch 17 / 20
+Training Accuracy: 0.4676
+
+Training Loss: 1.398
+Validation Loss: 1.159
+Validation Accuracy: 0.4750
+
+ Epoch 18 / 20
+Training Accuracy: 0.4901
+
+Training Loss: 1.392
+Validation Loss: 1.125
+Validation Accuracy: 0.4750
+
+ Epoch 19 / 20
+Training Accuracy: 0.5099
+
+Training Loss: 1.309
+Validation Loss: 1.096
+Validation Accuracy: 0.4750
+
+ Epoch 20 / 20
+Training Accuracy: 0.5127
+
+Training Loss: 1.304
+Validation Loss: 1.067
+Validation Accuracy: 0.5000
+
+
+         == flag 1.601 gpt2 result On test data ==
+# called_model : gpt2
+# Test Accuracy: 0.5030%
+Precision: 0.6112
+Recall: 0.5030
+F1 Score: 0.5198
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.26      0.66      0.37        35
+           1       0.00      0.00      0.00        11
+           2       0.77      0.50      0.61       123
+
+    accuracy                           0.50       169
+   macro avg       0.34      0.39      0.33       169
+weighted avg       0.61      0.50      0.52       169
+
+Confusion Matrix:
+[[23  0 12]
+ [ 4  0  7]
+ [61  0 62]]
+
+flag 1.11  model:  finished  with:   gpt2
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   longformer
+===================================================== 
+
+ Epoch 1 / 20
+Training Accuracy: 0.0000
+
+Training Loss: 1.438
+Validation Loss: 1.432
+Validation Accuracy: 0.0000
+
+ Epoch 2 / 20
+Training Accuracy: 0.0000
+
+Training Loss: 1.412
+Validation Loss: 1.415
+Validation Accuracy: 0.0000
+
+ Epoch 3 / 20
+Training Accuracy: 0.0000
+
+Training Loss: 1.393
+Validation Loss: 1.397
+Validation Accuracy: 0.0000
+
+ Epoch 4 / 20
+Training Accuracy: 0.3380
+
+Training Loss: 1.367
+Validation Loss: 1.377
+Validation Accuracy: 0.3500
+
+ Epoch 5 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.343
+Validation Loss: 1.356
+Validation Accuracy: 0.5250
+
+ Epoch 6 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.313
+Validation Loss: 1.328
+Validation Accuracy: 0.5250
+
+ Epoch 7 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.280
+Validation Loss: 1.292
+Validation Accuracy: 0.5250
+
+ Epoch 8 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.228
+Validation Loss: 1.245
+Validation Accuracy: 0.5250
+
+ Epoch 9 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.169
+Validation Loss: 1.187
+Validation Accuracy: 0.5250
+
+ Epoch 10 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.116
+Validation Loss: 1.119
+Validation Accuracy: 0.5250
+
+ Epoch 11 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.024
+Validation Loss: 1.048
+Validation Accuracy: 0.5250
+
+ Epoch 12 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 0.993
+Validation Loss: 0.993
+Validation Accuracy: 0.5250
+
+ Epoch 13 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 0.950
+Validation Loss: 0.944
+Validation Accuracy: 0.5250
+
+ Epoch 14 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 0.908
+Validation Loss: 0.913
+Validation Accuracy: 0.5250
+
+ Epoch 15 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 0.905
+Validation Loss: 0.889
+Validation Accuracy: 0.5250
+
+ Epoch 16 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 0.873
+Validation Loss: 0.864
+Validation Accuracy: 0.5250
+
+ Epoch 17 / 20
+Training Accuracy: 0.5437
+
+Training Loss: 0.867
+Validation Loss: 0.837
+Validation Accuracy: 0.5250
+
+ Epoch 18 / 20
+Training Accuracy: 0.5972
+
+Training Loss: 0.844
+Validation Loss: 0.806
+Validation Accuracy: 0.5250
+
+ Epoch 19 / 20
+Training Accuracy: 0.6451
+
+Training Loss: 0.810
+Validation Loss: 0.785
+Validation Accuracy: 0.5500
+
+ Epoch 20 / 20
+Training Accuracy: 0.7155
+
+Training Loss: 0.779
+Validation Loss: 0.753
+Validation Accuracy: 0.6500
+
+
+         == flag 1.601 longformer result On test data ==
+# called_model : longformer
+# Test Accuracy: 0.7870%
+Precision: 0.7549
+Recall: 0.7870
+F1 Score: 0.7272
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.91      0.29      0.43        35
+           1       0.00      0.00      0.00        11
+           2       0.78      1.00      0.88       123
+
+    accuracy                           0.79       169
+   macro avg       0.56      0.43      0.44       169
+weighted avg       0.75      0.79      0.73       169
+
+Confusion Matrix:
+[[ 10   0  25]
+ [  1   0  10]
+ [  0   0 123]]
+
+flag 1.11  model:  finished  with:   longformer
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   luke
+===================================================== 
+
+ Epoch 1 / 20
+Training Accuracy: 0.5324
+
+Training Loss: 1.411
+Validation Loss: 1.410
+Validation Accuracy: 0.5250
+
+ Epoch 2 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.386
+Validation Loss: 1.395
+Validation Accuracy: 0.5250
+
+ Epoch 3 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.372
+Validation Loss: 1.378
+Validation Accuracy: 0.5250
+
+ Epoch 4 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.353
+Validation Loss: 1.361
+Validation Accuracy: 0.5250
+
+ Epoch 5 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.337
+Validation Loss: 1.342
+Validation Accuracy: 0.5250
+
+ Epoch 6 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.312
+Validation Loss: 1.318
+Validation Accuracy: 0.5250
+
+ Epoch 7 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.287
+Validation Loss: 1.287
+Validation Accuracy: 0.5250
+
+ Epoch 8 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.246
+Validation Loss: 1.245
+Validation Accuracy: 0.5250
+
+ Epoch 9 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.195
+Validation Loss: 1.178
+Validation Accuracy: 0.5250
+
+ Epoch 10 / 20
+Training Accuracy: 0.5380
+
+Training Loss: 1.141
+Validation Loss: 1.087
+Validation Accuracy: 0.5250
+
+ Epoch 11 / 20
+Training Accuracy: 0.5690
+
+Training Loss: 1.044
+Validation Loss: 0.987
+Validation Accuracy: 0.5250
+
+ Epoch 12 / 20
+Training Accuracy: 0.5718
+
+Training Loss: 0.963
+Validation Loss: 0.927
+Validation Accuracy: 0.5250
+
+ Epoch 13 / 20
+Training Accuracy: 0.6338
+
+Training Loss: 0.929
+Validation Loss: 0.888
+Validation Accuracy: 0.5500
+
+ Epoch 14 / 20
+Training Accuracy: 0.6479
+
+Training Loss: 0.915
+Validation Loss: 0.858
+Validation Accuracy: 0.5750
+
+ Epoch 15 / 20
+Training Accuracy: 0.6197
+
+Training Loss: 0.869
+Validation Loss: 0.835
+Validation Accuracy: 0.5500
+
+ Epoch 16 / 20
+Training Accuracy: 0.7803
+
+Training Loss: 0.840
+Validation Loss: 0.787
+Validation Accuracy: 0.6750
+
+ Epoch 17 / 20
+Training Accuracy: 0.7972
+
+Training Loss: 0.808
+Validation Loss: 0.751
+Validation Accuracy: 0.7000
+
+ Epoch 18 / 20
+Training Accuracy: 0.7972
+
+Training Loss: 0.769
+Validation Loss: 0.706
+Validation Accuracy: 0.7750
+
+ Epoch 19 / 20
+Training Accuracy: 0.8000
+
+Training Loss: 0.735
+Validation Loss: 0.671
+Validation Accuracy: 0.7750
+
+ Epoch 20 / 20
+Training Accuracy: 0.8169
+
+Training Loss: 0.700
+Validation Loss: 0.619
+Validation Accuracy: 0.8000
+
+
+         == flag 1.601 luke result On test data ==
+# called_model : luke
+# Test Accuracy: 0.8402%
+Precision: 0.7834
+Recall: 0.8402
+F1 Score: 0.8096
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.78      0.71      0.75        35
+           1       0.00      0.00      0.00        11
+           2       0.85      0.95      0.90       123
+
+    accuracy                           0.84       169
+   macro avg       0.55      0.56      0.55       169
+weighted avg       0.78      0.84      0.81       169
+
+Confusion Matrix:
+[[ 25   0  10]
+ [  1   0  10]
+ [  6   0 117]]
+
+flag 1.11  model:  finished  with:   luke
+
+
+
+
+
+===================================================== 
+flag 1.10  model:  started with ==>   t5
+===================================================== 
+
+ Epoch 1 / 20
+Training Accuracy: 0.4254
+
+Training Loss: 1.398
+Validation Loss: 1.345
+Validation Accuracy: 0.4250
+
+ Epoch 2 / 20
+Training Accuracy: 0.4254
+
+Training Loss: 1.386
+Validation Loss: 1.340
+Validation Accuracy: 0.4250
+
+ Epoch 3 / 20
+Training Accuracy: 0.4254
+
+Training Loss: 1.373
+Validation Loss: 1.335
+Validation Accuracy: 0.4250
+
+ Epoch 4 / 20
+Training Accuracy: 0.4254
+
+Training Loss: 1.379
+Validation Loss: 1.329
+Validation Accuracy: 0.4250
+
+ Epoch 5 / 20
+Training Accuracy: 0.4254
+
+Training Loss: 1.368
+Validation Loss: 1.324
+Validation Accuracy: 0.4250
+
+ Epoch 6 / 20
+Training Accuracy: 0.4254
